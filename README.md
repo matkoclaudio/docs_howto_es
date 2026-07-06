@@ -1,7 +1,7 @@
-# NextGIS stack in action
+# El stack de NextGIS en acción
 
-* Howto for NextGIS products
+* Guías prácticas para productos de NextGIS
 
-# License
+# Licencia
 
-This documentation is licensed under CC-BY-SA 3.0
+Esta documentación se encuentra bajo licencia CC-BY-SA 3.0
