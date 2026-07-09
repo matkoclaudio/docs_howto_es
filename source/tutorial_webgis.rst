@@ -36,7 +36,7 @@ Go to `my.nextgis.com`, click the **Create Account** button and sign up using yo
 
 After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
 
-.. figure:: _static/tutorial_create_wg_en.png
+.. figure:: _static/tutorial_create_wg_en.webp
 
 When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
 
