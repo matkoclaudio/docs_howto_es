@@ -58,7 +58,7 @@ En NextGIS Web, todo es un recurso: capas, mapas web, carpetas (grupos), conexio
 
 Vamos a crear nuestro primer recurso: una carpeta o grupo de recursos llamado *Wroclaw*. Para ello, haz clic en el botón azul **Crear recurso**, situado en la parte superior de la página.
 
-.. tip:: Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, seleccione **Iniciar sesión con NextGIS ID**.
+.. tip:: Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, selecciona **Iniciar sesión con NextGIS ID**.
 
 .. figure:: _static/tutorial_log_in_en.png
 
