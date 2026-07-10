@@ -74,7 +74,7 @@ Clic en **Crear** y te redirigirá a la página del nuevo recurso.
 
 .. figure:: _static/tutorial_group_result_en.png
 
-La URL en tu navegador es la ruta al recurso, y los números al final de la URL corresponden al ID del recurso.
+La URL en tu navegador es la ruta al recurso, y el número al final de la URL corresponde al ID del recurso.
 
 *Wroclaw* es un elemento hijo dentro de la carpeta *Grupo de recursos principal* donde lo creamos. El recurso padre se muestra arriba del nombre del recurso.
 
