@@ -8,14 +8,14 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
 
-1. :ref:`Almacenamiento, gestión y publicación de tus datos espaciales <tutorial-1>`
+1. :ref:`Almacenamiento, gestión y publicación de tus datos espaciales <tutorial-1>`_
 
 .. figure:: _static/tutorial0-2.webp
    :name: 
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
 
-2. `Integración fluida con QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html>`_
+2. :ref:`Integración fluida con QGIS <tutorial-2>`
 
 .. figure:: _static/tutorial0-3.webp
    :name: 
