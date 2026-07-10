@@ -1,31 +1,31 @@
-Tutorial: Store, manage and publish your spatial data
-=====================================================
+Tutorial: Almacenamiento, gestión y publicación de tus datos espaciales
+=======================================================================
 
-.. admonition:: Availability
+.. admonition:: Disponible
 
-   Cloud SaaS (all editions), On premise (all editions), Open Source
+   Cloud SaaS (todas las ediciones), On premise (todas las ediciones), Open Source
 
-NextGIS Web is a data-centric server GIS, allowing you to store, manage and publish spatial data in a flexible and effective way. In this step-by-step tutorial you will learn how to convert your GIS files into shareable Web Maps, tile and OGC services, as well as to create and manage data directly on the server. Register a free cloud account and try it right away!
+NextGIS Web es un servidor GIS que funciona como centro de datos, te permitirá almacenar, administrar y publicar información espacial de manera flexible y eficiente. En este tutorial paso a paso, aprenderás a convertir tus archivos GIS en mapas web interactivos, así como en servicios OGC, teselas, y también a crear y gestionar datos directamente desde el servidor. ¡Regístrate para obtener una cuenta gratuita en la nube y pruébalo ahora mismo!
 
-:download:`Download tutorial data <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>` (source: `Wrocław Spatial Information System <https://geoportal.wroclaw.pl/>`_)
+:download:`Descarga los datos del tutorial <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>` (fuente: `Sistema de Información Espacial de Wroclaw <https://geoportal.wroclaw.pl/>`_)
 
-Basic
+Basico
 
-1. `Create Account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-1-6-create-free-account-and-web-gis>`_
-2. `Create Resource group <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-2-6-access-your-web-gis-and-create-resource-group>`_
-3. `Upload vector layer <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-3-6-upload-and-publish-vector-layer>`_
-4. `Upload style <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-4-6-upload-a-style>`_
-5. `Upload raster layer <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-5-6-upload-and-publish-raster-layer>`_
-6. `Publish Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_
+1. `Crear cuenta y SIG Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-1-6-create-free-account-and-web-gis>`_
+2. `Crear grupo de recursos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-2-6-access-your-web-gis-and-create-resource-group>`_
+3. `Cargar capa vectorial <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-3-6-upload-and-publish-vector-layer>`_
+4. `Cargar estilo <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-4-6-upload-a-style>`_
+5. `Cargar capa ráster <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-5-6-upload-and-publish-raster-layer>`_
+6. `Publicar mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_
 
-Advanced
+Advanzado
 
-7. `Add external WMS layer to Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
-8. `Add basemaps <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
-9. `Create vector layer inside Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
-10. `Edit vector layer on Web Map, add file attachments <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
-11. `Publish OGC API — Features service <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
-12. `What next <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#what-next>`_
+7. `Agregar capa WMS externa al mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
+8. `Agregar mapas base <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
+9. `Crear capa vectorial dentro del SIG Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
+10. `Editar capa vectorial en el mapa web y adjuntar archivos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
+11. `Publicar servicio OGC API — Features <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
+12. `Qué sigue? <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#what-next>`_
 
 .. _account:
 
