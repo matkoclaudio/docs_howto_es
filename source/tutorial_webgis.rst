@@ -13,9 +13,9 @@ del tutorial (fuente: Sistema de Información Espacial de `Wroclaw <https://geop
 Basico
 
 1. `Crear cuenta y SIG Web <tutorial_webgis.rst#paso-16-crear-una-cuenta-gratuita-y-sig-web>`_
-2. `Crear grupo de recursos <tutorial_webgis.rst#paso-26-crear-una-cuenta-gratuita-y-sig-web>`_
-3. `Cargar capa vectorial <tutorial_webgis.rst#paso-36-crear-una-cuenta-gratuita-y-sig-web>`_
-4. `Cargar estilo <tutorial_webgis.rst#paso-46-crear-una-cuenta-gratuita-y-sig-web>`_
+2. `Crear grupo de recursos <tutorial_webgis.rst#paso-26-accede-a-tu-sig-web-y-crea-un-grupo-de-recursos>`_
+3. `Cargar capa vectorial <tutorial_webgis.rst#paso-36-cargar-y-publicar-una-capa-vectorial>`_
+4. `Cargar estilo <tutorial_webgis.rst#paso-46>`_
 5. `Cargar capa ráster <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-5-6-upload-and-publish-raster-layer>`_
 6. `Publicar mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_
 
