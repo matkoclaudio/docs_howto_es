@@ -85,7 +85,7 @@ Ahora puedes cargar datos en esta carpeta.
 Paso 3/6: Cargar y publicar una capa vectorial 
 -------------------------------------------
 
-`Descarga <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ los datos del tutorial y descomprime el archivo.
+Descarga los `datos <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ del tutorial y descomprime el archivo.
 
 Dentro de la carpeta *Wroclaw*, haz clic en **Crear recurso** y selecciona el tipo de recurso **Capa vectorial**.
 
@@ -113,7 +113,7 @@ Esta página contiene la información de la capa:
 
 .. figure:: _static/tutorial_vlayer_result_en.png
 
-En la sección de **Acceso externo** encontrarás una URL generada automáticamente que permite acceder a la capa mediante MVT Teselas Vectoriales. Puedes, inmediatamente, conectar estos datos a una aplicación web o agregarlos a QGIS mediante este enlace. Más información sobre `MVT Teselas Vectoriales <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
+En la sección de **Acceso externo** encontrarás una URL generada automáticamente que permite acceder a la capa mediante MVT Teselas Vectoriales. Puedes, ahora mismo, conectar estos datos a una aplicación web o agregarlos a QGIS mediante este enlace. Más información sobre `MVT Teselas Vectoriales <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
 
 
 
