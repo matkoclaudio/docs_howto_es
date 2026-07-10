@@ -1,7 +1,7 @@
 Tutorial: Almacenamiento, gestión y publicación de tus datos espaciales
 =======================================================================
 
-.. admonition:: Disponible
+.. admonition:: Disponibilidad
 
    Cloud SaaS (todas las ediciones), On premise (todas las ediciones), Open Source
 
