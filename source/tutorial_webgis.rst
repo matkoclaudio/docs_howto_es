@@ -39,7 +39,7 @@ Una vez completado el registro, se mostrará la página de tu cuenta. Selecciona
 
 .. figure:: _static/tutorial_create_wg_en.webp
 
-When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
+Cuando finalice el proceso de creación, el contenido de la página cambiará. Aparecerá un enlace directo a tu nuevo SIG Web.
 
 .. figure:: _static/tutorial_my_wg_en.png
 
