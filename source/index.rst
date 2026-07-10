@@ -8,7 +8,7 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
 
-1. `Almacenamiento, gestión y publicación de tus datos espaciales <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html>`_
+1. `Almacenamiento, gestión y publicación de tus datos espaciales <tutorial_webgis.rst#tutorial-almacenamiento-gesti%C3%B3n-y-publicaci%C3%B3n-de-tus-datos-espaciales>`_
 
 .. figure:: _static/tutorial0-2.webp
    :name: 
