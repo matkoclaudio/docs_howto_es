@@ -3,7 +3,7 @@ Tutoriales
 
 Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a paso para familiarizarte con la plataforma de NextGIS mediante la experiencia práctica.
 
-.. figure:: _static/t2_title_seamless.webp
+.. figure:: _static/tutorial0-1.webp
    :name: 
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
