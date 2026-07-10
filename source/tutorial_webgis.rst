@@ -35,7 +35,7 @@ Paso 1/6: Crear una cuenta gratuita y SIG Web
 
 Ve a *my.nextgis.com*, haz clic en el botón **Crear una cuenta** y regístrate con tu dirección de correo electrónico.
 
-After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
+Una vez completado el registro, se mostrará la página de tu cuenta. Selecciona el menú **SIG Web** en el panel izquierdo, elige un nombre (en este ejemplo se usa *ngw-inicio.nextgis.com*) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, *Falkenstein*). Luego, haz clic en **Crear un SIG Web**.
 
 .. figure:: _static/tutorial_create_wg_en.webp
 
@@ -45,79 +45,79 @@ When the creation process is complete, the contents of the page will change. Dir
 
 .. _webgis:
 
-Step 2/6 Access your Web GIS and create resource group
--------------------------------------------------------
+Paso 2/6: Accede a tu SIG Web y crea un grupo de recursos
+---------------------------------------------------------
 
-Click on the Web GIS link or type it into your browser.
+Haz clic en el enlace de SIG Web o escríbelo directamente en la barra de direcciones de tu navegador.
 
-You'll see the main interface of your Web GIS.
+Aparecerá la interfaz principal de tu SIG Web.
 
 .. figure:: _static/tutorial_wg_main_en.png
 
-In NextGIS Web everything is a resource — layers, Web Maps, folders (groups), connections to services and databases. Resources are organized as files at your computer — in a tree. 
+En NextGIS Web, todo es un recurso: capas, mapas web, carpetas (grupos), conexiones a servicios y bases de datos. Los recursos se organizan en forma de árbol, al igual que los archivos en tu ordenador.
 
-Let’s create our first resource, a folder or *resource group* named Wroclaw. To do that, click the blue **Create resource** button on the top of the page. 
+Vamos a crear nuestro primer recurso: una carpeta o grupo de recursos llamado *Wroclaw*. Para ello, haz clic en el botón azul **Crear recurso**, situado en la parte superior de la página.
 
-.. tip:: If you don’t see the **Create resource** button, you should log in first. Click the **Sign in** button in the top right corner and then select **Sign in with NextGIS ID**.
+.. tip:: Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, seleccione **Iniciar sesión con NextGIS ID**.
 
 .. figure:: _static/tutorial_log_in_en.png
 
-When you click **Create resource**, a window appears showing all available options of what could you create in the current context. Select **Resource group**.
+Cuando haces clic en **Crear recurso**, aparece una ventana que muestra todas las opciones disponibles que puedes crear en el contexto actual. Selecciona **Grupo de recursos**.
 
 .. figure:: _static/tutorial_select_group_en.png
 
-The resource creation window consists of several tabs, in this case we need to set only the name ``Wroclaw`` on the “Resource” tab.
+La ventana de creación de recursos consta de varias pestañas, en este caso solo necesitamos establecer el nombre *Wroclaw* en la pestaña **Recurso**.
 
 .. figure:: _static/tutorial_create_group_en.png
 
-Click **Create** and you'll be redirected to the page of the new resource.
+Clic en **Crear** y te redirigirá a la página del nuevo recurso.
 
 .. figure:: _static/tutorial_group_result_en.png
 
-The URL in your browser is the path to the resource, and the numbers at the end of the URL are the resource ID. 
+La URL en tu navegador es la ruta al recurso, y los números al final de la URL corresponden al ID del recurso.
 
-*Wroclaw* is a child for the *Main resource group* folder where we created it. The parent resource is shown above the resource name.
+*Wroclaw* es un elemento hijo dentro de la carpeta *Grupo de recursos principal* donde lo creamos. El recurso padre se muestra arriba del nombre del recurso.
 
-Now you can upload data to this folder.
+Ahora puedes cargar datos en esta carpeta.
 
 .. _vector:
 
-Step 3/6 Upload and publish vector layer
+Paso 3/6: Cargar y publicar una capa vectorial 
 -------------------------------------------
 
-`Download the tutorial data <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ and unzip the archive.
+`Descarga <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ los datos del tutorial y descomprime el archivo.
 
-Inside the *Wroclaw* folder, click **Create resource** and select the **Vector layer** type of resource.
+Dentro de la carpeta *Wroclaw*, haz clic en **Crear recurso** y selecciona el tipo de recurso **Capa vectorial**.
 
 .. figure:: _static/tutorial_select_vlayer_en.png
 
-You'll see the interface for resource creation with several tabs. 
+Verás la interfaz para la creación de recursos con varias pestañas. 
 
 .. figure:: _static/tutorial_create_vlayer_upload_en.png
 
-The default tab is called **Vector layer**. Add the file called ``bicycle_roads.gpkg`` from the tutorial dataset to the field **Select a dataset** by drag-and-drop or click on the field and then select the file.
+En la pestaña predeterminada llamada **Capa vectorial**, agrega el archivo llamado *bicycle_roads.gpkg* del conjunto de datos del tutorial. Puedes hacerlo mediante un clic en **Seleccione un set de datos** y luego seleccionar el archivo, o bien arrastrar y soltar.
 
-After the upload completes, the file size is displayed. 
+Una vez finalizada la carga, se muestra el tamaño del archivo.
 
-Switch to the **Resource tab** and enter the Dislpay name for the new layer, for example, ``Bicycle roads``. Then click the **Create** button.
+Cambia a la pestaña **Recurso** e ingresa el nombre de visualización para la nueva capa, por ejemplo *Bicisendas*. Luego haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial_create_vlayer_name_en.png
 
-The vector layer is created and you are redirected to its page. The numbers at the end of the URL represent the ID of the layer.
+Creada la capa vectorial serás redirigido a su URL. El número al final de esta URL representa el ID de la capa.
 
-This page has the information about the layer:
+Esta página contiene la información de la capa:
 
-* Its place in the resource tree (Main resource group / Wroclaw);
-* Basic metadata (geometry type, feature count etc.);
-* List of fields a.k.a. attribute structure;
+* Su ubicación en el árbol de recursos (Grupo de recursos principal / Wroclaw);
+* Metadatos básicos (tipo de geometría, recuento de objetos geográficos, etc.);
+* Lista de Campos, también conocida como estructura de atributos.
 
 .. figure:: _static/tutorial_vlayer_result_en.png
 
-In the **External access** section you'll find an automatically generated URL that allows to access the layer via MVT vector tiles. Right away you can connect this data to a Web app or add it to QGIS using this link. `More on MVT tiles <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
+En la sección de **Acceso externo** encontrarás una URL generada automáticamente que permite acceder a la capa mediante MVT Teselas Vectoriales. Puedes, inmediatamente, conectar estos datos a una aplicación web o agregarlos a QGIS mediante este enlace. Más información sobre `MVT Teselas Vectoriales <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
 
 
 
-To view the data open the Feature table by clicking |button_open_feature_table| **Table** in the menu on the right.
+Para ver los datos, abre la tabla de características haciendo clic en **Tabla** en el menú de la derecha
 
 .. |button_open_feature_table| image:: _static/button_open_feature_table.png
    :width: 6mm
@@ -125,17 +125,17 @@ To view the data open the Feature table by clicking |button_open_feature_table| 
 
 .. figure:: _static/tutorial_feature_table_en.png 
 
-Select any feature and click **Open** to view it.
+Selecciona cualquier característica y haz clic en Abrir para verla.
 
-In the opened window you see all the properties of the selected feature, including its attributes, geometry and a map representation on top of the default basemap.
+Se abrirá una ventana, en la que verás todas las propiedades del elemento seleccionado, incluidos los atributos, geometría y una representación cartográfica superpuesta al mapa base predeterminado.
 
 .. figure:: _static/tutorial_feature_preview_en.png 
 
-The feature table allows you to inspect, edit and manage vector layer features as independent database records, without using maps or other applications. (`More on how to do it <https://docs.nextgis.com/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_)
+La tabla de entidades permite inspeccionar, editar y gestionar las entidades de la capa vectorial como registros de base de datos independientes, sin necesidad de usar mapas u otras aplicaciones. (`Más información <https://docs.nextgis.com/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_ )
 
 .. _style:
 
-Step 4/6 Upload a style
+Paso 4/6:
 ------------------------
 
 If you want to generate **TMS tiles** or **add the layer to a Web Map**, you need to define its appearance a.k.a. a **style**. You can click **Create default QGIS style**, but for this layer we have a special file that determins colors and structures of the lines depending on the attribute values.
