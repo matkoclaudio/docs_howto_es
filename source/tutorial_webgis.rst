@@ -37,11 +37,11 @@ Ve a *my.nextgis.com*, haz clic en el botón **Crear una cuenta** y regístrate 
 
 Una vez completado el registro, se mostrará la página de tu cuenta. Selecciona el menú **SIG Web** en el panel izquierdo, elige un nombre (en este ejemplo se usa *ngw-inicio.nextgis.com*) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, *Falkenstein*). Luego, haz clic en **Crear un SIG Web**.
 
-.. figure:: _static/tutorial_create_wg_en.webp
+.. figure:: _static/tutorial1-paso1-1_es.webp
 
 Cuando finalice el proceso de creación, el contenido de la página cambiará. Aparecerá un enlace directo a tu nuevo SIG Web.
 
-.. figure:: _static/tutorial_my_wg_en.png
+.. figure:: _static/tutorial1-paso1-2_es.webp
 
 .. _webgis:
 
@@ -52,7 +52,7 @@ Haz clic en el enlace de SIG Web o escríbelo directamente en la barra de direcc
 
 Aparecerá la interfaz principal de tu SIG Web.
 
-.. figure:: _static/tutorial_wg_main_en.png
+.. figure:: _static/tutorial1-paso2-1_es.webp
 
 En NextGIS Web, todo es un recurso: capas, mapas web, carpetas (grupos), conexiones a servicios y bases de datos. Los recursos se organizan en forma de árbol, al igual que los archivos en tu ordenador.
 
@@ -60,19 +60,19 @@ Vamos a crear nuestro primer recurso: una carpeta o grupo de recursos llamado *W
 
 .. tip:: Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, selecciona **Iniciar sesión con NextGIS ID**.
 
-.. figure:: _static/tutorial_log_in_en.png
+.. figure:: _static/tutorial1-paso2-2_es.webp
 
 Cuando haces clic en **Crear recurso**, aparece una ventana que muestra todas las opciones disponibles que puedes crear en el contexto actual. Selecciona **Grupo de recursos**.
 
-.. figure:: _static/tutorial_select_group_en.png
+.. figure:: _static/tutorial1-paso2-3_es.webp
 
 La ventana de creación de recursos consta de varias pestañas, en este caso solo necesitamos establecer el nombre *Wroclaw* en la pestaña **Recurso**.
 
-.. figure:: _static/tutorial_create_group_en.png
+.. figure:: _static/tutorial1-paso2-4_es.webp
 
 Clic en **Crear** y te redirigirá a la página del nuevo recurso.
 
-.. figure:: _static/tutorial_group_result_en.png
+.. figure:: _static/tutorial1-paso2-5_es.webp
 
 La URL en tu navegador es la ruta al recurso, y el número al final de la URL corresponde al ID del recurso.
 
@@ -89,11 +89,11 @@ Descarga los `datos <https://nextgis.com/tutorials/store_manage_publish_geospati
 
 Dentro de la carpeta *Wroclaw*, haz clic en **Crear recurso** y selecciona el tipo de recurso **Capa vectorial**.
 
-.. figure:: _static/tutorial_select_vlayer_en.png
+.. figure:: _static/tutorial1-paso3-1_es.webp
 
 Verás la interfaz para la creación de recursos con varias pestañas. 
 
-.. figure:: _static/tutorial_create_vlayer_upload_en.png
+.. figure:: _static/tutorial1-paso3-2_es.webp
 
 En la pestaña predeterminada llamada **Capa vectorial**, agrega el archivo llamado *bicycle_roads.gpkg* del conjunto de datos del tutorial. Puedes hacerlo mediante un clic en **Seleccione un set de datos** y luego seleccionar el archivo, o bien arrastrar y soltar.
 
@@ -101,7 +101,7 @@ Una vez finalizada la carga, se muestra el tamaño del archivo.
 
 Cambia a la pestaña **Recurso** e ingresa el nombre de visualización para la nueva capa, por ejemplo *Bicisendas*. Luego haz clic en el botón **Crear**.
 
-.. figure:: _static/tutorial_create_vlayer_name_en.png
+.. figure:: _static/tutorial1-paso3-3_es.webp
 
 Creada la capa vectorial serás redirigido a su URL. El número al final de esta URL representa el ID de la capa.
 
@@ -111,7 +111,7 @@ Esta página contiene la información de la capa:
 * Metadatos básicos (tipo de geometría, recuento de objetos geográficos, etc.);
 * Lista de Campos, también conocida como estructura de atributos.
 
-.. figure:: _static/tutorial_vlayer_result_en.png
+.. figure:: _static/tutorial1-paso3-4_es.webp
 
 En la sección de **Acceso externo** encontrarás una URL generada automáticamente que permite acceder a la capa mediante MVT Teselas Vectoriales. Puedes, ahora mismo, conectar estos datos a una aplicación web o agregarlos a QGIS mediante este enlace. Más información sobre `MVT Teselas Vectoriales <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
 
@@ -123,13 +123,13 @@ Para ver los datos, abre la tabla de características haciendo clic en **Tabla**
    :width: 6mm
 
 
-.. figure:: _static/tutorial_feature_table_en.png 
+.. figure:: _static/tutorial1-paso3-5_es.webp 
 
 Selecciona cualquier característica y haz clic en Abrir para verla.
 
 Se abrirá una ventana, en la que verás todas las propiedades del elemento seleccionado, incluidos los atributos, geometría y una representación cartográfica superpuesta al mapa base predeterminado.
 
-.. figure:: _static/tutorial_feature_preview_en.png 
+.. figure:: _static/tutorial1-paso3-6_es.webp
 
 La tabla de entidades permite inspeccionar, editar y gestionar las entidades de la capa vectorial como registros de base de datos independientes, sin necesidad de usar mapas u otras aplicaciones. (`Más información <https://docs.nextgis.com/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_ )
 
