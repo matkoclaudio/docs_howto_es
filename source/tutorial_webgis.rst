@@ -7,7 +7,7 @@ Tutorial: Almacenamiento, gestión y publicación de tus datos espaciales
 
 NextGIS Web es un servidor GIS que funciona como centro de datos, te permitirá almacenar, administrar y publicar información espacial de manera flexible y eficiente. En este tutorial paso a paso, aprenderás a convertir tus archivos GIS en mapas web interactivos, así como en servicios OGC, teselas, y también a crear y gestionar datos directamente desde el servidor. ¡Regístrate para obtener una cuenta gratuita en la nube y pruébalo ahora mismo!
 
-`Descarga los datos del tutorial <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>` (fuente: `Sistema de Información Espacial de Wroclaw <https://geoportal.wroclaw.pl/>`_)
+`Descarga los datos del tutorial <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>_` (fuente: `Sistema de Información Espacial de Wroclaw <https://geoportal.wroclaw.pl/>`_)
 
 Basico
 
