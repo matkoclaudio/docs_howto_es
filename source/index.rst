@@ -10,6 +10,8 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
 
+
+
 2. `Integración fluida con QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html>`_
 
 .. figure:: _static/sync.png
@@ -17,12 +19,16 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
 
+
+
 3. `Recolección de datos espaciales en el terreno <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html>`_
 
 .. figure:: _static/mobile-en-hero.png
    :name: 
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_collect.html
+
+
 
 4. `Seguimiento de ubicaciones GPS en tiempo real <https://docs.nextgis.com/docs_howto/source/tutorial_track.html>`_
 
