@@ -12,7 +12,7 @@ del tutorial (fuente: Sistema de Información Espacial de `Wroclaw <https://geop
 
 Basico
 
-1. `Create Account <../tutorial_webgis.html#step-1-6-create-free-account-and-web-gis>`_
+1. `Create Account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-1-6-create-free-account-and-web-gis>`_
 2. `Crear grupo de recursos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-2-6-access-your-web-gis-and-create-resource-group>`_
 3. `Cargar capa vectorial <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-3-6-upload-and-publish-vector-layer>`_
 4. `Cargar estilo <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-4-6-upload-a-style>`_
@@ -30,10 +30,10 @@ Advanzado
 
 .. _account:
 
-Step 1/6 Create free account and Web GIS
------------------------------------------
+Paso 1/6: Crear una cuenta gratuita y SIG Web
+---------------------------------------------
 
-Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
+Ve a *my.nextgis.com*, haz clic en el botón **Crear una cuenta** y regístrate con tu dirección de correo electrónico.
 
 After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
 
