@@ -12,7 +12,7 @@ del tutorial (fuente: Sistema de Información Espacial de `Wroclaw <https://geop
 
 Basico
 
-1. `Create Account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-1-6-create-free-account-and-web-gis>`_
+1. `Crear cuenta y SIG Web <../tutorial_webgis.html#paso-16-crear-una-cuenta-gratuita-y-sig-web>`_
 2. `Crear grupo de recursos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-2-6-access-your-web-gis-and-create-resource-group>`_
 3. `Cargar capa vectorial <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-3-6-upload-and-publish-vector-layer>`_
 4. `Cargar estilo <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-4-6-upload-a-style>`_
