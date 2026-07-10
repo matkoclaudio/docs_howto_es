@@ -1,7 +1,7 @@
 Tutoriales
 ==========
 
-Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a paso para familiarizarte con la plataforma de NextGIS mediante la experiencia práctica.
+Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a paso para familiarizarte con la plataforma de NextGIS mediante una experiencia práctica.
 
 .. figure:: _static/tutorial0-1.webp
    :name: 
