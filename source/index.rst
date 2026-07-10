@@ -30,16 +30,3 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :name: 
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_track.html
-
-
-
-
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   tutorial_webgis
-   tutorial_qgis
-   tutorial_collect
-   tutorial_track
