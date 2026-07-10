@@ -8,7 +8,7 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html
 
-1. :ref:`Almacenamiento, gestión y publicación de tus datos espaciales <tutorial-1>`_
+1. :ref:`Almacenamiento, gestión y publicación de tus datos espaciales <tutorial-1>`
 
 .. figure:: _static/tutorial0-2.webp
    :name: 
@@ -22,13 +22,13 @@ Descarga un kit de datos iniciales y sigue las instrucciones detalladas paso a p
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_collect.html
 
-3. `Recolección de datos espaciales en el terreno <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html>`_
+3. :ref:`Recolección de datos espaciales en el terreno <tutorial-3>`
 
 .. figure:: _static/tutorial0-4.webp
    :name: 
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_track.html
 
-4. `Seguimiento de ubicaciones GPS en tiempo real <https://docs.nextgis.com/docs_howto/source/tutorial_track.html>`_
+4. :ref:`Seguimiento de ubicaciones GPS en tiempo real <tutorial-4>`
 
 
