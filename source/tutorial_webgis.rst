@@ -18,8 +18,8 @@ Basico
 2. `Crear grupo de recursos <tutorial_webgis.rst#paso-26-accede-a-tu-sig-web-y-crea-un-grupo-de-recursos>`_
 3. `Cargar capa vectorial <tutorial_webgis.rst#paso-36-cargar-y-publicar-una-capa-vectorial>`_
 4. `Cargar estilo <tutorial_webgis.rst#paso-46>`_
-5. `Cargar capa ráster <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-5-6-upload-and-publish-raster-layer>`_
-6. `Publicar mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_
+5. `Cargar capa ráster <tutorial_webgis.rst#paso-56>`_
+6. `Publicar mapa web <tutorial_webgis.rst#paso-66>`_
 
 Advanzado
 
