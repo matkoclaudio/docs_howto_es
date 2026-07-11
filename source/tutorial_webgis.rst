@@ -97,7 +97,7 @@ Verás la interfaz para la creación de recursos con varias pestañas.
 
 .. figure:: _static/tutorial1-paso3-2_es.webp
 
-En la pestaña predeterminada llamada **Capa vectorial**, agrega el archivo llamado *bicycle_roads.gpkg* del conjunto de datos del tutorial. Puedes hacerlo mediante *arrastrar y soltar* el archivo, o bien un clic en **Seleccione un set de datos** y luego seleccionar el archivo.
+En la pestaña predeterminada llamada **Capa vectorial**, agrega el archivo llamado `bicycle_roads.gpkg` del conjunto de datos del tutorial. Puedes hacerlo mediante *arrastrar y soltar* el archivo, o bien un clic en **Seleccione un set de datos** y luego seleccionar el archivo.
 
 Una vez finalizada la carga, se muestra el tamaño del archivo.
 
