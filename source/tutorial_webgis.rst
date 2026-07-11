@@ -111,7 +111,7 @@ Esta página contiene la información de la capa:
 
 * Su ubicación en el árbol de recursos (*Grupo de recursos principal / Wroclaw*);
 * Metadatos básicos (SRC, tipo de geometría, recuento de objetos geográficos, etc.);
-* Listado de Campos, también conocido como estructura de atributos.
+* Listado de **Campos**, también conocido como estructura de atributos.
 
 .. figure:: _static/tutorial1-paso3-4_es.webp
 
