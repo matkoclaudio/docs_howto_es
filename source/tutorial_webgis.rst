@@ -137,10 +137,10 @@ La tabla de entidades permite inspeccionar, editar y gestionar las entidades de 
 
 .. _style:
 
-Paso 4/6: Cargar un estilo
---------------------------
+Paso 4/6: Cargar estilo
+-----------------------
 
-Si deseas generar **teselas TMS** o **añadir una capa a un Mapa Web**, es necesario definir su apariencia, es decir, su *estilo*. Puedes hacer clic en **Crear un estilo QGIS por defecto**, pero para esta capa disponemos de un archivo especial que determina los colores y la estructura de las líneas en función de los valores de los atributos.
+Si deseas generar **teselas TMS** o **añadir una capa a un Mapa Web**, es necesario definir su apariencia, es decir, su *estilo*. Puedes hacer clic en **Crear un estilo QGIS por defecto**. Para esta capa disponemos de un archivo especial que determina los colores y la estructura de las líneas en función de los valores de los atributos.
 
 En la página de la capa, haz clic en el botón **Crear recurso**. Verás un conjunto diferente de recursos disponibles, ya que una capa vectorial solo puede ser el elemento padre de estilos y formularios. Empleamos los estilos QGIS como la vía principal para definir la apariencia de los datos. Selecciona **Estilo vectorial de QGIS**.
 
