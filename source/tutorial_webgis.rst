@@ -60,11 +60,11 @@ Es importante destacar que, en NextGIS Web, todo es un recurso: capas, mapas web
 
 Vamos a crear nuestro primer recurso: una carpeta o grupo de recursos llamado *Wroclaw*. Para ello, haz clic en el botón azul **Crear recurso**, situado en la parte superior de la página.
 
-.. tip:: *Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, selecciona **Iniciar sesión con NextGIS ID**.*
+.. tip:: Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, selecciona **Iniciar sesión con NextGIS ID**.
 
 .. figure:: _static/tutorial1-paso2-2_es.webp
 
-Cuando haces clic en **Crear recurso**, aparece una ventana que muestra todas las opciones disponibles que puedes crear en el contexto actual. Selecciona **Grupo de recursos**.
+Cuando haces clic en **Crear recurso**, aparece una ventana que muestra todas las opciones de recursos disponibles que puedes crear en el contexto actual. Selecciona **Grupo de recursos**.
 
 .. figure:: _static/tutorial1-paso2-3_es.webp
 
@@ -87,9 +87,9 @@ Ahora puedes cargar datos en esta carpeta.
 Paso 3/6: Cargar y publicar una capa vectorial 
 -------------------------------------------
 
-Descarga los `datos <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ del tutorial y descomprime el archivo.
+Descarga los `datos <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ del tutorial y descomprime el archivo en tu ordenador.
 
-Dentro de la carpeta *Wroclaw*, haz clic en **Crear recurso** y selecciona el tipo de recurso **Capa vectorial**.
+En tu SIG Web, dentro de la carpeta *Wroclaw*, haz clic en **Crear recurso** y selecciona el tipo de recurso **Capa vectorial**.
 
 .. figure:: _static/tutorial1-paso3-1_es.webp
 
@@ -97,25 +97,25 @@ Verás la interfaz para la creación de recursos con varias pestañas.
 
 .. figure:: _static/tutorial1-paso3-2_es.webp
 
-En la pestaña predeterminada llamada **Capa vectorial**, agrega el archivo llamado *bicycle_roads.gpkg* del conjunto de datos del tutorial. Puedes hacerlo mediante un clic en **Seleccione un set de datos** y luego seleccionar el archivo, o bien arrastrar y soltar.
+En la pestaña predeterminada llamada **Capa vectorial**, agrega el archivo llamado *bicycle_roads.gpkg* del conjunto de datos del tutorial. Puedes hacerlo mediante *arrastrar y soltar* el archivo, o bien un clic en **Seleccione un set de datos** y luego seleccionar el archivo.
 
 Una vez finalizada la carga, se muestra el tamaño del archivo.
 
-Cambia a la pestaña **Recurso** e ingresa el nombre de visualización para la nueva capa, por ejemplo *Bicisendas*. Luego haz clic en el botón **Crear**.
+Ahora ve a la pestaña **Recurso** e ingresa el nombre para visualizar la nueva capa, por ejemplo *Bicisendas*. Luego haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial1-paso3-3_es.webp
 
-Creada la capa vectorial serás redirigido a su URL. El número al final de esta URL representa el ID de la capa.
+Creada la capa vectorial serás redirigido a su URL. Al igual que antes, el número al final de esta URL representa el ID de tu recurso capa.
 
 Esta página contiene la información de la capa:
 
-* Su ubicación en el árbol de recursos (Grupo de recursos principal / Wroclaw);
-* Metadatos básicos (tipo de geometría, recuento de objetos geográficos, etc.);
-* Lista de Campos, también conocida como estructura de atributos.
+* Su ubicación en el árbol de recursos (*Grupo de recursos principal / Wroclaw*);
+* Metadatos básicos (SRC, tipo de geometría, recuento de objetos geográficos, etc.);
+* Campos, también conocidos como atributos.
 
 .. figure:: _static/tutorial1-paso3-4_es.webp
 
-En la sección de **Acceso externo** encontrarás una URL generada automáticamente que permite acceder a la capa mediante MVT Teselas Vectoriales. Puedes, ahora mismo, conectar estos datos a una aplicación web o agregarlos a QGIS mediante este enlace. Más información sobre `MVT Teselas Vectoriales <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
+En la sección de **Acceso externo** encontrarás una URL generada automáticamente que permite acceder a la capa como MVT Teselas Vectoriales. Puedes, ahora mismo, conectar estos datos a una aplicación web o agregarlos a QGIS mediante este enlace. Más información sobre `MVT Teselas Vectoriales <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
 
 
 
