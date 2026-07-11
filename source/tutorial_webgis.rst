@@ -137,12 +137,12 @@ La tabla de entidades permite inspeccionar, editar y gestionar las entidades de 
 
 .. _style:
 
-Paso 4/6:
-------------------------
+Paso 4/6: Cargar un estilo
+--------------------------
 
-If you want to generate **TMS tiles** or **add the layer to a Web Map**, you need to define its appearance a.k.a. a **style**. You can click **Create default QGIS style**, but for this layer we have a special file that determins colors and structures of the lines depending on the attribute values.
+Si deseas generar **teselas TMS** o **añadir una capa a un Mapa Web**, es necesario definir su apariencia, es decir, su *estilo*. Puedes hacer clic en **Crear un estilo QGIS por defecto**, pero para esta capa disponemos de un archivo especial que determina los colores y la estructura de las líneas en función de los valores de los atributos.
 
-On the layer page click **Create resource** button. You'll see a different set of available resources, because a vector layer could only be a parent for styles and forms. We use QGIS styles as the primary way to define data appearance. Select **QGIS vector style**.
+En la página de la capa, haz clic en el botón **Crear recurso**. Verás un conjunto diferente de recursos disponibles, ya que una capa vectorial solo puede ser el elemento padre de estilos y formularios. Empleamos los estilos QGIS como la vía principal para definir la apariencia de los datos. Selecciona **Estilo vectorial de QGIS**.
 
 .. figure:: _static/tutorial_select_qstyle_en.png
 
