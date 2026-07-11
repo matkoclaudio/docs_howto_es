@@ -35,7 +35,7 @@ Advanzado
 Paso 1/6: Crear una cuenta gratuita y SIG Web
 ---------------------------------------------
 
-Ve a *my.nextgis.com*, haz clic en el botón **Crear una cuenta** y regístrate con tu dirección de correo electrónico.
+Ve a ``my.nextgis.com``, haz clic en el botón **Crear una cuenta** y regístrate con tu dirección de correo electrónico.
 
 Una vez completado el registro, se mostrará la página de tu cuenta. Selecciona el menú **SIG Web** en el panel izquierdo, elige un nombre (en este ejemplo se usa *ngw-inicio.nextgis.com*) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, *Falkenstein*). Luego, haz clic en **Crear un SIG Web**.
 
