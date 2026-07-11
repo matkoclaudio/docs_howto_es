@@ -19,14 +19,14 @@ Basico
 3. `Cargar capa vectorial <tutorial_webgis.rst#paso-36-cargar-y-publicar-una-capa-vectorial>`_
 4. `Cargar estilo <tutorial_webgis.rst#paso-46>`_
 5. `Cargar capa ráster <tutorial_webgis.rst#paso-56>`_
-6. `Publicar mapa web <tutorial_webgis.rst#paso-66>`_
+6. `Publicar Mapa Web <tutorial_webgis.rst#paso-66>`_
 
 Advanzado
 
-7. `Agregar capa WMS externa al mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
+7. `Agregar capa WMS externa al Mapa Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
 8. `Agregar mapas base <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
 9. `Crear capa vectorial dentro del SIG Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
-10. `Editar capa vectorial en el mapa web y adjuntar archivos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
+10. `Editar capa vectorial en el Mapa Web y adjuntar archivos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
 11. `Publicar servicio OGC API — Features <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
 12. `Qué sigue? <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#what-next>`_
 
@@ -85,7 +85,7 @@ Ahora puedes cargar datos en esta carpeta.
 .. _vector:
 
 Paso 3/6: Cargar y publicar una capa vectorial 
--------------------------------------------
+----------------------------------------------
 
 Descarga los `datos <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ del tutorial y descomprime el archivo en tu ordenador.
 
@@ -158,8 +158,8 @@ Now you can upload another type of layer or skip to the `Web Map creation <https
 
 .. _raster:
 
-Step 5/6 Upload and publish raster layer
------------------------------------------
+Paso 5/6: Cargar capa ráster
+----------------------------
 
 Return to the *Wroclaw* resource group by clicking its name at the current path.
 
@@ -220,8 +220,8 @@ Now let's create a Web Map with the data we've just uploaded.
 
 .. _webmap:
 
-Step 6/6 Publish Web Map
--------------------------
+Paso 6/6: Publicar Mapa Web
+---------------------------
 
 Now that we have a couple of styled layers we are ready to publish our first Web Map. Return to the *Wroclaw* resource group and create a new resource — **Web Map**.
 
