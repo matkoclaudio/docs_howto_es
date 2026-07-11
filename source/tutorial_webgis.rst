@@ -50,7 +50,7 @@ Cuando finalice el proceso de creación, el contenido de la página cambiará, y
 Paso 2/6: Accede a tu SIG Web y crea un grupo de recursos
 ---------------------------------------------------------
 
-Haz clic en el enlace de SIG Web o escríbelo directamente en la barra de direcciones de tu navegador.
+Haz clic en el enlace de **SIG Web** o escríbelo directamente en la barra de direcciones de tu navegador.
 
 Aparecerá la interfaz principal de tu SIG Web.
 
