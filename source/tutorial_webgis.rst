@@ -19,7 +19,7 @@ Basico
 03. `Cargar capa vectorial <tutorial_webgis.rst#paso-36-cargar-y-publicar-una-capa-vectorial>`_
 04. `Cargar estilo <tutorial_webgis.rst#paso-46>`_
 05. `Cargar capa ráster <tutorial_webgis.rst#paso-56>`_
-06.`Publicar mapa web <tutorial_webgis.rst#paso-66>`_
+06. `Publicar mapa web <tutorial_webgis.rst#paso-66>`_
 
 Advanzado
 
