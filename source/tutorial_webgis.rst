@@ -24,7 +24,7 @@ Basico
 Advanzado
 
 7. `Agregar capa WMS externa al Mapa Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
-8. `Agregar mapas base <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
+8. `Agregar Mapa Base <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
 9. `Crear capa vectorial dentro del SIG Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
 10. `Editar capa vectorial en el Mapa Web y adjuntar archivos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
 11. `Publicar servicio OGC API — Features <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
