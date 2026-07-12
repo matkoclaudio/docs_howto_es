@@ -238,7 +238,7 @@ Hay muchos parámetros que se pueden configurar para un mapa web. En la pestaña
    :width: 20cm
 
 
-En la pestaña **Capas** se define el contenido de este mapa web. Haz clic en el botón **Capa** |button_plus_layer|. Lo que se añade al mapa es la representación visual de los datos, por lo que **debes seleccionar estilos, no capas**. Es por eso que las casillas de verificación junto a los nombres de las capas no están activas. Puedes hacer clic en una capa y seleccionar su estilo secundario, o simplemente hacer clic en el botón **Seleccionar el primer recurso hijo elegible** |button_pick_first| que aparece a la derecha de la capa para seleccionarla. Selecciona tanto la capa *Bicisendas* como la capa *plan*.
+En la pestaña **Capas** se define el contenido de este mapa web. Haz clic en el botón |button_plus_layer| **Capa**. Lo que se añade al mapa es la representación visual de los datos, por lo que **debes seleccionar estilos, no capas**. Es por eso que las casillas de verificación junto a los nombres de las capas no están activas. Puedes hacer clic en una capa y seleccionar su estilo secundario, o simplemente hacer clic en el botón **Seleccionar el primer recurso hijo elegible** |button_pick_first| que aparece a la derecha de la capa para seleccionarla. Selecciona tanto la capa *Bicisendas* como la capa *plan*.
 
 .. |button_pick_first| image:: _static/button_pick_first.png
    :width: 6mm
@@ -284,7 +284,7 @@ O, si vuelves al grupo de recursos *Wroclaw*, haz clic en el ícono de mapa |but
 .. |button_open_web_map| image:: _static/button_open_web_map.png
    :width: 6mm
 
-Al hacer clic en **Visualización** |button_open_web_map|, se abrirá un mapa web interactivo. Cada mapa tiene su propia URL de visualización y cuenta con numerosas herramientas para explorar y administrar los datos.
+Al hacer clic en |button_open_web_map| **Visualización**, se abrirá un mapa web interactivo. Cada mapa tiene su propia URL de visualización y cuenta con numerosas herramientas para explorar y administrar los datos.
 
 .. figure:: _static/tutorial_webmap_displayed_en.png
    :name: 
@@ -303,7 +303,7 @@ Exploremos qué más puedes hacer:
 * `Crear una capa vectorial desde cero < >`_.
 * `Editar elementos vectoriales en un mapa web y adjuntar archivos < >`_.
 * `Publicar servicio OGC API - Features < >`_.
-
+*
 * `Add data published on external servers <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_;
 * `Change basemap <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_;
 * `Create a vector layer from skratch <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_;
