@@ -146,22 +146,22 @@ En la página de la capa, haz clic en el botón **Crear recurso**. Verás un con
 
 .. figure:: _static/tutorial_select_qstyle_en.png
 
-Upload the file called ``bicycle_roads.qml`` from the tutorial dataset. Then click the **Create** button.
+Carga el archivo llamado ``bicycle_roads.qml`` del conjunto de datos del tutorial. Luego, haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial_create_qstyle_en.png
 
-The vector style is created and you are redirected to its page. Click **Preview** in the menu on the right to see how the style looks.
+Una vez creado el estilo vectorial, serás redirigido a la página del estilo. Pulsa **Vista previa** en el menú lateral derecho para comprobar su aspecto final.
 
-In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.com/docs_ngweb/source/services.html#tms-service>`_
+En la sección **Acceso externo** encontrarás una URL autogenerada que te permitirá acceder a estos datos con el estilo aplicado como un *Servicio de Mapas Teselados (TMS)*, el cual podrás importar, por ejemplo, directamente en QGIS. Para más información, consulta la sección dedicada a `TMS <https://docs.nextgis.com/docs_ngweb/source/services.html#tms-service>`_.
 
-Now you can upload another type of layer or skip to the `Web Map creation <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_.
+A continuación, puedes cargar otro tipo de capa o saltar directamente a la `Publicar Mapa Web <tutorial_webgis.rst#paso-66-publicar-mapa-web>`_.
 
 .. _raster:
 
 Paso 5/6: Cargar capa ráster
 ----------------------------
 
-Return to the *Wroclaw* resource group by clicking its name at the current path.
+Vuelve al grupo de recursos *Wroclaw* haciendo clic en su nombre en la ruta de navegación.
 
 .. figure:: _static/tutorial_return_folder_en.png
    :name: 
@@ -169,7 +169,7 @@ Return to the *Wroclaw* resource group by clicking its name at the current path.
    :width: 20cm
 
 
-Click the **Create resource** button and select **Raster layer**.
+Haz clic en el botón **Crear recurso** y selecciona **Capa ráster**.
 
 .. figure:: _static/tutorial_select_raster_layer_en.png
    :name: 
@@ -177,7 +177,8 @@ Click the **Create resource** button and select **Raster layer**.
    :width: 20cm
 
 
-On the **Raster layer** tab drag and drop the file called ``plan.tif``  from the tutorial dataset or click **Select the dataset** and select the file. Then click the **Create** button.
+
+En la pestaña **Capa ráster**, arrastra y suelta el archivo denominado ``plan.tif`` del conjunto de datos del tutorial, o haz clic en **Seleccionar el conjunto de datos** y selecciona el archivo. Luego, haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial_raster_upload_en.png
    :name: 
@@ -185,21 +186,19 @@ On the **Raster layer** tab drag and drop the file called ``plan.tif``  from the
    :width: 20cm
 
 
-The raster layer is created and you are redirected to its page. Here you can see:
-
-* Its place in the resource tree (Main resource group / Wroclaw);
-* Basic metadata (bands, dimensions etc.);
-
-
+Se crea la capa ráster y se te redirige a su página. Aquí puedes ver:
+* Su ubicación en el árbol de recursos (*Grupo de recursos principal / Wroclaw*).
+* Metadatos básicos (bandas, dimensiones, etc.).
 
 .. figure:: _static/tutorial_raster_result_en.png
    :name: 
    :align: center
    :width: 20cm
 
-In the **External access** section you'll find an auto-generated **Cloud Optimized GeoTIFF** access URL to this data. Right away you can connect this data to external resources using this link.
 
-You can style rasters with QGIS styles by creating child resources. To style RGB(A) rasters, however, you can simply click **Create default QGIS style**. Let’s do it. The default raster style is created and you are redirected to its page. 
+En la sección **Acceso externo** encontrarás una URL de acceso **GeoTIFF optimizado para la nube** generada automáticamente para estos datos. Con este enlace puedes conectar estos datos a recursos externos al instante.
+
+Puedes aplicar estilos de QGIS a los recursos ráster creando subrecursos. Sin embargo, para archivos ráster RGB(A), basta con hacer clic en **Crear estilo QGIS predeterminado**. Hagámoslo. Se crea el estilo ráster predeterminado y se te redirige a su página.
 
 .. figure:: _static/tutorial_def_raster_style_result_en.png
    :name: 
@@ -207,16 +206,16 @@ You can style rasters with QGIS styles by creating child resources. To style RGB
    :width: 20cm
 
 
-**Raster tiles (TMS)** access URL to this data is automatically generated. Right away you can use this link to connect this data as styled raster tiles to external resources.
+La URL de acceso a **Teselas ráster (TMS)** para estos datos también se genera de forma automática. Puedes utilizar este enlace para conectar estos datos a recursos externos como teselas ráster con el estilo ya aplicado.
 
-You could also click **Preview** in the right menu and explore the uploaded raster.
+También puedes hacer clic en **Vista previa** en el menú derecho y explorar el ráster que acabas de cargar.
 
 .. figure:: _static/tutorial_raster_preview_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Now let's create a Web Map with the data we've just uploaded.
+Ahora vamos a crear un mapa web con los datos que acabamos de cargar.
 
 .. _webmap:
 
