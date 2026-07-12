@@ -27,7 +27,7 @@ Advanzado
 8. `Agregar Mapa Base <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
 9. `Crear capa vectorial dentro del SIG Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
 10. `Editar capa vectorial en el Mapa Web y adjuntar archivos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
-11. `Publicar servicio OGC API — Features <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
+11. `Publicar servicio OGC API - Features <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
 12. `Qué sigue? <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#what-next>`_
 
 .. _account:
@@ -292,18 +292,17 @@ Al hacer clic en **Visualización** |button_open_web_map|, se abrirá un mapa we
    :width: 20cm
 
 
-Las pestañas de la izquierda permiten administrar capas, identificar, buscar y editar elementos geográficos, así como compartir o imprimir el mapa. Consulta la documentación para obtener más información sobre las herramientas y paneles del mapa web:  
-https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
+Las pestañas de la izquierda permiten administrar capas, identificar, buscar y editar elementos geográficos, así como compartir o imprimir el mapa. Consulta la `documentación <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html>`_ para obtener más información sobre las herramientas y paneles del mapa web:  
 
 Puedes crear tantos mapas web como necesites, combinando las capas disponibles y sus estilos.
 
 Exploremos qué más puedes hacer:
 
-* Añadir datos publicados en servidores externos.
-* Cambiar el mapa base.
-* Crear una capa vectorial desde cero.
-* Editar elementos vectoriales en un mapa web y adjuntar archivos.
-* Publicar un servicio OGC API - Features.
+* `Añadir datos publicados en servidores externos < >`_
+* `Cambiar el mapa base < >`_.
+* `Crear una capa vectorial desde cero < >`_.
+* `Editar elementos vectoriales en un mapa web y adjuntar archivos < >`_.
+* `Publicar servicio OGC API - Features < >`_.
 
 * `Add data published on external servers <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_;
 * `Change basemap <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_;
