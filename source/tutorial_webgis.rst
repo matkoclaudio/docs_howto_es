@@ -222,7 +222,7 @@ Ahora vamos a crear un mapa web con los datos que acabamos de cargar.
 Paso 6/6: Publicar Mapa Web
 ---------------------------
 
-Now that we have a couple of styled layers we are ready to publish our first Web Map. Return to the *Wroclaw* resource group and create a new resource — **Web Map**.
+Ahora que ya tenemos un par de capas con estilos aplicados, estamos listos para publicar nuestro primer mapa web. Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso: **Mapa Web**.
 
 .. figure:: _static/tutorial_select_webmap_en.png
    :name: 
@@ -230,7 +230,7 @@ Now that we have a couple of styled layers we are ready to publish our first Web
    :width: 20cm
 
 
-There are a lot of things that could be set for a Web Map. On the “Resource” tab enter the name for the map, e.g. ``Wroclaw``.
+Hay muchos parámetros que se pueden configurar para un mapa web. En la pestaña **Recurso**, introduce el nombre del mapa, por ejemplo, *Wroclaw*.
 
 .. figure:: _static/tutorial_webmap_name_en.png
    :name: 
@@ -238,7 +238,7 @@ There are a lot of things that could be set for a Web Map. On the “Resource”
    :width: 20cm
 
 
-On the **Layers** tab you define the content of this Web Map. Click the |button_plus_layer| **Layer** button. What is added to the map is the visual representation of the data, so you need to select styles, not layers. That is why checkboxes near layer names are not active. You could enter the layer and select its child style, or simply click |button_pick_first| **Select first eligible child resource** on the right side of the layer to select it. Select both *“Bicycle roads”* and *“plan”* layers.
+En la pestaña **Capas** se define el contenido de este mapa web. Haz clic en el botón **Capa** |button_plus_layer|. Lo que se añade al mapa es la representación visual de los datos, por lo que **debes seleccionar estilos, no capas**. Es por eso que las casillas de verificación junto a los nombres de las capas no están activas. Puedes hacer clic en una capa y seleccionar su estilo secundario, o simplemente hacer clic en el botón **Seleccionar el primer recurso hijo elegible** |button_pick_first| que aparece a la derecha de la capa para seleccionarla. Selecciona tanto la capa *Bicisendas* como la capa *plan*.
 
 .. |button_pick_first| image:: _static/button_pick_first.png
    :width: 6mm
@@ -253,7 +253,7 @@ On the **Layers** tab you define the content of this Web Map. Click the |button_
    :width: 20cm
 
 
-After that you can click on the layer to edit its properties.
+Después de eso, puedes hacer clic en la capa para editar sus propiedades.
 
 .. figure:: _static/tutorial_webmap_layer_settings_en.png
    :name: 
@@ -261,7 +261,7 @@ After that you can click on the layer to edit its properties.
    :width: 20cm
 
 
-Switch to the **Settings** tab. Find the “Initial extent” row and click the **From layer** button. Then select *Bicycle roads* layer and click the **Pick selected** button. Now the map will open viewing the area of this layer.
+Cambia a la pestaña **Configuración**. Busca la fila *Extensión inicial* y haz clic en el botón **Desde capa**. Luego selecciona la capa *Bicisendas* y haz clic en el botón **Tomar seleccionado**. Ahora el mapa se abrirá mostrando el área de esta capa.
 
 .. figure:: _static/tutorial_webmap_extent_en.png
    :name: 
@@ -269,9 +269,9 @@ Switch to the **Settings** tab. Find the “Initial extent” row and click the 
    :width: 20cm
 
 
-Click the **Create** button to finalize Web Map creation. 
+Haz clic en el botón **Crear** para finalizar la creación del mapa web.
 
-Web Map resources have a special **Display** mode. It could be accessed from the right panel of the resource interface.
+Los recursos de tipo mapa web tienen un modo especial de visualización. Se puede acceder a él desde el panel derecho de la interfaz del recurso.
 
 .. figure:: _static/tutorial_webmap_display_en.png
    :name: 
@@ -279,23 +279,31 @@ Web Map resources have a special **Display** mode. It could be accessed from the
    :width: 16cm
 
 
-Or, if you return to the *Wroclaw* resource group, click the |button_open_web_map| map icon to the right of the Web Map resource name.
+O, si vuelves al grupo de recursos *Wroclaw*, haz clic en el ícono de mapa |button_open_web_map| que se encuentra a la derecha del nombre del recurso Mapa Web.
 
 .. |button_open_web_map| image:: _static/button_open_web_map.png
    :width: 6mm
 
-When you click |button_open_web_map| **Display**, an interactive Web Map opens. Each map has its own display URL and a lot of tools to explore and manage the data. 
+Al hacer clic en **Visualización** |button_open_web_map|, se abrirá un mapa web interactivo. Cada mapa tiene su propia URL de visualización y cuenta con numerosas herramientas para explorar y administrar los datos.
 
 .. figure:: _static/tutorial_webmap_displayed_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Tabs on the left allow to manage layers, identify, find and edit features, share or print the map. See documentation for more information about Web Map tools and panels: https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
 
-You can create as many Web Maps as you need, combining available layers and their styles.
+Las pestañas de la izquierda permiten administrar capas, identificar, buscar y editar elementos geográficos, así como compartir o imprimir el mapa. Consulta la documentación para obtener más información sobre las herramientas y paneles del mapa web:  
+https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
 
-Let's explore what else you can do:
+Puedes crear tantos mapas web como necesites, combinando las capas disponibles y sus estilos.
+
+Exploremos qué más puedes hacer:
+
+* Añadir datos publicados en servidores externos.
+* Cambiar el mapa base.
+* Crear una capa vectorial desde cero.
+* Editar elementos vectoriales en un mapa web y adjuntar archivos.
+* Publicar un servicio OGC API - Features.
 
 * `Add data published on external servers <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_;
 * `Change basemap <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_;
