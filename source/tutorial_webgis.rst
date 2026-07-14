@@ -474,8 +474,8 @@ Open the Web Map in |button_open_web_map| display mode. Now the new basemap is u
 
 .. _empty_layer:
 
-Create vector layer inside Web GIS
-------------------------------------
+Crear capa vectorial dentro del SIG Web
+---------------------------------------
 
 It is possible not only to upload data from files, but also to create datasets right inside the Web GIS. 
 
@@ -558,8 +558,8 @@ But first we'll add some features to the newly created layer using Web interface
 
 .. _edit:
 
-Edit vector layer on a Web Map, add file attachments
------------------------------------------------------
+Editar capa vectorial en el Mapa Web y adjuntar archivos
+--------------------------------------------------------
 
 Return to the *Wroclaw* resource group and enter the |button_edit| Update mode of the Web Map.
 
@@ -658,8 +658,8 @@ Now that we have data in this layer, let's publish it via OGC API Features.
 
 .. _ogc_api:
 
-Publish OGC API — Features service 
---------------------------------------
+Publicar servicio OGC API - Features
+------------------------------------
 
 We'll publish this layer with OGC API — Features protocol so that it can be edited in external software. Go back to the *Wroclaw* resource group and create a new resource, **OGC API Features service**.
 
@@ -695,8 +695,8 @@ The service is created and you are redirected to its page. In the **External acc
 
 .. _next:
 
-What next
------------
+Qué sigue?
+----------
 
 Congratulations! You’ve completed the tutorial and learned the basics of geospatial data management in NextGIS Web.
 
@@ -708,18 +708,3 @@ There are still a lot of things to explore. You can learn to:
 * and many more.
 
 Try other tutorials or dive into documentation to learn more.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
