@@ -292,11 +292,11 @@ Al hacer clic en |button_open_web_map| **Visualización**, se abrirá un mapa we
    :width: 20cm
 
 
-Las pestañas de la izquierda permiten administrar capas, identificar, buscar y editar elementos geográficos, así como compartir o imprimir el mapa. Consulta la `documentación <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html>`_ para obtener más información sobre las herramientas y paneles del mapa web:  
+Las pestañas de la izquierda permiten administrar capas, identificar, buscar y editar elementos geográficos, así como compartir o imprimir el mapa. Consulta la `documentación <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html>`_ para obtener más información sobre las herramientas y paneles del mapa web.  
 
 Puedes crear tantos mapas web como necesites, combinando las capas disponibles y sus estilos.
 
-Exploremos qué más puedes hacer:
+Exploremos qué más puedes hacer con NextGIS Web:
 
 * `Agregar capa WMS externa al Mapa Web <tutorial_webgis.rst#Agregar-capa-WMS-externa-al-Mapa-Web>`_
 * `Agregar Mapa Base al Mapa Web <tutorial_webgis.rst#Agregar-Mapa-Base-al-Mapa-Web>`_.
@@ -309,9 +309,9 @@ Exploremos qué más puedes hacer:
 Agregar capa WMS externa al Mapa Web
 ------------------------------------
 
-You can connect external :term:`WMS`, :term:`WFS`, :term:`TMS` and :term:`PostGIS` data to NextGIS Web. Let’s explore it with the example of Wroclaw orthophoto serving as a public WMS service.
+Puedes conectar datos externos `WMS<>`_, `WFS <>`_, `TMS <>`_ y `PostGIS <>`_ a NextGIS Web. Vamos a explorarlo con el ejemplo de la ortofoto de *Wroclaw* que se ofrece como un servicio WMS público.
 
-Return to the *Wroclaw* resource group and create a new resource — **WMS connection**.
+Vuelve al grupo de recursos de *Wroclaw* y crea un nuevo recurso: **Conexión WMS**.
 
 .. figure:: _static/tutorial_select_wms_con_en.png
    :name: 
@@ -319,7 +319,7 @@ Return to the *Wroclaw* resource group and create a new resource — **WMS conne
    :width: 20cm
 
 
-On the resource tab set the name — ``Wroclaw orthophoto service``:
+En la pestaña Recurso, establece el nombre: *Servicio de ortofoto de Wroclaw*
 
 .. figure:: _static/tutorial_wms_con_name_en.png
    :name: 
@@ -327,7 +327,7 @@ On the resource tab set the name — ``Wroclaw orthophoto service``:
    :width: 20cm
 
 
-On the WMS Connection tab set the URL: https://gis1.um.wroc.pl/arcgis/services/ogc/OGC_ortofoto_2024/MapServer/WMSServer
+En la pestaña **Conexión WMS**, establece la URL: ``https://gis1.um.wroc.pl/arcgis/services/ogc/OGC_ortofoto_2024/MapServer/WMSServer``
 
 .. figure:: _static/tutorial_wms_con_link_en.png
    :name: 
@@ -335,9 +335,9 @@ On the WMS Connection tab set the URL: https://gis1.um.wroc.pl/arcgis/services/o
    :width: 20cm
 
 
-Then click the **Create** button.
+Luego, haz clic en el botón **Crear**.
 
-Return to the *Wroclaw* group again and create another resource — **WMS layer**.
+Vuelve al grupo de *Wroclaw* y crea otro recurso: **Capa WMS**.
 
 .. figure:: _static/tutorial_select_wms_layer_en.png
    :name: 
@@ -345,7 +345,7 @@ Return to the *Wroclaw* group again and create another resource — **WMS layer*
    :width: 20cm
 
 
-On the Resource tab set the name — ``Wroclaw orthophoto layer``:
+En la pestaña **Recurso**, establece el nombre: *Capa de ortofoto de Wroclaw*.
 
 .. figure:: _static/tutorial_wms_layer_name_en.png
    :name: 
@@ -353,7 +353,7 @@ On the Resource tab set the name — ``Wroclaw orthophoto layer``:
    :width: 20cm
 
 
-On the **WMS Layer** tab click the *“WMS Connection”* field and select **Wroclaw orthophoto service** resource, then click **Pick selected**.
+En la pestaña **Capa WMS**, haz clic en el campo **Conexión WMS** y selecciona el recurso **Servicio de ortofoto de Wroclaw**, luego haz clic en **Seleccionar lo elegido**.
 
 .. figure:: _static/tutorial_wms_layer_pick_con_en.png
    :name: 
@@ -361,7 +361,7 @@ On the **WMS Layer** tab click the *“WMS Connection”* field and select **Wro
    :width: 20cm
 
 
-In the *“Image format”* dropdown list select **image/png**, and in the *WMS layers* dropdown list select **Ortofotomapa 2024 - GUGiK**.
+En la lista desplegable **Formato de imagen**, selecciona **image/png**, y en la lista desplegable de **Capas WMS**, selecciona **Ortofotomapa 2024 - GUGiK**
 
 .. figure:: _static/tutorial_wms_layer_settings_en.png
    :name: 
@@ -369,9 +369,9 @@ In the *“Image format”* dropdown list select **image/png**, and in the *WMS 
    :width: 20cm
 
 
-Then click the **Create** button. WMS connection and layer are created. 
+Luego, haz clic en el botón **Crear**. La conexión WMS y la capa fueron creadas.
 
-In the **External access** section you'll find an auto-generated URL that can be used to connect the data as **raster tiles**. Right away you can add this data to a Web app or a desktop app such as QGIS. Your Web GIS serves as a proxy for the WMS service.
+En la sección **Acceso externo**, encontrarás una URL generada automáticamente que se puede usar para conectar los datos como teselas ráster. Ahora mismo puedes agregar estos datos a una aplicación web o a una aplicación de escritorio como QGIS. Tu Web GIS actúa como un *proxy* para el servicio WMS.
 
 .. figure:: _static/tutorial_wms_layer_result_en.png
    :name: 
@@ -379,7 +379,7 @@ In the **External access** section you'll find an auto-generated URL that can be
    :width: 20cm
 
 
-To **add the WMS layer to the Web Map** return to the *Wroclaw* resource group and click the |button_edit| pencil icon next to the Web Map.
+Para **Agregar la capa WMS al Mapa Web**, vuelve al grupo de recursos de *Wroclaw* y haz clic en el ícono |button_edit| del lápiz de editar junto al Mapa Web.
 
 .. |button_edit| image:: _static/button_edit.png
    :width: 6mm
@@ -390,7 +390,7 @@ To **add the WMS layer to the Web Map** return to the *Wroclaw* resource group a
    :width: 20cm
 
 
-On the **Layers** tab click |button_plus_layer| **Layer** button, select *“Wroclaw orthophoto layer”* and click **Pick selected** button. WMS layer is now added to the Web Map.
+En la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Capa**, selecciona *Capa de ortofoto de Wroclaw* y haz clic en el botón **Seleccionar lo elegido**. La capa WMS ahora se agrega al Mapa Web.
 
 .. figure:: _static/tutorial_webmap_add_wms_en.png
    :name: 
@@ -398,7 +398,7 @@ On the **Layers** tab click |button_plus_layer| **Layer** button, select *“Wro
    :width: 20cm
 
 
-Save the map and open it in display mode. You’ll see that a detailed orthophotomap from external source is now underlaying the previously uploaded data.
+Guarda el mapa y ábrelo en modo de visualización. Verás que un ortofotomapa detallado de una fuente externa ahora sirve como base para los datos cargados anteriormente.
 
 .. figure:: _static/tutorial_webmap_with_wms_en.png
    :name: 
