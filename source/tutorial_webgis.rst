@@ -411,9 +411,9 @@ Guarda el mapa y ábrelo en modo de visualización. Verás que un ortofotomapa d
 Agregar Mapa Base al Mapa Web
 -----------------------------
 
-By default Web Maps use the standard OpenStreetMap basemap. But you can connect other basemaps and use them with your Web Maps.
+Por defecto, los Mapas Web usan el mapa base estándar de *OpenStreetMap (OSM)*. También puedes conectar otros mapas base y usarlos con tus Mapas Web.
 
-Return to the *Wroclaw* resource group and create a new resource — **Basemap**.
+Vuelve al grupo de recursos de *Wroclaw* y crea un nuevo recurso: **Mapa base**.
 
 .. figure:: _static/tutorial_select_basemap_en.png
    :name: 
@@ -421,18 +421,18 @@ Return to the *Wroclaw* resource group and create a new resource — **Basemap**
    :width: 20cm
 
 
-Here you can use our public crowdsourced collection of map services, qms.nextgis.com. Start entering the name of the basemap in the **Pick from QMS** field and select what you need from search results.
+Aquí puedes usar nuestra colección colaborativa pública de servicios de mapas, qms.nextgis.com. Comienza a escribir el nombre del mapa base en el campo **Elegir de QMS** y selecciona lo que necesites de los resultados de la búsqueda.
 
 .. figure:: _static/tutorial_qms_pick_poistron_en.png
    :name: 
    :align: center
    :width: 20cm
 
-All other fields will be filled automatically, also a preview will be available to explore the selected basemap.
+Todos los demás campos se completarán automáticamente, y también habrá una vista previa disponible para explorar el mapa base seleccionado.
 
-An alternative way to create a basemap is to enter the URL for the **XYZ tiles** manually. 
+Una forma alternativa de crear un mapa base es introducir manualmente la URL de una **tesela XYZ**.
 
-Use the slider in the top right corner to compare this basemap to the default OSM.
+Usa el control deslizante en la esquina superior derecha para comparar este mapa base con el predeterminado de *OSM*.
 
 .. figure:: _static/tutorial_basemap_preview_en.png
    :name: 
@@ -441,7 +441,7 @@ Use the slider in the top right corner to compare this basemap to the default OS
 
 
 
-On the **Resource** tab set the name of the basemap.
+En la pestaña **Recurso**, establece el nombre del mapa base.
 
 
 .. figure:: _static/tutorial_basemap_name_en.png
@@ -449,7 +449,7 @@ On the **Resource** tab set the name of the basemap.
    :align: center
    :width: 20cm
 
-Click the **Create** button.
+Haz clic en el botón **Crear**.
 
 To add the newly created basemap to the Web Map return to the *Wroclaw* resource group and |button_edit| edit the Web Map resource.
 
