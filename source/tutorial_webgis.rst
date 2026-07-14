@@ -119,7 +119,7 @@ En la sección de **Acceso externo** encontrarás una URL generada automáticame
 
 
 
-Para ver los datos, abre la tabla de características haciendo clic en |button_open_feature_table.png| **Tabla** en el menú de la derecha
+Para ver los datos, abre la tabla de características haciendo clic en |button_open_feature_table| **Tabla** en el menú de la derecha
 
 .. |button_open_feature_table| image:: _static/button_open_feature_table.png
    :width: 6mm
