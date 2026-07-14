@@ -23,11 +23,11 @@ Basico
 
 Advanzado
 
-7. `Agregar capa WMS externa al Mapa Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
-8. `Agregar Mapa Base <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
-9. `Crear capa vectorial dentro del SIG Web <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
-10. `Editar capa vectorial en el Mapa Web y adjuntar archivos <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
-11. `Publicar servicio OGC API - Features <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#ogc-api>`_
+7. `Agregar capa WMS externa al Mapa Web <tutorial_webgis.rst#Agregar-capa-WMS-externa-al-Mapa-Web>`_
+8. `Agregar Mapa Base al Mapa Web <tutorial_webgis.rst#Agregar-Mapa-Base-al-Mapa-Web>`_
+9. `Crear capa vectorial dentro del SIG Web <tutorial_webgis.rst#Crear-capa-vectorial-dentro-del-SIG-Web>`_
+10. `Editar capa vectorial en el Mapa Web y adjuntar archivos <tutorial_webgis.rst#Editar-capa-vectorial-en-el-Mapa-Web-y-adjuntar-archivos>`_
+11. `Publicar servicio OGC API - Features <tutorial_webgis.rst#Publicar-servicio-OGC-API---Features>`_
 12. `Qué sigue? <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#what-next>`_
 
 .. _account:
@@ -299,10 +299,10 @@ Puedes crear tantos mapas web como necesites, combinando las capas disponibles y
 Exploremos qué más puedes hacer:
 
 * `Agregar capa WMS externa al Mapa Web <tutorial_webgis.rst#Agregar-capa-WMS-externa-al-Mapa-Web>`_
-* `Cambiar el mapa base <tutorial_webgis.rst#...>`_.
-* `Crear una capa vectorial desde cero <tutorial_webgis.rst#...>`_.
-* `Editar elementos vectoriales en un mapa web y adjuntar archivos <tutorial_webgis.rst#...>`_.
-* `Publicar servicio OGC API - Features <tutorial_webgis.rst#...>`_.
+* `Agregar Mapa Base al Mapa Web <tutorial_webgis.rst#Agregar-Mapa-Base-al-Mapa-Web>`_.
+* `Crear capa vectorial dentro del SIG Web <tutorial_webgis.rst#Crear-capa-vectorial-dentro-del-SIG-Web>`_.
+* `Editar capa vectorial en el Mapa Web y adjuntar archivos <tutorial_webgis.rst#Editar-capa-vectorial-en-el-Mapa-Web-y-adjuntar-archivos>`_.
+* `Publicar servicio OGC API - Features <tutorial_webgis.rst#Publicar-servicio-OGC-API---Features>`_.
 
 .. _wms:
 
@@ -408,8 +408,8 @@ Save the map and open it in display mode. You’ll see that a detailed orthophot
 
 .. _basemap:
 
-Add basemaps to Web Map
----------------------------
+Agregar Mapa Base al Mapa Web
+-----------------------------
 
 By default Web Maps use the standard OpenStreetMap basemap. But you can connect other basemaps and use them with your Web Maps.
 
