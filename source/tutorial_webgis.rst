@@ -562,7 +562,7 @@ Aunque primero, añadiremos algunas entidades a la capa, recién creada, usando 
 Editar capa vectorial en el Mapa Web y adjuntar archivos
 --------------------------------------------------------
 
-Return to the *Wroclaw* resource group and enter the |button_edit| Update mode of the Web Map.
+Vuelve al grupo de recursos *Wroclaw* y entra en el modo |button_edit| **Actualizar** del Mapa Web.
 
 .. figure:: _static/tutorial_webmap_edit_select_en.png
    :name: 
@@ -570,37 +570,37 @@ Return to the *Wroclaw* resource group and enter the |button_edit| Update mode o
    :width: 20cm
 
 
-First, go to the **Layers** tab, click the |button_plus_layer| **Layer** button and add *Bicycle parkings* layer by clicking |button_pick_first| **Select first eligible child resource** on the right side of the layer. Then click **Pick selected**, and drag *Bicycle parkings* layers to the top of the layers list.
+Primero, ve a la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Añadir capa** y agrega la capa *Estacionamientos de bicicletas* haciendo clic en |button_pick_first| **Seleccionar el primer recurso hijo elegible** en el lado derecho de la capa. Luego, haz clic en **Seleccionar el seleccionado** y arrastra la capa *Estacionamientos de bicicletas* a la parte superior de la lista de capas.
 
 .. figure:: _static/tutorial_webmap_add_empty_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Next, go to the  **Settings** tab, find the **Layers editing** dropdown menu and select **Enable**. Save the changes.
+A continuación, ve a la pestaña **Configuración**, busca el menú desplegable **Edición de capas** y selecciona **Habilitar**. Guarda los cambios.
 
 .. figure:: _static/tutorial_webmap_enable_editing_en.png
    :name: 
    :align: center
    :width: 20cm
 
-You have just added the new vector layer to the map and activated layer editing. Now go to the |button_open_web_map| “Display” mode of the map.
+Acabas de añadir la nueva capa vectorial al mapa y has activado la edición de capas. Ahora ve al modo |button_open_web_map| **Visualizar** del mapa.
 
 .. figure:: _static/tutorial_webmap_display_en.png
    :name: 
    :align: center
    :width: 16cm
 
-Zoom in to a place on the map where you would like to place a new bicycle parking. Next, open the layer's context menu by clicking the three dots to the right of its name, and select |button_edit| **Edit**.
+Haz zoom a un lugar en el mapa donde te gustaría colocar un nuevo estacionamiento de bicicletas. Luego, abre el menú contextual de la capa haciendo clic en los tres puntos a la derecha de su nombre y selecciona |button_edit| **Editar**.
 
 .. figure:: _static/tutorial_layer_start_edit_en.png
    :name: 
    :align: center
    :width: 16cm
 
-New tools have appeared on the map. 
+Han aparecido nuevas herramientas en el mapa. 
 
-Select |button_maptool_plus| tool and click on the desired place.
+Selecciona la herramienta |button_maptool_plus| y haz clic en el lugar deseado.
 
 .. |button_maptool_plus| image:: _static/button_maptool_plus.png
    :width: 6mm
@@ -611,14 +611,14 @@ Select |button_maptool_plus| tool and click on the desired place.
    :align: center
    :width: 20cm
 
-Pop-up modal window appears, where you can set attribute values, e.g. ``15`` as the number of parking spaces.
+Aparecerá una ventana emergente donde puedes establecer los valores de los atributos, por ejemplo, **15** para el número de plazas de estacionamiento.
 
 .. figure:: _static/tutorial_add_point_attr_en.png
    :name: 
    :align: center
    :width: 20cm
 
-There are also two additional tabs available. On the **Description** tab you could enter any rich-text with images to describe the feature. On the **Attachments** tab you could attach an unlimited number of photos or any sort of files to the feature. Change tab to the “Attachments”, click the |button_upload| **Upload** button and select ``Bicycle_parking.jpg`` and ``WRM_Regulations.pdf`` files from the tutorial dataset.
+Hay dos pestañas adicionales disponibles. En la pestaña **Descripción** puedes ingresar cualquier texto enriquecido con imágenes para describir la entidad. En la pestaña **Archivos adjuntos**, puedes adjuntar un número ilimitado de fotos o cualquier tipo de archivo a la entidad. Cambia a la pestaña **Archivos adjuntos**, haz clic en el botón |button_upload| **Subir** y selecciona los archivos ``Bicycle_parking.jpg`` y ``WRM_Regulations.pdf`` del conjunto de datos del tutorial.
 
 .. |button_upload| image:: _static/button_upload.png
    :width: 6mm
@@ -628,34 +628,34 @@ There are also two additional tabs available. On the **Description** tab you cou
    :align: center
    :width: 20cm
 
-Click the **OK** button to save the feature. 
+Haz clic en el botón **Aceptar** para guardar la entidad. 
 
-Then go to the context menu of *Bicycle parkings* layer again and click **Stop editing**.
+Luego, vuelve al menú contextual de la capa **Estacionamientos de bicicletas** y haz clic en **Dejar de editar**.
 
 .. figure:: _static/tutorial_stop_edit_en.png
    :name: 
    :align: center
    :width: 14cm
 
-Confirm the edits by clicking the **Save** button in the pop-up dialog.
+Confirma las ediciones haciendo clic en el botón **Guardar** en el cuadro de diálogo emergente.
 
 .. figure:: _static/tutorial_edit_confirm_en.png
    :name: 
    :align: center
    :width: 12cm
 
-A new feature is created. 
+Se ha creado una nueva entidad.
 
-Click on the point symbol on the map. An identification panel will appear, where you can explore the attributes and attachments of the feature.
+Haz clic en el símbolo del punto en el mapa. Aparecerá un panel de identificación donde podrás explorar los atributos y archivos adjuntos de la entidad.
 
 .. figure:: _static/tutorial_feature_identify_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Click on the attached photos and panoramas to view them.
+Haz clic en las fotos y panoramas adjuntos para verlos.
 
-Now that we have data in this layer, let's publish it via OGC API Features.
+Ahora que tenemos datos en esta capa, publiquémosla a través de OGC API Features.
 
 .. _ogc_api:
 
