@@ -430,7 +430,7 @@ Aquí puedes usar nuestra colección colaborativa pública de servicios de mapas
 
 Todos los demás campos se completarán automáticamente, y también habrá una vista previa disponible para explorar el mapa base seleccionado.
 
-Una forma alternativa de crear un mapa base es introducir manualmente la URL de una **tesela XYZ**.
+Una forma alternativa de crear un mapa base es introducir manualmente la URL de una **Tesela XYZ**.
 
 Usa el control deslizante en la esquina superior derecha para comparar este mapa base con el predeterminado de *OSM*.
 
@@ -451,21 +451,21 @@ En la pestaña **Recurso**, establece el nombre del mapa base.
 
 Haz clic en el botón **Crear**.
 
-To add the newly created basemap to the Web Map return to the *Wroclaw* resource group and |button_edit| edit the Web Map resource.
+Para agregar el mapa base recién creado al Mapa Web, vuelve al grupo de recursos de *Wroclaw* y edita con |button_edit| el recurso **Mapa Web**.
 
 .. figure:: _static/tutorial_webmap_enter_update_en.png
    :name: 
    :align: center
    :width: 20cm
 
-On the **Basemaps** tab click |button_plus_layer| **Add** button and select the created Basemap resource. Then click **Pick selected** and save the Web Map.
+En la pestaña **Mapas base**, haz clic en el botón |button_plus_layer| **Agregar** y selecciona el recurso **Mapa base** creado. Luego, haz clic en **Seleccionar lo elegido** y guarda el Mapa Web.
 
 .. figure:: _static/tutorial_webmap_add_basemap_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Open the Web Map in |button_open_web_map| display mode. Now the new basemap is used.
+Abre el Mapa Web en modo de visualización |button_open_web_map|. Ahora ya puedes usar el nuevo mapa base.
 
 .. figure:: _static/tutorial_webmap_positron_en.png
    :name: 
