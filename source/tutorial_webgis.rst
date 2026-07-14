@@ -662,32 +662,32 @@ Ahora que tenemos datos en esta capa, publiquémosla a través de OGC API Featur
 Publicar servicio OGC API - Features
 ------------------------------------
 
-We'll publish this layer with OGC API — Features protocol so that it can be edited in external software. Go back to the *Wroclaw* resource group and create a new resource, **OGC API Features service**.
+Publicaremos esta capa con el protocolo OGC API — Features, para que pueda ser editada en software externo. Vuelve al grupo de recursos **Wroclaw** y crea un nuevo recurso, **Servicio OGC API Features**.
 
 .. figure:: _static/tutorial_select_ogcapif_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Service creation is a simple process. All you need is to select a layer. 
+La creación del servicio es un proceso sencillo. Todo lo que necesitas es seleccionar una capa.
 
-On the **OGC API Features service** tab click the |button_plus_layer| **Add** button and select the *Bicycle parkings* layer, then click the **Pick selected** button.
+En la pestaña del **Servicio OGC API Features**, haz clic en el botón |button_plus_layer| **Agregar capa** y selecciona la capa **Estacionamientos de bicicletas**, luego haz clic en el botón **Seleccionar los elegidos**.
 
 .. figure:: _static/tutorial_ogcapif_select_layer_en.png
    :name: 
    :align: center
    :width: 20cm
 
-By default the resource would be called just "OGC API Features service". To set a custom display name go to the **Resource** tab and enter ``Bicycle parkings (features service)``. Then click the **Create** button.
+Por defecto, el recurso se llamará simplemente *OGC API Features service*, para establecer un nombre personalizado, ve a la pestaña **Recurso** e ingresa **Estacionamientos de bicicletas (servicio de entidades)**. Luego haz clic en el botón **Crear**.
 
-.. note:: The name "Bicycle parkings" is already used for the vector layer resource, so you need to add "features service" at the end. 
+.. note:: El nombre *Estacionamientos de bicicletas* ya está siendo usado para el recurso de capa vectorial, por lo que debes agregar *servicio de entidades* al final.
 
 .. figure:: _static/tutorial_ogcapif_name_en.png
    :name: 
    :align: center
    :width: 20cm
 
-The service is created and you are redirected to its page. In the **External access** section you can see the endpoint of the published service. Copy the URL to use it in external applications.
+Al crear el servicio serás redirigido a su URL. En la sección **Acceso externo** puedes ver el *enlace* del servicio publicado. Copia la URL para usarla en aplicaciones externas.
 
 .. figure:: _static/tutorial_ogcapif_result_en.png
    :name: 
@@ -699,13 +699,13 @@ The service is created and you are redirected to its page. In the **External acc
 Qué sigue?
 ----------
 
-Congratulations! You’ve completed the tutorial and learned the basics of geospatial data management in NextGIS Web.
+¡Felicidades! Has completaste el tutorial y aprendiste los conceptos básicos de la gestión de datos geoespaciales en NextGIS Web.
 
-There are still a lot of things to explore. You can learn to:
+Todavía hay muchas cosas por explorar. Puedes aprender a:
 
-* manage users and permissions, allowing to set up unique access combinations for each layer, service and map;
-* manage coordinate reference systems;
-* manage data directly from QGIS, including project publishing, style management and collaborative editing;
-* and many more.
+* administrar usuarios y permisos, lo que permite configurar combinaciones de acceso únicas para cada capa, servicio y mapa;
+* administrar sistemas de referencia de coordenadas;
+* administrar datos directamente desde QGIS, incluyendo la publicación de proyectos, la gestión de estilos y la edición colaborativa;
+* y mucho más.
 
-Try other tutorials or dive into documentation to learn more.
+Prueba otros tutoriales o profundiza en la documentación para aprender más.
