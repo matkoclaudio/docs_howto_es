@@ -477,9 +477,9 @@ Abre el Mapa Web en modo de visualización |button_open_web_map|. Ahora ya puede
 Crear capa vectorial dentro del SIG Web
 ---------------------------------------
 
-It is possible not only to upload data from files, but also to create datasets right inside the Web GIS. 
+No solo es posible cargar datos desde archivos, sino que también puedes crear conjuntos de datos directamente dentro del Web GIS.
 
-Return to the *Wroclaw* resource group and create a new resource — **Vector layer**.
+Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso **Capa vectorial**.
 
 .. figure:: _static/tutorial_select_empty_layer_en.png
    :name: 
