@@ -298,22 +298,16 @@ Puedes crear tantos mapas web como necesites, combinando las capas disponibles y
 
 Exploremos qué más puedes hacer:
 
-* `Añadir datos publicados en servidores externos < >`_
-* `Cambiar el mapa base < >`_.
-* `Crear una capa vectorial desde cero < >`_.
-* `Editar elementos vectoriales en un mapa web y adjuntar archivos < >`_.
-* `Publicar servicio OGC API - Features < >`_.
-*
-* `Add data published on external servers <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_;
-* `Change basemap <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#add-basemaps-to-web-map>`_;
-* `Create a vector layer from skratch <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_;
-* `Edit vector features on a Web Map and attach files <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_;
-* `Publish OGC API — Features service <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
+* `Agregar capa WMS externa al Mapa Web <tutorial_webgis.rst#Agregar-capa-WMS-externa-al-Mapa-Web>`_
+* `Cambiar el mapa base <tutorial_webgis.rst#...>`_.
+* `Crear una capa vectorial desde cero <tutorial_webgis.rst#...>`_.
+* `Editar elementos vectoriales en un mapa web y adjuntar archivos <tutorial_webgis.rst#...>`_.
+* `Publicar servicio OGC API - Features <tutorial_webgis.rst#...>`_.
 
 .. _wms:
 
-Add external WMS layer to Web Map
----------------------------------
+Agregar capa WMS externa al Mapa Web
+------------------------------------
 
 You can connect external :term:`WMS`, :term:`WFS`, :term:`TMS` and :term:`PostGIS` data to NextGIS Web. Let’s explore it with the example of Wroclaw orthophoto serving as a public WMS service.
 
