@@ -486,14 +486,14 @@ Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso **Capa vectorial**
    :align: center
    :width: 20cm
 
-Then open the dropdown menu on the “Vector layer” tab and select **Create empty layer**.
+A continuación, abre el menú desplegable de la pestaña **Capa vectorial** y selecciona **Crear capa vacía**.
 
 .. figure:: _static/tutorial_create_empty_layer_en.png
    :name: 
    :align: center
    :width: 20cm
 
-In the changed interface select the **Point** geometry type.
+En la nueva interfaz, selecciona el tipo de geometría **Punto**.
 
 .. figure:: _static/tutorial_empty_layer_geom_en.png
    :name: 
@@ -501,14 +501,15 @@ In the changed interface select the **Point** geometry type.
    :width: 20cm
 
 
-On the **Resource** tab set the name for the new layer, e.g. ``Bicycle parkings``, and click the **Create** button.
+En la pestaña **Recurso**, asigna un nombre a la nueva capa, por ejemplo, *Estacionamientos de bicicletas*, y haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial_empty_layer_name_en.png
    :name: 
    :align: center
    :width: 20cm
 
-The vector layer is created and you are redirected to its page. Now you need to add attributes to it. Click |button_edit| **Update** in the right menu.
+
+Una vez que la capa vectorial es creada, serás redirigido a su URL. Ahora podrás añadirle atributos, para ello haz clic en el botón |button_edit| **Actualizar** en el menú de la derecha.
 
 .. figure:: _static/tutorial_empty_layer_result_en.png
    :name: 
@@ -516,9 +517,9 @@ The vector layer is created and you are redirected to its page. Now you need to 
    :width: 20cm
 
 
-Here, on the **Fields** tab, click the |button_plus_layer| **Add** button.
+Aquí, en la pestaña **Campos**, haz clic en el botón |button_plus_layer| **Añadir**.
 
-Set up the properties of the new field in the side panel: 
+Configura las propiedades del nuevo campo en el panel lateral:
 
 * Display name: ``Number of parking spaces``, 
 * Keyname: ``parking_spaces``, 
@@ -531,18 +532,18 @@ Set up the properties of the new field in the side panel:
    :align: center
    :width: 16cm
 
-Then click the **Save** button.
+Luego, haz clic en el botón **Guardar**.
 
-Now it’s time to create a style for the new layer. On the vector layer resource page click **Create resource** and select **QGIS vector style**. 
+Ahora es momento de crear un *estilo* para la nueva capa. En la página del recurso de la capa vectorial, haz clic en **Crear recurso** y selecciona **Estilo vectorial QGIS**.
 
-On the **QGIS Style** tab open the dropdown menu and select **User-defined style**.
+En la pestaña **Estilo QGIS**, abre el menú desplegable y selecciona **Estilo definido por el usuario**.
 
 .. figure:: _static/tutorial_style_custom_select_en.png
    :name: 
    :align: center
    :width: 20cm
 
-Simple style constructor is available here. We recommend using QGIS to create styles, but for quick tasks this built-in constructor could be useful. Set up a blue circle with size 12 and white stroke with 1 width. Then click the **Create** button.
+Aquí tienes disponible un constructor de estilos simple. Recomendamos usar QGIS para crear estilos, pero para tareas rápidas, este constructor integrado puede ser útil. Configura un círculo azul de tamaño 12 y un borde blanco de ancho 1. Luego, haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial_style_custom_set_en.png
    :name: 
@@ -550,11 +551,11 @@ Simple style constructor is available here. We recommend using QGIS to create st
    :width: 20cm
 
 
-A new vector layer is created inside Web GIS. 
+Se ha creado una nueva capa vectorial dentro del Web GIS.
 
-You can now add it to Web Maps and `publish it via OGC services <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
+Ahora puedes añadirla a los Mapas Web y publicarla a través de `Servicios OGC <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#publish-ogc-api-features-service>`_
 
-But first we'll add some features to the newly created layer using Web interface.
+Aunque primero, añadiremos algunas entidades a la capa, recién creada, usando la interfaz web.
 
 .. _edit:
 
