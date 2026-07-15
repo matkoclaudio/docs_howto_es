@@ -699,11 +699,11 @@ Al crear el servicio serás redirigido a su URL. En la sección **Acceso externo
 Qué sigue?
 ----------
 
-¡Felicidades! Has completaste el tutorial y aprendiste los conceptos básicos de la gestión de datos geoespaciales en NextGIS Web.
+Felicitaciones! completaste el tutorial y aprendiste los conceptos básicos de la gestión de datos geoespaciales en NextGIS Web.
 
 Todavía hay muchas cosas por explorar. Puedes aprender a:
 
-* administrar usuarios y permisos, lo que permite configurar combinaciones de acceso únicas para cada capa, servicio y mapa;
+* administrar usuarios y permisos, para configurar combinaciones de acceso únicas para cada capa, servicio y mapa;
 * administrar sistemas de referencia de coordenadas;
 * administrar datos directamente desde QGIS, incluyendo la publicación de proyectos, la gestión de estilos y la edición colaborativa;
 * y mucho más.
