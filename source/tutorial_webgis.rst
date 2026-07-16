@@ -142,19 +142,19 @@ Paso 4/6: Cargar estilo
 
 Si deseas generar **teselas TMS** o **añadir una capa a un Mapa Web**, es necesario definir su apariencia, es decir, su *estilo*. Puedes hacer clic en **Crear un estilo QGIS por defecto**. Para esta capa disponemos de un archivo especial que determina los colores y la estructura de las líneas en función de los valores de los atributos.
 
-En la página de la capa, haz clic en el botón **Crear recurso**. Verás un conjunto diferente de recursos disponibles, ya que una capa vectorial solo puede ser el elemento padre de estilos y formularios. Empleamos los estilos QGIS como la vía principal para definir la apariencia de los datos. Selecciona **Estilo vectorial de QGIS**.
+Desde la URL de la capa, haz clic en el botón **Crear recurso**. Verás un conjunto diferente de recursos disponibles, ya que una capa vectorial solo puede ser el elemento padre de estilos y formularios. Empleamos los estilos QGIS como la vía principal para definir la apariencia de los datos. Selecciona **Estilo vectorial QGIS**.
 
-.. figure:: _static/tutorial_select_qstyle_en.png
+.. figure:: _static/tutorial1-paso4-1_es.webp
 
-Carga el archivo llamado ``bicycle_roads.qml`` del conjunto de datos del tutorial. Luego, haz clic en el botón **Crear**.
+Desde la pestaña **Estilo QGIS** carga el archivo llamado ``bicycle_roads.qml`` del conjunto de datos del tutorial. Luego, haz clic en el botón **Crear**.
 
-.. figure:: _static/tutorial_create_qstyle_en.png
+.. figure:: _static/tutorial1-paso4-2_es.webp
 
-Una vez creado el estilo vectorial, serás redirigido a la página del estilo. Pulsa **Vista previa** en el menú lateral derecho para comprobar su aspecto final.
+Una vez creado el estilo vectorial, serás redirigido a la URL del estilo. Pulsa **Previsualizar** en el menú lateral derecho para comprobar su aspecto final.
 
 En la sección **Acceso externo** encontrarás una URL autogenerada que te permitirá acceder a estos datos con el estilo aplicado como un *Servicio de Mapas Teselados (TMS)*, el cual podrás importar, por ejemplo, directamente en QGIS. Para más información, consulta la sección dedicada a `TMS <https://docs.nextgis.com/docs_ngweb/source/services.html#tms-service>`_.
 
-A continuación, puedes cargar otro tipo de capa o saltar directamente a la `Publicar Mapa Web <tutorial_webgis.rst#paso-66-publicar-mapa-web>`_.
+A continuación, puedes cargar otro tipo de capa o pasar directamente a `Publicar Mapa Web <tutorial_webgis.rst#paso-66-publicar-mapa-web>`_.
 
 .. _raster:
 
