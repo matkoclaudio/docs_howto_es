@@ -163,7 +163,7 @@ Paso 5/6: Cargar capa ráster
 
 Vuelve al grupo de recursos *Wroclaw* haciendo clic en su nombre en la ruta de navegación.
 
-.. figure:: _static/tutorial_return_folder_en.png
+.. figure:: _static/tutorial1-paso5-1_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -171,26 +171,27 @@ Vuelve al grupo de recursos *Wroclaw* haciendo clic en su nombre en la ruta de n
 
 Haz clic en el botón **Crear recurso** y selecciona **Capa ráster**.
 
-.. figure:: _static/tutorial_select_raster_layer_en.png
+.. figure:: _static/tutorial1-paso5-2_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
 
-En la pestaña **Capa ráster**, arrastra y suelta el archivo denominado ``plan.tif`` del conjunto de datos del tutorial, o haz clic en **Seleccionar el conjunto de datos** y selecciona el archivo. Luego, haz clic en el botón **Crear**.
+En la pestaña **Capa ráster**, arrastra y suelta el archivo denominado ``plan.tif`` del conjunto de datos del tutorial, o haz clic en **Seleccione un set de datos** y selecciona el archivo. Luego, haz clic en el botón **Crear**.
 
-.. figure:: _static/tutorial_raster_upload_en.png
+.. figure:: _static/tutorial1-paso5-3_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-Se crea la capa ráster y se te redirige a su página. Aquí puedes ver:
+Creada la capa ráster se te redireccionará a su URL. Aquí puedes ver:
+
 * Su ubicación en el árbol de recursos (*Grupo de recursos principal / Wroclaw*).
 * Metadatos básicos (bandas, dimensiones, etc.).
 
-.. figure:: _static/tutorial_raster_result_en.png
+.. figure:: _static/tutorial1-paso5-4_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -200,7 +201,7 @@ En la sección **Acceso externo** encontrarás una URL de acceso **GeoTIFF optim
 
 Puedes aplicar estilos de QGIS a los recursos ráster creando subrecursos. Sin embargo, para archivos ráster RGB(A), basta con hacer clic en **Crear estilo QGIS predeterminado**. Hagámoslo. Se crea el estilo ráster predeterminado y se te redirige a su página.
 
-.. figure:: _static/tutorial_def_raster_style_result_en.png
+.. figure:: _static/tutorial1-paso5-5_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -210,7 +211,7 @@ La URL de acceso a **Teselas ráster (TMS)** para estos datos también se genera
 
 También puedes hacer clic en **Vista previa** en el menú derecho y explorar el ráster que acabas de cargar.
 
-.. figure:: _static/tutorial_raster_preview_en.png
+.. figure:: _static/tutorial1-paso5-6_es.webp
    :name: 
    :align: center
    :width: 20cm
