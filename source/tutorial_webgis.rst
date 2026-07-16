@@ -702,11 +702,11 @@ Qué sigue?
 
 Felicitaciones! completaste el tutorial y aprendiste los conceptos básicos de la gestión de datos geoespaciales en NextGIS Web.
 
-Todavía hay muchas cosas por explorar. Puedes aprender a:
+Todavía hay muchas cosas por explorar, puedes aprender a:
 
-* administrar usuarios y permisos, para configurar combinaciones de acceso únicas para cada capa, servicio y mapa;
-* administrar sistemas de referencia de coordenadas;
-* administrar datos directamente desde QGIS, incluyendo la publicación de proyectos, la gestión de estilos y la edición colaborativa;
+* Administrar usuarios y permisos, para configurar combinaciones de acceso únicas para cada capa, servicio y mapa;
+* Administrar sistemas de referencia de coordenadas;
+* Administrar datos directamente desde QGIS, incluyendo la publicación de proyectos, la gestión de estilos y la edición colaborativa;
 * y mucho más.
 
 Prueba otros tutoriales o profundiza en la documentación para aprender más.
