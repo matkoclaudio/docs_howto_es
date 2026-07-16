@@ -225,7 +225,7 @@ Paso 6/6: Publicar Mapa Web
 
 Ahora que ya tenemos un par de capas con estilos aplicados, estamos listos para publicar nuestro primer mapa web. Para ello vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso, **Mapa Web**.
 
-.. figure:: _static/tutorial_select_webmap_en.png
+.. figure:: _static/tutorial1-paso6-1_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -233,7 +233,7 @@ Ahora que ya tenemos un par de capas con estilos aplicados, estamos listos para 
 
 Hay muchos parámetros que se pueden configurar para un mapa web. En la pestaña **Recurso**, introduce el nombre del mapa, por ejemplo, *Wroclaw*.
 
-.. figure:: _static/tutorial_webmap_name_en.png
+.. figure:: _static/tutorial1-paso6-2_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -248,7 +248,7 @@ En la pestaña **Capas** se define el contenido del mapa web. Haz clic en el bot
    :width: 6mm
 
 
-.. figure:: _static/tutorial_webmap_add_layers_en.png
+.. figure:: _static/tutorial1-paso6-3_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -256,7 +256,7 @@ En la pestaña **Capas** se define el contenido del mapa web. Haz clic en el bot
 
 Después de eso, puedes hacer clic en la capa para editar sus propiedades.
 
-.. figure:: _static/tutorial_webmap_layer_settings_en.png
+.. figure:: _static/tutorial1-paso6-4_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -264,7 +264,7 @@ Después de eso, puedes hacer clic en la capa para editar sus propiedades.
 
 Cambia a la pestaña **Configuración**. Busca la fila *Extensión inicial* y haz clic en el botón **From layers**. Luego selecciona la capa *Bicisendas* y haz clic en el botón **Seleccionar elegido**. Ahora el mapa se abrirá mostrando el área de esta capa.
 
-.. figure:: _static/tutorial_webmap_extent_en.png
+.. figure:: _static/tutorial1-paso6-5_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -274,7 +274,7 @@ Haz clic en el botón **Crear** para finalizar la creación del mapa web.
 
 Los recursos de tipo mapa web tienen un modo especial de visualización. Se puede acceder a él desde el panel derecho de la interfaz del recurso.
 
-.. figure:: _static/tutorial_webmap_display_en.png
+.. figure:: _static/tutorial1-paso6-6_es.webp
    :name: 
    :align: center
    :width: 16cm
@@ -287,7 +287,7 @@ O, si vuelves al grupo de recursos *Wroclaw*, haz clic en el ícono de mapa |but
 
 Al hacer clic en |button_open_web_map| **Mostrar**, se abrirá un mapa web interactivo. Cada mapa tiene su propia URL de visualización y cuenta con numerosas herramientas para explorar y administrar los datos.
 
-.. figure:: _static/tutorial_webmap_displayed_en.png
+.. figure:: _static/tutorial1-paso6-7_es.webp
    :name: 
    :align: center
    :width: 20cm
