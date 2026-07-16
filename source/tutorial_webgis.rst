@@ -223,7 +223,7 @@ Ahora crearemos un mapa web con los datos que acabamos de cargar.
 Paso 6/6: Publicar Mapa Web
 ---------------------------
 
-Ahora que ya tenemos un par de capas con estilos aplicados, estamos listos para publicar nuestro primer mapa web. Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso: **Mapa Web**.
+Ahora que ya tenemos un par de capas con estilos aplicados, estamos listos para publicar nuestro primer mapa web. Para ello vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso, **Mapa Web**.
 
 .. figure:: _static/tutorial_select_webmap_en.png
    :name: 
@@ -239,7 +239,7 @@ Hay muchos parámetros que se pueden configurar para un mapa web. En la pestaña
    :width: 20cm
 
 
-En la pestaña **Capas** se define el contenido de este mapa web. Haz clic en el botón |button_plus_layer| **Capa**. Lo que se añade al mapa es la representación visual de los datos, por lo que **debes seleccionar estilos, no capas**. Es por eso que las casillas de verificación junto a los nombres de las capas no están activas. Puedes hacer clic en una capa y seleccionar su estilo secundario, o simplemente hacer clic en el botón **Seleccionar el primer recurso hijo elegible** |button_pick_first| que aparece a la derecha de la capa para seleccionarla. Selecciona tanto la capa *Bicisendas* como la capa *plan*.
+En la pestaña **Capas** se define el contenido del mapa web. Haz clic en el botón |button_plus_layer| **Capa**. Hay que tener en cuenta que, lo que se añade al mapa es la representación visual de los datos, por lo que **debes seleccionar estilos y no capas**. Las casillas de verificación, junto a los nombres de las capas, no están activas. Puedes hacer clic en una capa y seleccionar su *estilo secundario*, o simplemente hacer clic en el botón **Seleccionar el primer recurso hijo elegible** |button_pick_first| que aparece a la derecha de la capa. Selecciona tanto la capa *Bicisendas* como la capa *plan*.
 
 .. |button_pick_first| image:: _static/button_pick_first.png
    :width: 6mm
@@ -262,7 +262,7 @@ Después de eso, puedes hacer clic en la capa para editar sus propiedades.
    :width: 20cm
 
 
-Cambia a la pestaña **Configuración**. Busca la fila *Extensión inicial* y haz clic en el botón **Desde capa**. Luego selecciona la capa *Bicisendas* y haz clic en el botón **Tomar seleccionado**. Ahora el mapa se abrirá mostrando el área de esta capa.
+Cambia a la pestaña **Configuración**. Busca la fila *Extensión inicial* y haz clic en el botón **From layers**. Luego selecciona la capa *Bicisendas* y haz clic en el botón **Seleccionar elegido**. Ahora el mapa se abrirá mostrando el área de esta capa.
 
 .. figure:: _static/tutorial_webmap_extent_en.png
    :name: 
@@ -285,7 +285,7 @@ O, si vuelves al grupo de recursos *Wroclaw*, haz clic en el ícono de mapa |but
 .. |button_open_web_map| image:: _static/button_open_web_map.png
    :width: 6mm
 
-Al hacer clic en |button_open_web_map| **Visualización**, se abrirá un mapa web interactivo. Cada mapa tiene su propia URL de visualización y cuenta con numerosas herramientas para explorar y administrar los datos.
+Al hacer clic en |button_open_web_map| **Mostrar**, se abrirá un mapa web interactivo. Cada mapa tiene su propia URL de visualización y cuenta con numerosas herramientas para explorar y administrar los datos.
 
 .. figure:: _static/tutorial_webmap_displayed_en.png
    :name: 
