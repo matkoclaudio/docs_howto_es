@@ -197,9 +197,9 @@ Creada la capa ráster se te redireccionará a su URL. Aquí puedes ver:
    :width: 20cm
 
 
-En la sección **Acceso externo** encontrarás una URL de acceso **GeoTIFF optimizado para la nube** generada automáticamente para estos datos. Con este enlace puedes conectar estos datos a recursos externos al instante.
+En la sección **Acceso externo** encontrarás una URL de acceso **Cloud Optimized GeoTIFF** generada automáticamente para estos datos. Con este enlace puedes conectar estos datos a recursos externos al instante.
 
-Puedes aplicar estilos de QGIS a los recursos ráster creando subrecursos. Sin embargo, para archivos ráster RGB(A), basta con hacer clic en **Crear estilo QGIS predeterminado**. Hagámoslo. Se crea el estilo ráster predeterminado y se te redirige a su página.
+Puedes aplicar estilos de QGIS a los recursos ráster creando subrecursos. Sin embargo, para archivos ráster RGB(A), basta con hacer clic en **Crear estilo QGIS predeterminado**, hagámoslo!. Creado el estilo ráster predeterminado serás redirigido a su URL.
 
 .. figure:: _static/tutorial1-paso5-5_es.webp
    :name: 
@@ -209,14 +209,14 @@ Puedes aplicar estilos de QGIS a los recursos ráster creando subrecursos. Sin e
 
 La URL de acceso a **Teselas ráster (TMS)** para estos datos también se genera de forma automática. Puedes utilizar este enlace para conectar estos datos a recursos externos como teselas ráster con el estilo ya aplicado.
 
-También puedes hacer clic en **Vista previa** en el menú derecho y explorar el ráster que acabas de cargar.
+También puedes hacer clic en **Previsualizar** en el menú derecho y explorar el ráster que acabas de cargar.
 
 .. figure:: _static/tutorial1-paso5-6_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-Ahora vamos a crear un mapa web con los datos que acabamos de cargar.
+Ahora crearemos un mapa web con los datos que acabamos de cargar.
 
 .. _webmap:
 
