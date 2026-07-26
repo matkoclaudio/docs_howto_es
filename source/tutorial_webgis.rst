@@ -412,19 +412,19 @@ Guarda el mapa y ábrelo en modo de visualización. Verás que un ortofotomapa d
 Agregar Mapa Base al Mapa Web
 -----------------------------
 
-Por defecto, los Mapas Web usan el mapa base estándar de *OpenStreetMap (OSM)*. También puedes conectar otros mapas base y usarlos con tus Mapas Web.
+Los Mapas Web, por defecto, usan el mapa base estándar de *OpenStreetMap (OSM)*. También puedes conectar otros mapas base y usarlos con tus Mapas Web.
 
 Vuelve al grupo de recursos de *Wroclaw* y crea un nuevo recurso: **Mapa base**.
 
-.. figure:: _static/tutorial_select_basemap_en.png
+.. figure:: _static/tutorial1-paso8-1_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-Aquí puedes usar nuestra colección colaborativa pública de servicios de mapas, qms.nextgis.com. Comienza a escribir el nombre del mapa base en el campo **Elegir de QMS** y selecciona lo que necesites de los resultados de la búsqueda.
+Aquí puedes usar nuestra colección pública y colaborativa de geoservicios, `qms.nextgis.com <https://qms.nextgis.com/>`_. Comienza a escribir el nombre del mapa base en el campo **Elegir de QMS** y selecciona el que necesites de los resultados de la búsqueda.
 
-.. figure:: _static/tutorial_qms_pick_poistron_en.png
+.. figure:: _static/tutorial1-paso8-2_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -435,7 +435,7 @@ Una forma alternativa de crear un mapa base es introducir manualmente la URL de 
 
 Usa el control deslizante en la esquina superior derecha para comparar este mapa base con el predeterminado de *OSM*.
 
-.. figure:: _static/tutorial_basemap_preview_en.png
+.. figure:: _static/tutorial1-paso8-3_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -445,7 +445,7 @@ Usa el control deslizante en la esquina superior derecha para comparar este mapa
 En la pestaña **Recurso**, establece el nombre del mapa base.
 
 
-.. figure:: _static/tutorial_basemap_name_en.png
+.. figure:: _static/tutorial1-paso8-4_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -454,21 +454,21 @@ Haz clic en el botón **Crear**.
 
 Para agregar el mapa base recién creado al Mapa Web, vuelve al grupo de recursos de *Wroclaw* y edita con |button_edit| el recurso **Mapa Web**.
 
-.. figure:: _static/tutorial_webmap_enter_update_en.png
+.. figure:: _static/tutorial1-paso8-5_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-En la pestaña **Mapas base**, haz clic en el botón |button_plus_layer| **Agregar** y selecciona el recurso **Mapa base** creado. Luego, haz clic en **Seleccionar lo elegido** y guarda el Mapa Web.
+En la pestaña **Mapas base**, haz clic en el botón |button_plus_layer| **Agregar** y selecciona el recurso **Mapa base** creado. Luego, haz clic en **Seleccionar elegido** y guarda el Mapa Web.
 
-.. figure:: _static/tutorial_webmap_add_basemap_en.png
+.. figure:: _static/tutorial1-paso8-6_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-Abre el Mapa Web en modo de visualización |button_open_web_map|. Ahora ya puedes usar el nuevo mapa base.
+Abre el Mapa Web en modo de visualización |button_open_web_map|. Ahora puedes usar el nuevo mapa base.
 
-.. figure:: _static/tutorial_webmap_positron_en.png
+.. figure:: _static/tutorial1-paso8-7_es.webp
    :name: 
    :align: center
    :width: 20cm
