@@ -667,7 +667,7 @@ En la pestaña del **Servicio OGC API Features**, haz clic en el botón |button_
 
 Por defecto, el recurso se llamará simplemente *Servicio OGC API Features*, para establecer un nombre personalizado, ve a la pestaña **Recurso** e ingresa *Aparcabicis (servicio de entidades)*. Luego haz clic en el botón **Crear**.
 
-.. nota:: El nombre *Aparcabicis* ya está siendo usado para el recurso de capa vectorial, por lo que debes agregar *servicio de entidades* al final.
+.. note:: El nombre *Aparcabicis* ya está siendo usado para el recurso de capa vectorial, por lo que debes agregar *servicio de entidades* al final.
 
 .. figure:: _static/tutorial1-paso11-3_es.webp
    :name: 
