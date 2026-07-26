@@ -649,34 +649,34 @@ Ahora que tenemos datos en esta capa, publiquémosla a través de OGC API Featur
 Publicar servicio OGC API - Features
 ------------------------------------
 
-Publicaremos esta capa con el protocolo OGC API — Features, para que pueda ser editada en software externo. Vuelve al grupo de recursos **Wroclaw** y crea un nuevo recurso, **Servicio OGC API Features**.
+Publicaremos una capa con el protocolo *OGC API — Features*, para que pueda ser editada en software externo. Vuelve al grupo de recursos **Wroclaw** y crea un nuevo recurso, **Servicio OGC API Features**.
 
-.. figure:: _static/tutorial_select_ogcapif_en.png
+.. figure:: _static/tutorial1-paso11-1_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 La creación del servicio es un proceso sencillo. Todo lo que necesitas es seleccionar una capa.
 
-En la pestaña del **Servicio OGC API Features**, haz clic en el botón |button_plus_layer| **Agregar capa** y selecciona la capa **Estacionamientos de bicicletas**, luego haz clic en el botón **Seleccionar los elegidos**.
+En la pestaña del **Servicio OGC API Features**, haz clic en el botón |button_plus_layer| **Agregar** y selecciona la capa **Aparcabicis**, luego haz clic en el botón **Seleccionar elegido**.
 
-.. figure:: _static/tutorial_ogcapif_select_layer_en.png
+.. figure:: _static/tutorial1-paso11-2_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-Por defecto, el recurso se llamará simplemente *OGC API Features service*, para establecer un nombre personalizado, ve a la pestaña **Recurso** e ingresa **Estacionamientos de bicicletas (servicio de entidades)**. Luego haz clic en el botón **Crear**.
+Por defecto, el recurso se llamará simplemente *Servicio OGC API Features*, para establecer un nombre personalizado, ve a la pestaña **Recurso** e ingresa *Aparcabicis (servicio de entidades)*. Luego haz clic en el botón **Crear**.
 
-.. note:: El nombre *Estacionamientos de bicicletas* ya está siendo usado para el recurso de capa vectorial, por lo que debes agregar *servicio de entidades* al final.
+.. nota:: El nombre *Aparcabicis* ya está siendo usado para el recurso de capa vectorial, por lo que debes agregar *servicio de entidades* al final.
 
-.. figure:: _static/tutorial_ogcapif_name_en.png
+.. figure:: _static/tutorial1-paso11-3_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 Al crear el servicio serás redirigido a su URL. En la sección **Acceso externo** puedes ver el *enlace* del servicio publicado. Copia la URL para usarla en aplicaciones externas.
 
-.. figure:: _static/tutorial_ogcapif_result_en.png
+.. figure:: _static/tutorial1-paso11-4_es.webp
    :name: 
    :align: center
    :width: 20cm
