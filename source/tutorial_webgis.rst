@@ -530,7 +530,7 @@ Luego, haz clic en el botón **Guardar**.
 
 Ahora es momento de crear un *estilo* para la nueva capa. En la página del recurso de la capa vectorial, haz clic en **Crear recurso** y selecciona **Estilo vectorial QGIS**.
 
-En la pestaña **Estilo QGIS**, selecciona **Estilo definido por el usuario**. Aquí tienes disponible un constructor de estilos simple, (Recomendamos usar QGIS para crear estilos, pero para tareas rápidas, este constructor integrado puede ser útil), Configura un círculo azul de tamaño 12 y un borde blanco de ancho 1. Luego, haz clic en el botón **Crear**.
+En la pestaña **Estilo QGIS**, selecciona **Estilo definido por el usuario**. Aquí tienes disponible un constructor de estilos simple, (Recomendamos usar QGIS para crear estilos, pero para tareas rápidas, este constructor integrado puede ser útil), configura un círculo azul de tamaño 12 y un borde blanco de ancho 1. Luego, haz clic en el botón **Crear**.
 
 .. figure:: _static/tutorial1-paso9-6_es.webp
    :name: 
@@ -557,9 +557,9 @@ Vuelve al grupo de recursos *Wroclaw* y entra en el modo |button_edit| **Actuali
    :width: 20cm
 
 
-Primero, ve a la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Añadir capa** y agrega la capa *Estacionamientos de bicicletas* haciendo clic en |button_pick_first| **Seleccionar el primer recurso hijo elegible** en el lado derecho de la capa. Luego, haz clic en **Seleccionar el seleccionado** y arrastra la capa *Estacionamientos de bicicletas* a la parte superior de la lista de capas.
+Primero, ve a la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Layer** y agrega la capa *Aparcabicis* haciendo clic en |button_pick_first| **Seleccionar el primer elegible** en el lado derecho de la capa. Luego, haz clic en **Seleccionar elegido** y arrastra la capa *Aparcabicis* a la parte superior de la lista de capas.
 
-.. figure:: _static/tutorial_webmap_add_empty_en.png
+.. figure:: _static/tutorial1-paso10-1_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -571,7 +571,7 @@ A continuación, ve a la pestaña **Configuración**, busca el menú desplegable
    :align: center
    :width: 20cm
 
-Acabas de añadir la nueva capa vectorial al mapa y has activado la edición de capas. Ahora ve al modo |button_open_web_map| **Visualizar** del mapa.
+Acabas de añadir la nueva capa vectorial al mapa y has activado la edición de capas. Ahora ve al modo |button_open_web_map| **Mostrar** del mapa.
 
 .. figure:: _static/tutorial_webmap_display_en.png
    :name: 
@@ -598,7 +598,7 @@ Selecciona la herramienta |button_maptool_plus| y haz clic en el lugar deseado.
    :align: center
    :width: 20cm
 
-Aparecerá una ventana emergente donde puedes establecer los valores de los atributos, por ejemplo, **15** para el número de plazas de estacionamiento.
+A continuación, aparecerá una ventana emergente donde puedes establecer los valores de los atributos, por ejemplo, **10** para el número de plazas de estacionamiento.
 
 .. figure:: _static/tutorial_add_point_attr_en.png
    :name: 
