@@ -589,7 +589,7 @@ Han aparecido nuevas herramientas en el mapa.
 
 Selecciona la herramienta |button_maptool_plus| y haz clic en el lugar deseado.
 
-.. |button_maptool_plus| image:: _static/button_maptool_plus.png
+.. |button_maptool_plus| image:: _static/button_maptool_plus_nw.png
    :width: 6mm
    :alt: +
 
