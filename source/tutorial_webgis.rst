@@ -551,7 +551,7 @@ Editar capa vectorial en el Mapa Web y adjuntar archivos
 
 Vuelve al grupo de recursos *Wroclaw* y entra en el modo |button_edit| **Actualizar** del Mapa Web.
 
-.. figure:: _static/tutorial_webmap_edit_select_en.png
+.. figure:: _static/tutorial1-paso10-1_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -559,28 +559,28 @@ Vuelve al grupo de recursos *Wroclaw* y entra en el modo |button_edit| **Actuali
 
 Primero, ve a la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Layer** y agrega la capa *Aparcabicis* haciendo clic en |button_pick_first| **Seleccionar el primer elegible** en el lado derecho de la capa. Luego, haz clic en **Seleccionar elegido** y arrastra la capa *Aparcabicis* a la parte superior de la lista de capas.
 
-.. figure:: _static/tutorial1-paso10-1_es.webp
+.. figure:: _static/tutorial1-paso10-2_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 A continuación, ve a la pestaña **Configuración**, busca el menú desplegable **Edición de capas** y selecciona **Habilitar**. Guarda los cambios.
 
-.. figure:: _static/tutorial_webmap_enable_editing_en.png
+.. figure:: _static/tutorial1-paso10-3_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 Acabas de añadir la nueva capa vectorial al mapa y has activado la edición de capas. Ahora ve al modo |button_open_web_map| **Mostrar** del mapa.
 
-.. figure:: _static/tutorial_webmap_display_en.png
+.. figure:: _static/tutorial1-paso10-4_es.webp
    :name: 
    :align: center
    :width: 16cm
 
 Haz zoom a un lugar en el mapa donde te gustaría colocar un nuevo estacionamiento de bicicletas. Luego, abre el menú contextual de la capa haciendo clic en los tres puntos a la derecha de su nombre y selecciona |button_edit| **Editar**.
 
-.. figure:: _static/tutorial_layer_start_edit_en.png
+.. figure:: _static/tutorial1-paso10-5_es.webp
    :name: 
    :align: center
    :width: 16cm
@@ -593,40 +593,40 @@ Selecciona la herramienta |button_maptool_plus| y haz clic en el lugar deseado.
    :width: 6mm
    :alt: +
 
-.. figure:: _static/tutorial_add_point_en.png
+.. figure:: _static/tutorial1-paso10-6_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 A continuación, aparecerá una ventana emergente donde puedes establecer los valores de los atributos, por ejemplo, **10** para el número de plazas de estacionamiento.
 
-.. figure:: _static/tutorial_add_point_attr_en.png
+.. figure:: _static/tutorial1-paso10-7_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-Hay dos pestañas adicionales disponibles. En la pestaña **Descripción** puedes ingresar cualquier texto enriquecido con imágenes para describir la entidad. En la pestaña **Archivos adjuntos**, puedes adjuntar un número ilimitado de fotos o cualquier tipo de archivo a la entidad. Cambia a la pestaña **Archivos adjuntos**, haz clic en el botón |button_upload| **Subir** y selecciona los archivos ``Bicycle_parking.jpg`` y ``WRM_Regulations.pdf`` del conjunto de datos del tutorial.
+Hay dos pestañas adicionales disponibles. En la pestaña **Descripción** puedes ingresar cualquier texto enriquecido con imágenes para describir la entidad. En la pestaña **Adjuntos**, puedes adjuntar un número ilimitado de fotos o cualquier tipo de archivo a la entidad. Cambia a la pestaña **Adjuntos**, haz clic en el botón |button_upload| **Subir** y selecciona los archivos ``Bicycle_parking.jpg`` y ``WRM_Regulations.pdf`` del conjunto de datos del tutorial.
 
 .. |button_upload| image:: _static/button_upload.png
    :width: 6mm
 
-.. figure:: _static/tutorial_add_attachments_en.png
+.. figure:: _static/tutorial1-paso10-8_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-Haz clic en el botón **Aceptar** para guardar la entidad. 
+Haz clic en el botón **Ok** para guardar la entidad. 
 
-Luego, vuelve al menú contextual de la capa **Estacionamientos de bicicletas** y haz clic en **Dejar de editar**.
+Luego, vuelve al menú contextual de la capa **Aparcabicis** y haz clic en **Dejar de editar**.
 
-.. figure:: _static/tutorial_stop_edit_en.png
+.. figure:: _static/tutorial1-paso10-9_es.webp
    :name: 
    :align: center
    :width: 14cm
 
 Confirma las ediciones haciendo clic en el botón **Guardar** en el cuadro de diálogo emergente.
 
-.. figure:: _static/tutorial_edit_confirm_en.png
+.. figure:: _static/tutorial1-paso10-10_es.webp
    :name: 
    :align: center
    :width: 12cm
@@ -635,7 +635,7 @@ Se ha creado una nueva entidad.
 
 Haz clic en el símbolo del punto en el mapa. Aparecerá un panel de identificación donde podrás explorar los atributos y archivos adjuntos de la entidad.
 
-.. figure:: _static/tutorial_feature_identify_en.png
+.. figure:: _static/tutorial1-paso10-11_es.webp
    :name: 
    :align: center
    :width: 20cm
