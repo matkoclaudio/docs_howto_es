@@ -314,23 +314,23 @@ Puedes conectar datos externos `WMS <https://docs.nextgis.com/glossary.html#term
 
 Vuelve al grupo de recursos de *Wroclaw* y crea un nuevo recurso: **Conexión WMS**.
 
-.. figure:: _static/tutorial_select_wms_con_en.png
+.. figure:: _static/tutorial1-paso7-1_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la pestaña Recurso, establece el nombre: *Servicio de ortofoto de Wroclaw*
+En la pestaña **Recurso**, establece el nombre: *Servicio ortofoto de Wroclaw*
 
-.. figure:: _static/tutorial_wms_con_name_en.png
+.. figure:: _static/tutorial1-paso7-2_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la pestaña **Conexión WMS**, establece la URL: ``https://gis1.um.wroc.pl/arcgis/services/ogc/OGC_ortofoto_2024/MapServer/WMSServer``
+En la pestaña **Conexión WMS**, establece la siguiente URL: ``https://gis1.um.wroc.pl/arcgis/services/ogc/OGC_ortofoto_2024/MapServer/WMSServer``
 
-.. figure:: _static/tutorial_wms_con_link_en.png
+.. figure:: _static/tutorial1-paso7-3_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -340,31 +340,31 @@ Luego, haz clic en el botón **Crear**.
 
 Vuelve al grupo de *Wroclaw* y crea otro recurso: **Capa WMS**.
 
-.. figure:: _static/tutorial_select_wms_layer_en.png
+.. figure:: _static/tutorial1-paso7-4_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la pestaña **Recurso**, establece el nombre: *Capa de ortofoto de Wroclaw*.
+En la pestaña **Recurso**, establece el nombre: *Capa ortofoto de Wroclaw*.
 
-.. figure:: _static/tutorial_wms_layer_name_en.png
+.. figure:: _static/tutorial1-paso7-5_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la pestaña **Capa WMS**, haz clic en el campo **Conexión WMS** y selecciona el recurso **Servicio de ortofoto de Wroclaw**, luego haz clic en **Seleccionar lo elegido**.
+En la pestaña **Capa WMS**, haz clic en el campo **Conexión WMS** y selecciona el recurso *Servicio de ortofoto de Wroclaw*, luego haz clic en **Seleccionar elegido**.
 
-.. figure:: _static/tutorial_wms_layer_pick_con_en.png
+.. figure:: _static/tutorial1-paso7-6_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la lista desplegable **Formato de imagen**, selecciona **image/png**, y en la lista desplegable de **Capas WMS**, selecciona **Ortofotomapa 2024 - GUGiK**
+En la lista desplegable **Formato de imagen**, selecciona *image/png*, en la lista desplegable de **Capas WMS**, selecciona *Ortofotomapa 2024 - GUGiK*, y por último en **Remote SRS** selecciona *WGS84/Lon-lat(EPSG:4326)*
 
-.. figure:: _static/tutorial_wms_layer_settings_en.png
+.. figure:: _static/tutorial1-paso7-7_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -374,7 +374,7 @@ Luego, haz clic en el botón **Crear**. La conexión WMS y la capa fueron creada
 
 En la sección **Acceso externo**, encontrarás una URL generada automáticamente que se puede usar para conectar los datos como teselas ráster. Ahora mismo puedes agregar estos datos a una aplicación web o a una aplicación de escritorio como QGIS. Tu Web GIS actúa como un *proxy* para el servicio WMS.
 
-.. figure:: _static/tutorial_wms_layer_result_en.png
+.. figure:: _static/tutorial1-paso7-8_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -385,15 +385,15 @@ Para **Agregar la capa WMS al Mapa Web**, vuelve al grupo de recursos de *Wrocla
 .. |button_edit| image:: _static/button_edit.png
    :width: 6mm
 
-.. figure:: _static/tutorial_webmap_edit_select_en.png
+.. figure:: _static/tutorial1-paso7-9_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Capa**, selecciona *Capa de ortofoto de Wroclaw* y haz clic en el botón **Seleccionar lo elegido**. La capa WMS ahora se agrega al Mapa Web.
+En la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Layer**, selecciona *Capa ortofoto de Wroclaw* y haz clic en el botón **Seleccionar elegido**. La capa WMS ahora se agrega al Mapa Web.
 
-.. figure:: _static/tutorial_webmap_add_wms_en.png
+.. figure:: _static/tutorial1-paso7-10_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -401,7 +401,7 @@ En la pestaña **Capas**, haz clic en el botón |button_plus_layer| **Capa**, se
 
 Guarda el mapa y ábrelo en modo de visualización. Verás que un ortofotomapa detallado de una fuente externa ahora sirve como base para los datos cargados anteriormente.
 
-.. figure:: _static/tutorial_webmap_with_wms_en.png
+.. figure:: _static/tutorial1-paso7-11_es.webp
    :name: 
    :align: center
    :width: 20cm
