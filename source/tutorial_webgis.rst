@@ -372,7 +372,7 @@ En la lista desplegable **Formato de imagen**, selecciona *image/png*, en la lis
 
 Luego, haz clic en el botón **Crear**. La conexión WMS y la capa fueron creadas.
 
-En la sección **Acceso externo**, encontrarás una URL generada automáticamente que se puede usar para conectar los datos como teselas ráster. Ahora mismo puedes agregar estos datos a una aplicación web o a una aplicación de escritorio como QGIS. Tu Web GIS actúa como un *proxy* para el servicio WMS.
+En la sección **Acceso externo**, encontrarás una URL generada automáticamente que se puede usar para conectar los datos como teselas ráster. Ahora mismo puedes agregar estos datos a una aplicación web o a una aplicación de escritorio como QGIS. Tu SIG Web actúa como un *proxy* para el servicio WMS.
 
 .. figure:: _static/tutorial1-paso7-8_es.webp
    :name: 
@@ -478,7 +478,7 @@ Abre el Mapa Web en modo de visualización |button_open_web_map|. Ahora puedes u
 Crear capa vectorial dentro del SIG Web
 ---------------------------------------
 
-No solo es posible cargar datos desde archivos, sino que también puedes crear conjuntos de datos directamente dentro del Web GIS.
+No solo es posible cargar datos desde archivos, sino que también puedes crear conjuntos de datos directamente dentro del SIG Web.
 
 Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso **Capa vectorial**.
 
@@ -487,14 +487,7 @@ Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso **Capa vectorial**
    :align: center
    :width: 20cm
 
-A continuación, abre el menú desplegable de la pestaña **Capa vectorial** y selecciona **Crear capa vacía**.
-
-.. figure:: _static/tutorial_create_empty_layer_en.png
-   :name: 
-   :align: center
-   :width: 20cm
-
-En la nueva interfaz, selecciona el tipo de geometría **Punto**.
+A continuación, en la pestaña **Capa vectorial**, selecciona la opción **Crear capa vacía**, y luego selecciona el tipo de geometría **Punto**. Por último clic en **Crear**
 
 .. figure:: _static/tutorial_empty_layer_geom_en.png
    :name: 
@@ -552,7 +545,7 @@ Aquí tienes disponible un constructor de estilos simple. Recomendamos usar QGIS
    :width: 20cm
 
 
-Se ha creado una nueva capa vectorial dentro del Web GIS.
+Se ha creado una nueva capa vectorial dentro del SIG Web.
 
 Ahora puedes añadirla a los Mapas Web y publicarla a través de `Servicios OGC <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#publish-ogc-api-features-service>`_
 
