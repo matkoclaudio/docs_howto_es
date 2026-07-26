@@ -310,7 +310,7 @@ Exploremos qué más puedes hacer con NextGIS Web:
 Agregar capa WMS externa al Mapa Web
 ------------------------------------
 
-Puedes conectar datos externos `WMS <https://docs.nextgis.com/glossary.html#term-WMS>`_, `WFS <https://docs.nextgis.com/glossary.html#term-WFS>`_, `TMS <https://docs.nextgis.com/glossary.html#term-TMS>`_ y `PostGIS <https://docs.nextgis.com/glossary.html#term-PostGIS>`_ a NextGIS Web. Vamos a explorarlo con el ejemplo de la ortofoto de *Wroclaw* que se ofrece como un servicio WMS público.
+Puedes conectar datos externos `WMS <https://docs.nextgis.com/glossary.html#term-WMS>`_, `WFS <https://docs.nextgis.com/glossary.html#term-WFS>`_, `TMS <https://docs.nextgis.com/glossary.html#term-TMS>`_ y `PostGIS <https://docs.nextgis.com/glossary.html#term-PostGIS>`_ a NextGIS Web. Vamos a explorarlo con el ejemplo de la ortofoto de *Wroclaw* que se ofrece como un servicio público WMS.
 
 Vuelve al grupo de recursos de *Wroclaw* y crea un nuevo recurso: **Conexión WMS**.
 
