@@ -482,22 +482,22 @@ No solo es posible cargar datos desde archivos, sino que también puedes crear c
 
 Vuelve al grupo de recursos *Wroclaw* y crea un nuevo recurso **Capa vectorial**.
 
-.. figure:: _static/tutorial_select_empty_layer_en.png
+.. figure:: _static/tutorial1-paso9-1_es.webp
    :name: 
    :align: center
    :width: 20cm
 
-A continuación, en la pestaña **Capa vectorial**, selecciona la opción **Crear capa vacía**, y luego selecciona el tipo de geometría **Punto**. Por último clic en **Crear**
+A continuación, en la pestaña **Capa vectorial**, selecciona la opción **Crear capa vacía**, y luego selecciona el tipo de geometría **Punto**.
 
-.. figure:: _static/tutorial_empty_layer_geom_en.png
+.. figure:: _static/tutorial1-paso9-2_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-En la pestaña **Recurso**, asigna un nombre a la nueva capa, por ejemplo, *Estacionamientos de bicicletas*, y haz clic en el botón **Crear**.
+En la pestaña **Recurso**, asigna un nombre a la nueva capa, por ejemplo, *Aparcabicis*, y haz clic en el botón **Crear**.
 
-.. figure:: _static/tutorial_empty_layer_name_en.png
+.. figure:: _static/tutorial1-paso9-3_es.webp
    :name: 
    :align: center
    :width: 20cm
@@ -505,23 +505,23 @@ En la pestaña **Recurso**, asigna un nombre a la nueva capa, por ejemplo, *Esta
 
 Una vez que la capa vectorial es creada, serás redirigido a su URL. Ahora podrás añadirle atributos, para ello haz clic en el botón |button_edit| **Actualizar** en el menú de la derecha.
 
-.. figure:: _static/tutorial_empty_layer_result_en.png
+.. figure:: _static/tutorial1-paso9-4_es.webp
    :name: 
    :align: center
    :width: 20cm
 
 
-Aquí, en la pestaña **Campos**, haz clic en el botón |button_plus_layer| **Añadir**.
+Aquí, en la pestaña **Campos**, haz clic en el botón |button_plus_layer| **Agregar**.
 
 Configura las propiedades del nuevo campo en el panel lateral:
 
-* Display name: ``Number of parking spaces``, 
-* Keyname: ``parking_spaces``, 
-* Type: INTEGER. 
+* Nombre para mostrar: ``Número de plazas de aparcamiento``, 
+* Nombre clave: ``numero_plazas_aparcamiento``, 
+* Tipo: INTEGER. 
 
 
 
-.. figure:: _static/tutorial_add_field_en.png
+.. figure:: _static/tutorial1-paso9-5_es.webp
    :name: 
    :align: center
    :width: 16cm
@@ -530,16 +530,9 @@ Luego, haz clic en el botón **Guardar**.
 
 Ahora es momento de crear un *estilo* para la nueva capa. En la página del recurso de la capa vectorial, haz clic en **Crear recurso** y selecciona **Estilo vectorial QGIS**.
 
-En la pestaña **Estilo QGIS**, abre el menú desplegable y selecciona **Estilo definido por el usuario**.
+En la pestaña **Estilo QGIS**, selecciona **Estilo definido por el usuario**. Aquí tienes disponible un constructor de estilos simple, (Recomendamos usar QGIS para crear estilos, pero para tareas rápidas, este constructor integrado puede ser útil), Configura un círculo azul de tamaño 12 y un borde blanco de ancho 1. Luego, haz clic en el botón **Crear**.
 
-.. figure:: _static/tutorial_style_custom_select_en.png
-   :name: 
-   :align: center
-   :width: 20cm
-
-Aquí tienes disponible un constructor de estilos simple. Recomendamos usar QGIS para crear estilos, pero para tareas rápidas, este constructor integrado puede ser útil. Configura un círculo azul de tamaño 12 y un borde blanco de ancho 1. Luego, haz clic en el botón **Crear**.
-
-.. figure:: _static/tutorial_style_custom_set_en.png
+.. figure:: _static/tutorial1-paso9-6_es.webp
    :name: 
    :align: center
    :width: 20cm
