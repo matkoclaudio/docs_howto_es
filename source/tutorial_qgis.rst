@@ -1,4 +1,4 @@
-Tutorial: Seamless QGIS Integration
+[Tutorial: Integración Fluída con QGIS]  
 ====================================
 
 .. |ngconnect_icon| image:: _static/ngconnect_logo-45.png
@@ -36,91 +36,90 @@ Tutorial: Seamless QGIS Integration
    :width: 6mm
 
 
-.. admonition:: Availability
+.. admonition:: Disponibilidad
 
-   Cloud SaaS (all editions), On premise (all editions), Open Source
+   Cloud SaaS (todas las ediciones), On premise (todas las ediciones), Open Source
 
-NextGIS Web is a data-centric server GIS, that allows you to store, manage and publish spatial data in a flexible and effective way. It has a deep integration with QGIS, the leading free and open-source GIS software. 
+NextGIS Web es un servidor GIS que funciona como centro de datos, te permitirá almacenar, administrar y publicar información espacial de manera flexible y eficiente. Tiene una integración profunda con QGIS, el principal software GIS libre y de código abierto.
 
-Integration covers publishing QGIS projects as Web Maps, connecting to Web Maps as QGIS projects, data syncing and collaborative editing from several QGIS instances.
+Esta integración abarca la publicación de proyectos como mapas web, la conexión a estos desde el escritorio, la sincronización de datos y la edición colaborativa desde múltiples instancias de QGIS.
 
-In this step-by-step tutorial you will learn how to publish your QGIS project to the web, then connect to it from another QGIS instance, manage styles at Web Maps from QGIS and edit data from QGIS directly at the server. Register a free cloud account and try it right away!
+En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conectarte a él desde otro equipo, administrar los estilos de los mapas web y editar datos directamente en el servidor, todo sin salir de tu entorno de trabajo habitual. ¡Regístrate para obtener una cuenta gratuita en la nube y empezá ahora mismo!
 
-:download:`Download tutorial data <https://nextgis.com/tutorials/seamless_qgis_integration.zip>` (source: `OpenStreetMap <https://www.openstreetmap.org/>`_, `data.nextgis.com <http://data.nextgis.com>`_, `Copernicus <https://browser.dataspace.copernicus.eu/>`_)
-
-
-.. seealso:: `Store, manage and publish your spatial data <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html>`_
+:download:`Descarga los datos del tutorial <https://nextgis.com/tutorials/seamless_qgis_integration.zip>` (fuente: `OpenStreetMap <https://www.openstreetmap.org/>`_, `data.nextgis.com <http://data.nextgis.com>`_, `Copernicus <https://browser.dataspace.copernicus.eu/>`_)
 
 
-Publish your QGIS project online
-
-1. `Create free account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#account>`_
-2. `Open and explore QGIS project <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#project>`_
-3. `Install NextGIS Connect plugin <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#install>`_
-4. `Create a connection <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#connection>`_
-5. `Publish QGIS project to NextGIS Web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#publish>`_
-
-Result: `Explore the Web Map and resources <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#webmap>`_
-
-Use QGIS to edit data stored in Web GIS 
-
-6. `Connect to Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#download>`_
-7. `Update layer styles at the Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#vector_style>`_ 
-8. `Update raster layer style on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#raster_style>`_
-9. `Edit data from QGIS and explore results at the Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#edit_data>`_
+.. seealso:: `Almacena, gestiona y publica tus datos espaciales <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html>`_
 
 
-You can see the detailed instructions below or watch a video:
+Publica tu proyecto de QGIS en línea
+
+1. `Crea una cuenta gratuita y un Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#account>`_
+2. `Abre y explora el proyecto de QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#project>`_
+3. `Instala el plugin NextGIS Connect <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#install>`_
+4. `Crea una conexión <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#connection>`_
+5. `Publica el proyecto de QGIS en NextGIS Web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#publish>`_
+
+Resultado: `Explora el mapa web y los recursos <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#webmap>`_
+
+Usa QGIS para editar datos almacenados en Web GIS
+
+6. `Conéctate al mapa web desde QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#download>`_
+7. `Actualiza los estilos de las capas del mapa web desde QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#vector_style>`_
+8. `Actualiza el estilo de una capa ráster en un mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#raster_style>`_
+9. `Edita datos desde QGIS y explora los resultados en el mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#edit_data>`_
+
+
+Puedes ver las instrucciones detalladas a continuación o mirar el vídeo:
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/mDbkUWVhs_M?si=x_zsHyECKGUGjfYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/mDbkUWVhs_M?si=x_zsHyECKGUGjfYa" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Watch on `youtube <https://youtu.be/mDbkUWVhs_M?si=4UOhAYuEg-AUKwkn>`_.
+Míralo en `youtube <https://youtu.be/mDbkUWVhs_M?si=4UOhAYuEg-AUKwkn>`_.
 
 .. _account:
 
-Step 1/5 Create free account and Web GIS
+Paso 1/5: Crea una cuenta gratuita y un Web GIS
 -----------------------------------------
 
-Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
+Ve a `my.nextgis.com`, haz clic en el botón **Crear cuenta** y regístrate con tu dirección de correo electrónico.
 
-After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
+Después del registro, aparecerá tu página de cuenta. Selecciona el menú **Web GIS** en la izquierda, elige un nombre (en este ejemplo, ngw-quickstart.nextgis.com) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, DE Falkenstein). Luego haz clic en **Crear Web GIS**.
 
 .. figure:: _static/tutorial_create_wg_en.png
    :name: tutorial_create_wg_pic
    :align: center
    :width: 20cm
 
-When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
+Cuando el proceso de creación termine, el contenido de la página cambiará. Aparecerá el enlace directo a tu nuevo Web GIS.
 
 .. figure:: _static/tutorial_my_wg_en.png
    :name: tutorial_my_wg_pic
    :align: center
    :width: 20cm
 
-Copy the address of the created Web GIS. In this example: ``https://ngw-quickstart.nextgis.com``. You'll need it later to create a connection.
+Copia la dirección del Web GIS creado. En este ejemplo: ``https://ngw-quickstart.nextgis.com``. La necesitarás más adelante para crear una conexión.
 
 .. _project:
 
-Step 2/5 Open and explore QGIS project
+Paso 2/5: Abre y explora el proyecto de QGIS
 ---------------------------------------
 
-`Download the tutorial data <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ and unzip the archive.
+`Descarga los datos del tutorial <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ y descomprime el archivo.
 
-Click on the file called ``Sursee.qgz`` to open it in QGIS. 
+Haz clic en el archivo llamado ``Sursee.qgz`` para abrirlo en QGIS.
 
-.. note:: If you don't have QGIS yet, `download <https://qgis.org/download/>`_ and install it.
+.. note:: Si aún no tienes QGIS, `descárgalo <https://qgis.org/download/>`_ e instálalo.
 
-This is a typical QGIS project with raster and vector layers, a couple of basemaps and rich scale-dependent styles set up with exclickions. Points of interest are styled with advanced “Point Cluster” renderer using dynamic cluster symbol size. There are also embeded SVG icons in the “Road network” layer.
+Este es un proyecto típico de QGIS con capas ráster y vectoriales, varios mapas base y estilos avanzados dependientes de la escala configurados con expresiones. Los puntos de interés están estilizados con el renderizador avanzado “Agrupación de puntos” que usa un tamaño de símbolo de clúster dinámico. También hay iconos SVG incrustados en la capa “Red de carreteras”.
 
 .. figure:: _static/tut_sursee_project_en.png
    :name: tut_sursee_project_pic
    :align: center
    :width: 20cm
 
-
-Zoom in to explore multiscale styling.
+Acércate para explorar el estilo multiescala.
 
 .. figure:: _static/tut_project_zoomed_en.png
    :name: tut_project_zoomed_pic
@@ -129,339 +128,328 @@ Zoom in to explore multiscale styling.
 
 .. _install:
 
-Step 3/5 Install NextGIS Connect plugin
+Paso 3/5: Instala el plugin NextGIS Connect
 ----------------------------------------
 
-Go to the “Plugins” — “Manage and Install Plugins” menu
+Ve al menú “Complementos” → “Administrar e instalar complementos”.
 
 .. figure:: _static/tut_menu_manage_plugins_en.png
    :name: tut_menu_manage_plugins_pic
    :align: center
    :width: 12cm
 
-
-Go to the “All” tab and find a plugin named NextGIS Connect. Use a search bar at the top of the interface for faster access. Click the **Install Plugin** button.
+Ve a la pestaña “Todos” y busca un complemento llamado NextGIS Connect. Usa la barra de búsqueda en la parte superior de la interfaz para acceder más rápido. Haz clic en el botón **Instalar complemento**.
 
 .. figure:: _static/tut_install_ngconnect_en.png
    :name: tut_install_ngconnect_pic
    :align: center
    :width: 16cm
 
-
-After installation NextGIS Connect is available in the “Internet” menu and as a toolbar icon: |ngconnect_icon|. When NextGIS Connect is active, the side panel is visible.
+Después de la instalación, NextGIS Connect está disponible en el menú “Internet” y como un icono en la barra de herramientas: |ngconnect_icon|. Cuando NextGIS Connect está activo, el panel lateral es visible.
 
 .. figure:: _static/tut_ngconnect_in_qgis_en.png
    :name: tut_ngconnect_in_qgis_pic
    :align: center
    :width: 20cm
 
-Go to the plugin settings, using |button_settings| icon. This is a place for setting up everything related to QGIS–NextGIS Web integration. First, let’s create a connection. 
+Ve a la configuración del complemento usando el icono |button_settings|. Este es el lugar para configurar todo lo relacionado con la integración QGIS–NextGIS Web. Primero, creemos una conexión.
 
 .. _connection:
 
-Step 4/5 Create a connection
+Paso 4/5: Crea una conexión
 -----------------------------
 
-To establish a link between your QGIS app and a Web GIS, you need to create a connection. 
+Para establecer un vínculo entre tu aplicación QGIS y un Web GIS, necesitas crear una conexión.
 
-Go to the `Web GIS page <https://my.nextgis.com/webgis/>`_ of your NextGIS ID account and copy the link to your Web GIS (see :numref:`tutorial_my_wg_pic`). In this example the link is: ``https://ngw-quickstart.nextgis.com``.
+Ve a la `página de Web GIS <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu Web GIS (consulta :numref:`tutorial_my_wg_pic`). En este ejemplo, el enlace es: ``https://ngw-quickstart.nextgis.com``.
 
-
-In QGIS open the NG Connect settings and click on the **New** button in the “Connections” group.
+En QGIS, abre la configuración de NG Connect y haz clic en el botón **Nuevo** en el grupo “Conexiones”.
 
 .. figure:: _static/tut_ngcn_new_connection_en.png
    :name: tut_ngcn_new_connection_pic
    :align: center
    :width: 20cm
 
-
-Enter the Web GIS address to the URL field, then click |symbologyAdd| to create a new Authentication configuration.
+Ingresa la dirección del Web GIS en el campo URL, luego haz clic en |symbologyAdd| para crear una nueva configuración de autenticación.
 
 .. figure:: _static/tut_ngcn_create_connection_en.png
    :name: tut_ngcn_create_connection_pic
    :align: center
    :width: 12cm
 
-In the new dialog enter the email and password you used to register at my.nextgis.com at step 1, and click the **Save** button.
+En el nuevo cuadro de diálogo, ingresa el correo electrónico y la contraseña que usaste para registrarte en my.nextgis.com en el paso 1, y haz clic en el botón **Guardar**.
 
 .. figure:: _static/tut_ngcn_authentication_en.png
    :name: tut_ngcn_authentication_pic
    :align: center
    :width: 10cm
 
-Click the **Test connection** button to ensure that you entered all the data correctly. Then click the **Save** button.
+Haz clic en el botón **Probar conexión** para asegurarte de que ingresaste todos los datos correctamente. Luego haz clic en el botón **Guardar**.
 
 .. figure:: _static/tut_ngcn_test_connection_en.png
    :name: tut_ngcn_test_connection_pic
    :align: center
    :width: 12cm
 
-.. tip:: If you are going to **edit data collaboratively**, you can activate the checkbox “Enable feature versioning for vector layers when uploading”.
+.. tip:: Si vas a **editar datos de forma colaborativa**, puedes activar la casilla de verificación “Habilitar versionado de entidades para capas vectoriales al cargar”.
 
 .. figure:: _static/tut_enable_versioning_en.png
    :name: tut_enable_versioning_pic
    :align: center
    :width: 16cm
 
-Exit settings by clicking the **OK** button in the bottom of the page. 
+Sal de la configuración haciendo clic en el botón **Aceptar** en la parte inferior de la página.
 
-Now in the NextGIS Connect panel you can see the resource tree of your Web GIS.
+Ahora, en el panel de NextGIS Connect puedes ver el árbol de recursos de tu Web GIS.
 
 .. figure:: _static/tut_ngcn_panel_connected_en.png
    :name: tut_ngcn_panel_connected_pic
    :align: center
    :width: 10cm
 
-Using this panel you could upload local data to Web GIS, connect remote layers and maps to QGIS, update styles, create services and many more. It also provides a simple way to upload an entire QGIS project as a Web Map.
+Usando este panel, puedes cargar datos locales a Web GIS, conectar capas y mapas remotos a QGIS, actualizar estilos, crear servicios y mucho más. También proporciona una forma sencilla de cargar un proyecto QGIS completo como un mapa web.
 
 .. _publish:
 
-Step 5/5 Publish QGIS project to NextGIS Web
+Paso 5/5: Publica el proyecto de QGIS en NextGIS Web
 --------------------------------------------
 
-In NextGIS Connect panel select the *Main resource group* folder, then open dropdown menu with |button_to_wg| icon and select **Upload all**.
+En el panel de NextGIS Connect, selecciona la carpeta *Grupo de recursos principal*, luego abre el menú desplegable con el icono |button_to_wg| y selecciona **Cargar todo**.
 
 .. figure:: _static/tut_upload_all_en.png
    :name: tut_upload_all_pic
    :align: center
    :width: 10cm
 
-Enter a name for the project. In this example, it is ``Sursee``.A folder with this name is created in Web GIS, and all the project data is uploaded there.
+Ingresa un nombre para el proyecto. En este ejemplo, es ``Sursee``. Se crea una carpeta con este nombre en Web GIS y se cargan todos los datos del proyecto allí.
 
 .. figure:: _static/tut_upload_name_en.png
    :name: tut_upload_name_pic
    :align: center
    :width: 8cm
 
-The upload starts. You can track the progress by checking the status message.
+Comienza la carga. Puedes seguir el progreso revisando el mensaje de estado.
 
 .. figure:: _static/tut_upload_status_en.png
    :name: tut_upload_status_pic
    :align: center
    :width: 10cm
 
+Por defecto, una vez que el mapa web se publica con éxito, se abre automáticamente en tu navegador. También puedes abrirlo desde el panel de Connect. Haz clic derecho en el mapa web y selecciona "Abrir en el navegador" en el menú contextual.
 
-By default, once the Web Map is successfully published, it opens automatically in your browser. Also, you can open it from the Connect panel. Right-click on the Web Map and select "Open in browser" in the context menu. 
-
-Note that all the layers of the project are now visible in the NextGIS Connect panel.
+Ten en cuenta que todas las capas del proyecto ahora son visibles en el panel de NextGIS Connect.
 
 .. figure:: _static/tut_open_in_browser_en.png
    :name: tut_open_in_browser_pic
    :align: center
    :width: 10cm
 
-Now you can explore the Web Map. Proceed to step 6 to learn how to connect to an existing Web Map in QGIS.
+Ahora puedes explorar el mapa web. Continúa con el paso 6 para aprender cómo conectarte a un mapa web existente en QGIS.
 
 .. _webmap:
 
-Explore the Web Map and resources
+Explora el mapa web y los recursos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A Web Map has been created from the project. It looks exactly the same as the original QGIS project, because NextGIS Web uses QGIS styles as primary way to define layer styles.
+Se ha creado un mapa web a partir del proyecto. Se ve exactamente igual que el proyecto QGIS original, porque NextGIS Web usa los estilos de QGIS como la forma principal de definir los estilos de las capas.
 
 .. figure:: _static/tut_sursee_webmap_en.png
    :name: tut_sursee_webmap_pic
    :align: center
    :width: 20cm
 
-You can enable and disable layers and categories within layers. Web Map has its own URL, so you can easily share it. Play with the Web Map interface. Learn more about it: https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
+Puedes activar y desactivar capas y categorías dentro de las capas. El mapa web tiene su propia URL, por lo que puedes compartirlo fácilmente. Juega con la interfaz del mapa web. Obtén más información al respecto: https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
 
-Click the |NextGISLogo| icon at the top left corner to view the main interface with the resource list.
+Haz clic en el icono |NextGISLogo| en la esquina superior izquierda para ver la interfaz principal con la lista de recursos.
 
 .. figure:: _static/tut_goto_main_en.png
    :name: tut_goto_main_pic
    :align: center
    :width: 10cm
 
-Open the Sursee folder. For each layer of the original project a corresponding resource was created in it.
+Abre la carpeta Sursee. Para cada capa del proyecto original se creó un recurso correspondiente en ella.
 
-You can work with the uploaded vector and raster layers independently from the Web Map — modify the data, publish it using different protocols etc.
+Puedes trabajar con las capas vectoriales y ráster cargadas de forma independiente del mapa web: modificar los datos, publicarlos usando diferentes protocolos, etc.
 
 .. figure:: _static/tut_wg_sursee_en.png
    :name: tut_wg_sursee_pic
    :align: center
    :width: 20cm
 
-What if you'd like to edit the uploaded layers in QGIS? Let's see how to do it.
+¿Y si quieres editar las capas cargadas en QGIS? Veamos cómo hacerlo.
 
 .. _download:
 
-Connect to Web Map from QGIS
+Conéctate al mapa web desde QGIS
 -----------------------------------
 
-In QGIS close the project (Project - Close). Imagine that you work from another computer, another QGIS instance. Keep NextGIS Connect panel open (reopen it if it's closed).
+En QGIS, cierra el proyecto (Proyecto → Cerrar). Imagina que trabajas desde otro ordenador, desde otra instancia de QGIS. Mantén abierto el panel de NextGIS Connect (vuélvelo a abrir si está cerrado).
 
-In the NextGIS Connect panel, find the Web Map resource *Sursee - webmap*, right-click on it to open the context menu, and select |button_to_qgis| **Add to QGIS**.
+En el panel de NextGIS Connect, busca el recurso de mapa web *Sursee - webmap*, haz clic derecho para abrir el menú contextual y selecciona |button_to_qgis| **Agregar a QGIS**.
 
 .. figure:: _static/tut_add_to_qgis_en.png
    :name: tut_add_to_qgis_pic
    :align: center
    :width: 10cm
 
-QGIS rebuilds the Web Map content locally, downloading all relevant layers and styles and arranging them to match the original structure.
+QGIS reconstruye el contenido del mapa web localmente, descargando todas las capas y estilos relevantes y organizándolos para que coincidan con la estructura original.
 
-What you get is basically the initial project fully reconstructed from the NextGIS Web.
+Lo que obtienes es básicamente el proyecto inicial reconstruido completamente a partir de NextGIS Web.
 
 .. figure:: _static/tut_downloaded_en.png
    :name: tut_downloaded_pic
    :align: center
    :width: 20cm
 
-Note that in the Layers panel vector layers have special marks to the right of their names: |synchronized|.
+Observa que en el panel de Capas, las capas vectoriales tienen marcas especiales a la derecha de sus nombres: |synchronized|.
 
 .. figure:: _static/tut_synched_layers_en.png
    :name: tut_synched_layers_pic
    :align: center
    :width: 14cm
 
-They are now linked to the server storage. If the data is updated on the server side, Connect synchronizes the local layer in QGIS. If the synched layer is updated in QGIS, Connect communicates it to the server and updates the data on the server.
+Ahora están vinculadas al almacenamiento del servidor. Si los datos se actualizan en el servidor, Connect sincroniza la capa local en QGIS. Si la capa sincronizada se actualiza en QGIS, Connect lo comunica al servidor y actualiza los datos en el servidor.
 
-One of the great uses of it is updating styles on the Web Map.
+Uno de los grandes usos de esto es actualizar los estilos en el mapa web.
 
 .. _vector_style:
 
-Modify layer styles on the Web Map from QGIS
+Modifica los estilos de las capas en el mapa web desde QGIS
 ---------------------------------------------
 
-Let’s make railroads more bright and visible on our Web Map.
+Hagamos que las vías de tren sean más brillantes y visibles en nuestro mapa web.
 
-In QGIS, find the *Railroad network* layer in the Layers panel. Open the context menu of the “rail” symbol category. On the palette click on the color ring to select the red color. Click on the empty part of the panel to close the dialog.
+En QGIS, busca la capa *Red de ferrocarriles* en el panel de Capas. Abre el menú contextual de la categoría de símbolos “rail” (ferrocarril). En la paleta, haz clic en el anillo de color para seleccionar el color rojo. Haz clic en la parte vacía del panel para cerrar el cuadro de diálogo.
 
 .. figure:: _static/tut_pick_color_en.png
    :name: tut_pick_color_pic
    :align: center
    :width: 10cm
 
-Then find and select the *Railroad network* layer in the NextGIS Connect panel.
+Luego, busca y selecciona la capa *Red de ferrocarriles* en el panel de NextGIS Connect.
 
 .. figure:: _static/tut_railroad_select_en.png
    :name: tut_railroad_select_pic
    :align: center
    :width: 12cm
 
-Go back to the Layers panel, open the context menu of the “Railroad network” layer and click **NextGIS Connect --> Update layer style**.
+Vuelve al panel de Capas, abre el menú contextual de la capa “Red de ferrocarriles” y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
 
 .. figure:: _static/tut_update_v_style_en.png
    :name: tut_update_v_style_pic
    :align: center
    :width: 16cm
 
-Go back to the web browser with the Web Map opened (reopen it from NextGIS Connect panel if it is closed). You'll find that railroads have changed their color to red.
+Vuelve al navegador web con el mapa web abierto (vuelve a abrirlo desde el panel de NextGIS Connect si está cerrado). Verás que los ferrocarriles han cambiado su color a rojo.
 
 .. figure:: _static/tut_webmap_red_rail_en.png
    :name: tut_webmap_red_rail_pic
    :align: center
    :width: 20cm
 
-
-You can modify raster styles as well. 
+También puedes modificar los estilos ráster.
 
 .. _raster_style:
 
-Update raster layer style on a Web Map
+Actualiza el estilo de una capa ráster en un mapa web
 -----------------------------------------
 
-In QGIS, activate *Sentinel 2 imagery* layer. It is a 4 band satellite dataset, currently configured to display in natural colors.
+En QGIS, activa la capa *Imágenes Sentinel 2*. Es un conjunto de datos satelitales de 4 bandas, configurado actualmente para mostrarse en colores naturales.
 
 .. figure:: _static/tut_raster_initial_en.png
    :name: tut_raster_initial_pic
    :align: center
    :width: 20cm
 
-Open its context menu and go to the “Properties”.
+Abre su menú contextual y ve a “Propiedades”.
 
 .. figure:: _static/tut_raster_context_en.png
    :name: tut_raster_context_pic
    :align: center
    :width: 14cm
 
-In the Properties, go to the Symbology tab, and change ``Band 3`` to ``Band 4`` in the *Red band* selector. The click **OK**.
+En Propiedades, ve a la pestaña Simbología y cambia ``Banda 3`` por ``Banda 4`` en el selector de *Banda roja*. Luego haz clic en **Aceptar**.
 
 .. figure:: _static/tut_raster_bands_en.png
    :name: tut_raster_bands_pic
    :align: center
    :width: 20cm
 
-We've just replaced the Red reflectance data to the Near-InfraRed reflectance data, so the raster visualization has changed significantly.
+Acabamos de reemplazar los datos de reflectancia del rojo por los datos de reflectancia del infrarrojo cercano, por lo que la visualización del ráster ha cambiado significativamente.
 
 .. figure:: _static/tut_raster_nir_en.png
    :name: tut_raster_nir_pic
    :align: center
    :width: 20cm
 
-Open the Web Map and activate the “Sentinel 2 imagery” layer there. It still has its original appearance.
+Abre el mapa web y activa la capa “Imágenes Sentinel 2”. Todavía tiene su apariencia original.
 
 .. figure:: _static/tut_raster_webmap_en.png
    :name: tut_raster_webmap_pic
    :align: center
    :width: 20cm
 
-Return to QGIS, select the *Sentinel 2 imagery* layer in the NextGIS Connect panel.
+Vuelve a QGIS, selecciona la capa *Imágenes Sentinel 2* en el panel de NextGIS Connect.
 
 .. figure:: _static/tut_raster_select_en.png
    :name: tut_raster_select_pic
    :align: center
    :width: 12cm
 
-Then open the context menu of the layer and click **NextGIS Connect --> Update layer style**.
+Luego, abre el menú contextual de la capa y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
 
 .. figure:: _static/tut_update_r_style_en.png
    :name: tut_update_r_style_pic
    :align: center
    :width: 14cm
 
-Open the Web Map again — layer style has changed. 
+Abre el mapa web nuevamente: el estilo de la capa ha cambiado.
 
 .. figure:: _static/tut_raster_webmap_nir_en.png
    :name: tut_raster_webmap_nir_pic
    :align: center
    :width: 20cm
 
-NextGIS Web can handle multiband rasters with QGIS styles of any complexity.
+NextGIS Web puede manejar rásteres multibanda con estilos de QGIS de cualquier complejidad.
 
 .. _edit_data:
 
-Edit data from QGIS and explore results on the Web Map
+Edita datos desde QGIS y explora los resultados en el mapa web
 -------------------------------------------------------
 
-Return to QGIS, in the Layers panel select *Points of interest* layer, open its context menu and enable |mActionToggleEditing| Editing mode. Since this layer was added from NextGIS Connect, it is linked with Web GIS, so the edits are synchronized with the server.
+Vuelve a QGIS. En el panel de Capas, selecciona la capa *Puntos de interés*, abre su menú contextual y habilita |mActionToggleEditing| el modo de edición. Como esta capa se agregó desde NextGIS Connect, está vinculada a Web GIS, por lo que las ediciones se sincronizan con el servidor.
 
 .. figure:: _static/tut_toggle_editing_en.png
    :name: tut_toggle_editing_pic
    :align: center
    :width: 12cm
 
-Enable Digitizing toolbar and activate the |button_add_point| **Add point feature** tool.
+Habilita la barra de herramientas de Digitalización y activa la herramienta |button_add_point| **Añadir punto**.
 
 .. figure:: _static/tut_digitizing_en.png
    :name: tut_digitizing_pic
    :align: center
    :width: 16cm
 
-Let’s place another bbq spot in the forest. Left-click on a suitable place on the map, then enter one attribute value, AMENITY = ``bbq``. Then click **OK**.
+Vamos a colocar otro lugar para hacer barbacoa en el bosque. Haz clic izquierdo en un lugar adecuado en el mapa, luego ingresa un valor de atributo, AMENITY = ``bbq``. Luego haz clic en **Aceptar**.
 
 .. figure:: _static/tut_new_point_en.png
    :name: tut_new_point_pic
    :align: center
    :width: 16cm
 
-Click on |mActionToggleEditing| to exit the Editing mode and select **Save** in the dialog to save the changes.
+Haz clic en |mActionToggleEditing| para salir del modo de edición y selecciona **Guardar** en el cuadro de diálogo para guardar los cambios.
 
 .. figure:: _static/tut_qgis_stop_edit_en.png
    :name: tut_qgis_stop_edit_pic
    :align: center
    :width: 20cm
 
-After you exit the Editing mode synchronization starts automatically. The new feature is sent to the server. Return to the Web Map to view it.
+Después de salir del modo de edición, la sincronización comienza automáticamente. La nueva entidad se envía al servidor. Vuelve al mapa web para verla.
 
 .. figure:: _static/tut_added_on_webmap_en.png
    :name: tut_added_on_webmap_pic
    :align: center
    :width: 20cm
 
-Users can connect to the same server data from multiple QGIS instances and edit the data simultaneously. Our stack provides a seamless, ready-to-go solution to enable team digitizing and data editing in QGIS.
-
-
-
-
-
+Los usuarios pueden conectarse a los mismos datos del servidor desde múltiples instancias de QGIS y editar los datos simultáneamente. Nuestra pila tecnológica proporciona una solución lista para usar que permite la digitalización en equipo y la edición de datos en QGIS.
