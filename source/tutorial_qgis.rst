@@ -1,4 +1,4 @@
-[Tutorial: Integración Fluída con QGIS]  
+Tutorial: Integración Fluída con QGIS  
 ====================================
 
 .. |ngconnect_icon| image:: _static/ngconnect_logo-45.png
