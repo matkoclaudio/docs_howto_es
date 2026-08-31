@@ -61,6 +61,9 @@ Haz clic en el enlace (para este ejemplo *ngw-inicio.nextgis.com*) o escríbelo 
 Aparecerá la interfaz principal de tu SIG Web.
 
 .. figure:: _static/tutorial1-paso2-1_es.webp
+   :name: tutorial
+   :align: center
+   :width: 20cm
 
 Es importante destacar que, en NextGIS Web, todo es un recurso: capas, mapas web, carpetas (grupos), conexiones a servicios y bases de datos. Estos recursos se organizan en forma de árbol, al igual que los archivos en tu ordenador.
 
@@ -69,6 +72,9 @@ Vamos a crear nuestro primer recurso: una carpeta o grupo de recursos llamado *W
 .. tip:: Si no visualizas el botón **Crear recurso**, primero debes iniciar sesión. Haz clic en el botón **Conectarse** (ubicado en la esquina superior derecha), a continuación, selecciona **Iniciar sesión con NextGIS ID**.
 
 .. figure:: _static/tutorial1-paso2-2_es.webp
+   :name: tutorial
+   :align: center
+   :width: 20cm
 
 Cuando haces clic en **Crear recurso**, aparece una ventana que muestra todas las opciones de recursos disponibles que puedes crear en el contexto actual. Selecciona **Grupo de recursos**.
 
