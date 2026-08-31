@@ -40,10 +40,16 @@ Ve a `my.nextgis.com <https://my.nextgis.com/>`_, haz clic en el botón **Crear 
 Una vez completado el registro, se mostrará la página de tu cuenta. Selecciona el menú **SIG Web** en el panel izquierdo, elige un nombre (en este ejemplo se usa *ngw-inicio.nextgis.com*) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, *Falkenstein*). Luego, haz clic en **Crear un SIG Web**.
 
 .. figure:: _static/tutorial1-paso1-1_es.webp
+   :name: tutorial_create_wg_pic
+   :align: center
+   :width: 20cm
 
 Cuando finalice el proceso de creación, el contenido de la página cambiará, y podrás ver un enlace directo a tu nuevo SIG Web.
 
 .. figure:: _static/tutorial1-paso1-2_es.webp
+   :name: tutorial_my_wg_pic
+   :align: center
+   :width: 20cm
 
 .. _webgis:
 
