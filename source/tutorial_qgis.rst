@@ -48,7 +48,7 @@ En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conec
 
 Descarga los `datos <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ del tutorial (fuente: `OpenStreetMap <https://www.openstreetmap.org/>`_, `data.nextgis.com <http://data.nextgis.com>`_, `Copernicus <https://browser.dataspace.copernicus.eu/>`_)
 
-`Almacena, gestiona y publica tus datos espaciales <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html>`_
+`Almacena, gestiona y publica tus datos espaciales <tutorial_webgis.rst>`_
 
 
 Publica tu proyecto de QGIS en línea
