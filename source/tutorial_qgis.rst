@@ -176,16 +176,14 @@ Ingresa la dirección del SIG Web en el campo URL, y en *Iniciar sesión cómo* 
    :align: center
    :width: 10cm
 
-Haz clic en el botón **Probar conexión** para asegurarte de que ingresaste todos los datos correctamente. Luego haz clic en el botón **Guardar**.
+Haz clic en el botón **Probar conexión** para asegurarte de que ingresaste todos los datos correctamente, luego haz clic en el botón **Guardar**.
 
 .. figure:: _static/tutorial_qgis_10.webp
    :name: tut_ngcn_test_connection_pic
    :align: center
    :width: 12cm
 
-Sal de la configuración haciendo clic en el botón **Aceptar** en la parte inferior de la página.
-
-Ahora, en el panel de NextGIS Connect puedes ver el árbol de recursos de tu SIG Web.
+Sal de la configuración haciendo clic en el botón **Aceptar** en la parte inferior de la página. Ahora, en el panel de NextGIS Connect puedes ver el árbol de recursos de tu SIG Web.
 
 .. figure:: _static/tutorial_qgis_11.webp
    :name: tut_ngcn_panel_connected_pic
