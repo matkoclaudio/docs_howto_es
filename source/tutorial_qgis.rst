@@ -160,7 +160,7 @@ Paso 4/5: Crea una conexión
 
 Para establecer un vínculo entre tu aplicación QGIS y un SIG Web, necesitas crear una conexión.
 
-Ve a la `página de SIG Web <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu SIG Web (consulta: `Crear una cuenta gratuita y SIG Web <tutorial_webgis.rst#paso-16-crear-una-cuenta-gratuita-y-sig-web>`). En este ejemplo, el enlace es: ``https://ngw-inicio.nextgis.com``.
+Ve a la `página de SIG Web <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu SIG Web (consulta: `Crear una cuenta gratuita y SIG Web <tutorial_webgis.rst#paso-16-crear-una-cuenta-gratuita-y-sig-web>`_). En este ejemplo, el enlace es: ``https://ngw-inicio.nextgis.com``.
 
 En QGIS, abre la configuración de NextGIS Connect y haz clic en el botón **Nuevo** en el grupo “Conexiones”.
 
@@ -169,7 +169,7 @@ En QGIS, abre la configuración de NextGIS Connect y haz clic en el botón **Nue
    :align: center
    :width: 20cm
 
-Ingresa la dirección del SIG Web en el campo URL, luego haz clic en |symbologyAdd| para crear una nueva configuración de autenticación. En el nuevo cuadro de diálogo, ingresa el correo electrónico y la contraseña que usaste para registrarte en my.nextgis.com en el paso 1, y haz clic en el botón **Guardar**.
+Ingresa la dirección del SIG Web en el campo URL, para crear una nueva configuración de autenticación. En el nuevo cuadro de diálogo, ingresa el correo electrónico y la contraseña que usaste para registrarte en *my.nextgis.com* en el paso 1.
 
 .. figure:: _static/tutorial_qgis_09.webp
    :name: tut_ngcn_authentication_pic
