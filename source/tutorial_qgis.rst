@@ -132,21 +132,21 @@ Paso 3/5: Instala el plugin NextGIS Connect
 
 Ve al menú “Complementos” → “Administrar e instalar complementos”.
 
-.. figure:: _static/tut_menu_manage_plugins_en.png
+.. figure:: _static/tutorial_qgis_05.webp
    :name: tut_menu_manage_plugins_pic
    :align: center
    :width: 12cm
 
 Ve a la pestaña “Todos” y busca un complemento llamado NextGIS Connect. Usa la barra de búsqueda en la parte superior de la interfaz para acceder más rápido. Haz clic en el botón **Instalar complemento**.
 
-.. figure:: _static/tut_install_ngconnect_en.png
+.. figure:: _static/tutorial_qgis_06.webp
    :name: tut_install_ngconnect_pic
    :align: center
    :width: 16cm
 
-Después de la instalación, NextGIS Connect está disponible en el menú “Internet” y como un icono en la barra de herramientas: |ngconnect_icon|. Cuando NextGIS Connect está activo, el panel lateral es visible.
+Después de la instalación, NextGIS Connect está disponible en el menú “Web” y como un icono en la barra de herramientas: |ngconnect_icon|. Cuando NextGIS Connect está activo, el panel lateral es visible.
 
-.. figure:: _static/tut_ngconnect_in_qgis_en.png
+.. figure:: _static/tutorial_qgis_07.webp
    :name: tut_ngconnect_in_qgis_pic
    :align: center
    :width: 20cm
