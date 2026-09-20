@@ -53,7 +53,7 @@ Descarga los `datos <https://nextgis.com/tutorials/seamless_qgis_integration.zip
 
 Publica tu proyecto de QGIS en línea
 
-1. `Crea una cuenta gratuita y un Web GIS <tutorial_qgis.rst#paso-15-crea-una-cuenta-gratuita-y-un-web-gis>`_
+1. `Crea una cuenta gratuita y un SIG Web <tutorial_qgis.rst#paso-15-crea-una-cuenta-gratuita-y-un-web-gis>`_
 2. `Abre y explora el proyecto de QGIS <tutorial_qgis.rst#paso-25-abre-y-explora-el-proyecto-de-qgis>`_
 3. `Instala el plugin NextGIS Connect <tutorial_qgis.rst#paso-35-instala-el-plugin-nextgis-connect>`_
 4. `Crea una conexión <tutorial_qgis.rst#paso-45-crea-una-conexión>`_
@@ -61,7 +61,7 @@ Publica tu proyecto de QGIS en línea
 
 Resultado: `Explora el mapa web y los recursos <tutorial_qgis.rst#explora-el-mapa-web-y-los-recursos>`_
 
-Usa QGIS para editar datos almacenados en Web GIS
+Usa QGIS para editar datos almacenados en el SIG Web
 
 6. `Conéctate al mapa web desde QGIS <tutorial_qgis.rst#conéctate-al-mapa-web-desde-qgis>`_
 7. `Modifica los estilos de las capas del mapa web desde QGIS <tutorial_qgis.rst#modifica-los-estilos-de-las-capas-en-el-mapa-web-desde-qgis>`_
@@ -79,7 +79,7 @@ Míralo en `youtube <https://youtu.be/mDbkUWVhs_M?si=4UOhAYuEg-AUKwkn>`_.
 
 .. _account:
 
-Paso 1/5: Crea una cuenta gratuita y un Web GIS
+Paso 1/5: Crea una cuenta gratuita y un SIG Web
 -----------------------------------------
 
 Ve a `my.nextgis.com <https://my.nextgis.com/>`_, haz clic en el botón **Crear una cuenta** y regístrate con tu dirección de correo electrónico.
@@ -144,7 +144,7 @@ Ve a la pestaña “Todos” y busca un complemento llamado NextGIS Connect. Usa
    :align: center
    :width: 16cm
 
-Después de la instalación, NextGIS Connect está disponible en el menú “Web” y como un icono en la barra de herramientas: |ngconnect_icon|. Cuando NextGIS Connect está activo, el panel lateral es visible.
+Después de la instalación, NextGIS Connect está disponible en el menú “Web” y como un icono en la barra de herramientas. Cuando NextGIS Connect está activo, el panel lateral es visible.
 
 .. figure:: _static/tutorial_qgis_07.webp
    :name: tut_ngconnect_in_qgis_pic
@@ -158,9 +158,9 @@ Ve a la configuración del complemento usando el icono |button_settings|. Este e
 Paso 4/5: Crea una conexión
 -----------------------------
 
-Para establecer un vínculo entre tu aplicación QGIS y un Web GIS, necesitas crear una conexión.
+Para establecer un vínculo entre tu aplicación QGIS y un SIG Web, necesitas crear una conexión.
 
-Ve a la `página de Web GIS <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu Web GIS (consulta :numref:`tutorial_my_wg_pic`). En este ejemplo, el enlace es: ``https://ngw-quickstart.nextgis.com``.
+Ve a la `página de SIG Web <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu SIG Web (consulta :numref:`tutorial_my_wg_pic`). En este ejemplo, el enlace es: ``https://ngw-quickstart.nextgis.com``.
 
 En QGIS, abre la configuración de NG Connect y haz clic en el botón **Nuevo** en el grupo “Conexiones”.
 
@@ -169,7 +169,7 @@ En QGIS, abre la configuración de NG Connect y haz clic en el botón **Nuevo** 
    :align: center
    :width: 20cm
 
-Ingresa la dirección del Web GIS en el campo URL, luego haz clic en |symbologyAdd| para crear una nueva configuración de autenticación.
+Ingresa la dirección del SIG Web en el campo URL, luego haz clic en |symbologyAdd| para crear una nueva configuración de autenticación.
 
 .. figure:: _static/tut_ngcn_create_connection_en.png
    :name: tut_ngcn_create_connection_pic
@@ -199,14 +199,14 @@ Haz clic en el botón **Probar conexión** para asegurarte de que ingresaste tod
 
 Sal de la configuración haciendo clic en el botón **Aceptar** en la parte inferior de la página.
 
-Ahora, en el panel de NextGIS Connect puedes ver el árbol de recursos de tu Web GIS.
+Ahora, en el panel de NextGIS Connect puedes ver el árbol de recursos de tu SIG Web.
 
 .. figure:: _static/tut_ngcn_panel_connected_en.png
    :name: tut_ngcn_panel_connected_pic
    :align: center
    :width: 10cm
 
-Usando este panel, puedes cargar datos locales a Web GIS, conectar capas y mapas remotos a QGIS, actualizar estilos, crear servicios y mucho más. También proporciona una forma sencilla de cargar un proyecto QGIS completo como un mapa web.
+Usando este panel, puedes cargar datos locales a SIG Web, conectar capas y mapas remotos a QGIS, actualizar estilos, crear servicios y mucho más. También proporciona una forma sencilla de cargar un proyecto QGIS completo como un mapa web.
 
 .. _publish:
 
@@ -220,7 +220,7 @@ En el panel de NextGIS Connect, selecciona la carpeta *Grupo de recursos princip
    :align: center
    :width: 10cm
 
-Ingresa un nombre para el proyecto. En este ejemplo, es ``Sursee``. Se crea una carpeta con este nombre en Web GIS y se cargan todos los datos del proyecto allí.
+Ingresa un nombre para el proyecto. En este ejemplo, es ``Sursee``. Se crea una carpeta con este nombre en SIG Web y se cargan todos los datos del proyecto allí.
 
 .. figure:: _static/tut_upload_name_en.png
    :name: tut_upload_name_pic
@@ -416,7 +416,7 @@ NextGIS Web puede manejar rásteres multibanda con estilos de QGIS de cualquier 
 Edita datos desde QGIS y explora los resultados en el mapa web
 -------------------------------------------------------
 
-Vuelve a QGIS. En el panel de Capas, selecciona la capa *Puntos de interés*, abre su menú contextual y habilita |mActionToggleEditing| el modo de edición. Como esta capa se agregó desde NextGIS Connect, está vinculada a Web GIS, por lo que las ediciones se sincronizan con el servidor.
+Vuelve a QGIS. En el panel de Capas, selecciona la capa *Puntos de interés*, abre su menú contextual y habilita |mActionToggleEditing| el modo de edición. Como esta capa se agregó desde NextGIS Connect, está vinculada a SIG Web, por lo que las ediciones se sincronizan con el servidor.
 
 .. figure:: _static/tut_toggle_editing_en.png
    :name: tut_toggle_editing_pic
