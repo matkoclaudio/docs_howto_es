@@ -105,13 +105,13 @@ Copia la dirección del SIG Web creado. En este ejemplo: ``https://ngw-inicio.ne
 Paso 2/5: Abre y explora el proyecto de QGIS
 ---------------------------------------
 
-`Descarga los datos del tutorial <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ y descomprime el archivo.
+Descarga los `datos <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ del tutorial y descomprime el archivo.
 
 Haz clic en el archivo llamado ``Sursee.qgz`` para abrirlo en QGIS.
 
 .. note:: Si aún no tienes QGIS, `descárgalo <https://qgis.org/download/>`_ e instálalo.
 
-Este es un proyecto típico de QGIS con capas ráster y vectoriales, varios mapas base y estilos avanzados dependientes de la escala configurados con expresiones. Los puntos de interés están estilizados con el renderizador avanzado “Agrupación de puntos” que usa un tamaño de símbolo de clúster dinámico. También hay iconos SVG incrustados en la capa “Red de carreteras”.
+Este es un proyecto típico de QGIS con capas ráster y vectoriales, varios mapas base y estilos avanzados dependientes de la escala, configurados con expresiones. Los puntos de interés están estilizados con el renderizador avanzado “Point Cluster” que usa un tamaño de símbolo de clúster dinámico. También hay iconos SVG incrustados en la capa “Road network”.
 
 .. figure:: _static/tut_sursee_project_en.png
    :name: tut_sursee_project_pic
