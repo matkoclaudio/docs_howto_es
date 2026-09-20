@@ -44,7 +44,7 @@ NextGIS Web es un servidor GIS que funciona como centro de datos, te permitirá 
 
 Esta integración abarca la publicación de proyectos como mapas web, la conexión a estos desde el escritorio, la sincronización de datos y la edición colaborativa desde múltiples instancias de QGIS.
 
-En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conectarte a él desde otro equipo, administrar los estilos de los mapas web y editar datos directamente en el servidor, todo sin salir de tu entorno de trabajo habitual. ¡Regístrate en `my.nextgis.com <my.nextgis.com>`_ para obtener una cuenta gratuita en la nube y empezá ahora mismo!
+En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conectarte a él desde otro equipo, administrar los estilos de los mapas web y editar datos directamente en el servidor, todo sin salir de tu entorno de trabajo habitual. ¡Regístrate en `my.nextgis.com <https://my.nextgis.com/>`_ para obtener una cuenta gratuita en la nube y empezá ahora mismo!
 
 Descarga los `datos <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ del tutorial (fuente: `OpenStreetMap <https://www.openstreetmap.org/>`_, `data.nextgis.com <http://data.nextgis.com>`_, `Copernicus <https://browser.dataspace.copernicus.eu/>`_)
 
@@ -82,23 +82,23 @@ Míralo en `youtube <https://youtu.be/mDbkUWVhs_M?si=4UOhAYuEg-AUKwkn>`_.
 Paso 1/5: Crea una cuenta gratuita y un Web GIS
 -----------------------------------------
 
-Ve a `my.nextgis.com <my.nextgis.com>`_, haz clic en el botón **Crear cuenta** y regístrate con tu dirección de correo electrónico.
+Ve a `my.nextgis.com <https://my.nextgis.com/>`_, haz clic en el botón **Crear una cuenta** y regístrate con tu dirección de correo electrónico.
 
-Después del registro, aparecerá tu página de cuenta. Selecciona el menú **Web GIS** en la izquierda, elige un nombre (en este ejemplo, ngw-quickstart.nextgis.com) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, DE Falkenstein). Luego haz clic en **Crear Web GIS**.
+Una vez completado el registro, se mostrará la página de tu cuenta. Selecciona el menú **SIG Web** en el panel izquierdo, elige un nombre (en este ejemplo se usa *ngw-inicio.nextgis.com*) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, *Falkenstein*). Luego, haz clic en **Crear un SIG Web**.
 
 .. figure:: _static/tutorial1-paso1-1_es.webp
    :name: tutorial_create_wg_pic
    :align: center
    :width: 20cm
 
-Cuando el proceso de creación termine, el contenido de la página cambiará. Aparecerá el enlace directo a tu nuevo Web GIS.
+Cuando finalice el proceso de creación, el contenido de la página cambiará, y podrás ver un enlace directo a tu nuevo SIG Web.
 
 .. figure:: _static/tutorial1-paso1-2_es.webp
    :name: tutorial_my_wg_pic
    :align: center
    :width: 20cm
 
-Copia la dirección del Web GIS creado. En este ejemplo: ``https://ngw-quickstart.nextgis.com``. La necesitarás más adelante para crear una conexión.
+Copia la dirección del SIG Web creado. En este ejemplo: ``https://ngw-inicio.nextgis.com``. La necesitarás más adelante para crear una conexión.
 
 .. _project:
 
