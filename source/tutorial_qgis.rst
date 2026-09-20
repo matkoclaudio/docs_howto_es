@@ -46,7 +46,7 @@ Esta integración abarca la publicación de proyectos como mapas web, la conexi�
 
 En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conectarte a él desde otro equipo, administrar los estilos de los mapas web y editar datos directamente en el servidor, todo sin salir de tu entorno de trabajo habitual. ¡Regístrate para obtener una cuenta gratuita en la nube y empezá ahora mismo!
 
-`Descarga los datos del tutorial <https://nextgis.com/tutorials/seamless_qgis_integration.zip>` (fuente: `OpenStreetMap <https://www.openstreetmap.org/>`, `data.nextgis.com <http://data.nextgis.com>`, `Copernicus <https://browser.dataspace.copernicus.eu/>`)
+`Descarga los datos del tutorial <https://nextgis.com/tutorials/seamless_qgis_integration.zip>_` (fuente: `OpenStreetMap <https://www.openstreetmap.org/>_`, `data.nextgis.com <http://data.nextgis.com>_`, `Copernicus <https://browser.dataspace.copernicus.eu/>_`)
 
 
 .. seealso:: `Almacena, gestiona y publica tus datos espaciales <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html>`_
