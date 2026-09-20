@@ -82,7 +82,7 @@ Míralo en `youtube <https://youtu.be/mDbkUWVhs_M?si=4UOhAYuEg-AUKwkn>`_.
 Paso 1/5: Crea una cuenta gratuita y un Web GIS
 -----------------------------------------
 
-Ve a `my.nextgis.com`, haz clic en el botón **Crear cuenta** y regístrate con tu dirección de correo electrónico.
+Ve a `my.nextgis.com <my.nextgis.com>`_, haz clic en el botón **Crear cuenta** y regístrate con tu dirección de correo electrónico.
 
 Después del registro, aparecerá tu página de cuenta. Selecciona el menú **Web GIS** en la izquierda, elige un nombre (en este ejemplo, ngw-quickstart.nextgis.com) y selecciona la ubicación del centro de datos más cercana (en este ejemplo, DE Falkenstein). Luego haz clic en **Crear Web GIS**.
 
