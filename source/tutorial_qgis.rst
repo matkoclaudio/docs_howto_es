@@ -160,48 +160,34 @@ Paso 4/5: Crea una conexión
 
 Para establecer un vínculo entre tu aplicación QGIS y un SIG Web, necesitas crear una conexión.
 
-Ve a la `página de SIG Web <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu SIG Web (consulta :numref:`tutorial_my_wg_pic`). En este ejemplo, el enlace es: ``https://ngw-quickstart.nextgis.com``.
+Ve a la `página de SIG Web <https://my.nextgis.com/webgis/>`_ de tu cuenta de NextGIS ID y copia el enlace a tu SIG Web (consulta: `Crear una cuenta gratuita y SIG Web <tutorial_webgis.rst#paso-16-crear-una-cuenta-gratuita-y-sig-web>`). En este ejemplo, el enlace es: ``https://ngw-inicio.nextgis.com``.
 
-En QGIS, abre la configuración de NG Connect y haz clic en el botón **Nuevo** en el grupo “Conexiones”.
+En QGIS, abre la configuración de NextGIS Connect y haz clic en el botón **Nuevo** en el grupo “Conexiones”.
 
-.. figure:: _static/tut_ngcn_new_connection_en.png
+.. figure:: _static/tutorial_qgis_08.webp
    :name: tut_ngcn_new_connection_pic
    :align: center
    :width: 20cm
 
-Ingresa la dirección del SIG Web en el campo URL, luego haz clic en |symbologyAdd| para crear una nueva configuración de autenticación.
+Ingresa la dirección del SIG Web en el campo URL, luego haz clic en |symbologyAdd| para crear una nueva configuración de autenticación. En el nuevo cuadro de diálogo, ingresa el correo electrónico y la contraseña que usaste para registrarte en my.nextgis.com en el paso 1, y haz clic en el botón **Guardar**.
 
-.. figure:: _static/tut_ngcn_create_connection_en.png
-   :name: tut_ngcn_create_connection_pic
-   :align: center
-   :width: 12cm
-
-En el nuevo cuadro de diálogo, ingresa el correo electrónico y la contraseña que usaste para registrarte en my.nextgis.com en el paso 1, y haz clic en el botón **Guardar**.
-
-.. figure:: _static/tut_ngcn_authentication_en.png
+.. figure:: _static/tutorial_qgis_09.webp
    :name: tut_ngcn_authentication_pic
    :align: center
    :width: 10cm
 
 Haz clic en el botón **Probar conexión** para asegurarte de que ingresaste todos los datos correctamente. Luego haz clic en el botón **Guardar**.
 
-.. figure:: _static/tut_ngcn_test_connection_en.png
+.. figure:: _static/tutorial_qgis_10.webp
    :name: tut_ngcn_test_connection_pic
    :align: center
    :width: 12cm
-
-.. tip:: Si vas a **editar datos de forma colaborativa**, puedes activar la casilla de verificación “Habilitar versionado de entidades para capas vectoriales al cargar”.
-
-.. figure:: _static/tut_enable_versioning_en.png
-   :name: tut_enable_versioning_pic
-   :align: center
-   :width: 16cm
 
 Sal de la configuración haciendo clic en el botón **Aceptar** en la parte inferior de la página.
 
 Ahora, en el panel de NextGIS Connect puedes ver el árbol de recursos de tu SIG Web.
 
-.. figure:: _static/tut_ngcn_panel_connected_en.png
+.. figure:: _static/tutorial_qgis_11.webp
    :name: tut_ngcn_panel_connected_pic
    :align: center
    :width: 10cm
