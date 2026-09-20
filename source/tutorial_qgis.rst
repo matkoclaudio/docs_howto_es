@@ -44,7 +44,7 @@ NextGIS Web es un servidor GIS que funciona como centro de datos, te permitirá 
 
 Esta integración abarca la publicación de proyectos como mapas web, la conexión a estos desde el escritorio, la sincronización de datos y la edición colaborativa desde múltiples instancias de QGIS.
 
-En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conectarte a él desde otro equipo, administrar los estilos de los mapas web y editar datos directamente en el servidor, todo sin salir de tu entorno de trabajo habitual. ¡Regístrate para obtener una cuenta gratuita en la nube y empezá ahora mismo!
+En este tutorial paso a paso aprenderás a publicar tu proyecto en la web, conectarte a él desde otro equipo, administrar los estilos de los mapas web y editar datos directamente en el servidor, todo sin salir de tu entorno de trabajo habitual. ¡Regístrate en `my.nextgis.com <my.nextgis.com>`_ para obtener una cuenta gratuita en la nube y empezá ahora mismo!
 
 Descarga los `datos <https://nextgis.com/tutorials/seamless_qgis_integration.zip>`_ del tutorial (fuente: `OpenStreetMap <https://www.openstreetmap.org/>`_, `data.nextgis.com <http://data.nextgis.com>`_, `Copernicus <https://browser.dataspace.copernicus.eu/>`_)
 
@@ -53,20 +53,20 @@ Descarga los `datos <https://nextgis.com/tutorials/seamless_qgis_integration.zip
 
 Publica tu proyecto de QGIS en línea
 
-1. `Crea una cuenta gratuita y un Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#account>`_
-2. `Abre y explora el proyecto de QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#project>`_
-3. `Instala el plugin NextGIS Connect <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#install>`_
-4. `Crea una conexión <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#connection>`_
-5. `Publica el proyecto de QGIS en NextGIS Web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#publish>`_
+1. `Crea una cuenta gratuita y un Web GIS <tutorial_qgis.rst#paso-15-crea-una-cuenta-gratuita-y-un-web-gis>`_
+2. `Abre y explora el proyecto de QGIS <tutorial_qgis.rst#paso-25-abre-y-explora-el-proyecto-de-qgis>`_
+3. `Instala el plugin NextGIS Connect <tutorial_qgis.rst#paso-35-instala-el-plugin-nextgis-connect>`_
+4. `Crea una conexión <tutorial_qgis.rst#paso-45-crea-una-conexión>`_
+5. `Publica el proyecto de QGIS en NextGIS Web <tutorial_qgis.rst#paso-55-publica-el-proyecto-de-qgis-en-nextgis-web>`_
 
-Resultado: `Explora el mapa web y los recursos <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#webmap>`_
+Resultado: `Explora el mapa web y los recursos <tutorial_qgis.rst#explora-el-mapa-web-y-los-recursos>`_
 
 Usa QGIS para editar datos almacenados en Web GIS
 
-6. `Conéctate al mapa web desde QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#download>`_
-7. `Actualiza los estilos de las capas del mapa web desde QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#vector_style>`_
-8. `Actualiza el estilo de una capa ráster en un mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#raster_style>`_
-9. `Edita datos desde QGIS y explora los resultados en el mapa web <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#edit_data>`_
+6. `Conéctate al mapa web desde QGIS <tutorial_qgis.rst#conéctate-al-mapa-web-desde-qgis>`_
+7. `Modifica los estilos de las capas del mapa web desde QGIS <tutorial_qgis.rst#modifica-los-estilos-de-las-capas-en-el-mapa-web-desde-qgis>`_
+8. `Actualiza el estilo de una capa ráster en un mapa web <tutorial_qgis.rst#actualiza-el-estilo-de-una-capa-ráster-en-un-mapa-web>`_
+9. `Edita datos desde QGIS y explora los resultados en el mapa web <tutorial_qgis.rst#edita-datos-desde-qgis-y-explora-los-resultados-en-el-mapa-web>`_
 
 
 Puedes ver las instrucciones detalladas a continuación o mirar el vídeo:
