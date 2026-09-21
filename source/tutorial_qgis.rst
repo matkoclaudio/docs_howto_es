@@ -388,39 +388,39 @@ NextGIS Web puede manejar rásteres multibanda con estilos de QGIS de cualquier 
 Edita datos desde QGIS y explora los resultados en el mapa web
 -------------------------------------------------------
 
-Vuelve a QGIS. En el panel de Capas, selecciona la capa *Puntos de interés*, abre su menú contextual y habilita |mActionToggleEditing| el modo de edición. Como esta capa se agregó desde NextGIS Connect, está vinculada a SIG Web, por lo que las ediciones se sincronizan con el servidor.
+Vuelve a QGIS. En el panel de Capas, selecciona la capa *Points of interest*, abre su menú contextual y habilita |mActionToggleEditing| el modo de edición. Como esta capa se agregó desde NextGIS Connect, está vinculada a SIG Web, por lo que las ediciones se sincronizan con el servidor.
 
-.. figure:: _static/tut_toggle_editing_en.png
+.. figure:: _static/tutorial_qgis_31.webp
    :name: tut_toggle_editing_pic
    :align: center
-   :width: 12cm
+   :width: 30cm
 
 Habilita la barra de herramientas de Digitalización y activa la herramienta |button_add_point| **Añadir punto**.
 
-.. figure:: _static/tut_digitizing_en.png
+.. figure:: _static/tutorial_qgis_32.webp
    :name: tut_digitizing_pic
    :align: center
-   :width: 16cm
+   :width: 30cm
 
 Vamos a colocar otro lugar para hacer barbacoa en el bosque. Haz clic izquierdo en un lugar adecuado en el mapa, luego ingresa un valor de atributo, AMENITY = ``bbq``. Luego haz clic en **Aceptar**.
 
-.. figure:: _static/tut_new_point_en.png
+.. figure:: _static/tutorial_qgis_33.webp
    :name: tut_new_point_pic
    :align: center
-   :width: 16cm
+   :width: 30cm
 
 Haz clic en |mActionToggleEditing| para salir del modo de edición y selecciona **Guardar** en el cuadro de diálogo para guardar los cambios.
 
-.. figure:: _static/tut_qgis_stop_edit_en.png
+.. figure:: _static/tutorial_qgis_34.webp
    :name: tut_qgis_stop_edit_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Después de salir del modo de edición, la sincronización comienza automáticamente. La nueva entidad se envía al servidor. Vuelve al mapa web para verla.
 
-.. figure:: _static/tut_added_on_webmap_en.png
+.. figure:: _static/tutorial_qgis_35.webp
    :name: tut_added_on_webmap_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Los usuarios pueden conectarse a los mismos datos del servidor desde múltiples instancias de QGIS y editar los datos simultáneamente. Nuestra pila tecnológica proporciona una solución lista para usar que permite la digitalización en equipo y la edición de datos en QGIS.
