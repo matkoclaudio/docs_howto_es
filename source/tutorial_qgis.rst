@@ -239,7 +239,7 @@ Se ha creado un mapa web a partir del proyecto. Se ve exactamente igual que el p
 .. figure:: _static/tut_sursee_webmap_en.png
    :name: tut_sursee_webmap_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Puedes activar y desactivar capas y categorías dentro de las capas. El mapa web tiene su propia URL, por lo que puedes compartirlo fácilmente. Juega con la interfaz del mapa web. Obtén más información en `docs <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html>`_
 
@@ -255,7 +255,7 @@ Abre la carpeta *Sursee*, para cada capa del proyecto original se creó un recur
 .. figure:: _static/tutorial_qgis_16.webp
    :name: tut_wg_sursee_pic
    :align: center
-   :width: 25cm
+   :width: 30cm
 
 ¿Y si quieres editar las capas cargadas en QGIS? Veamos cómo hacerlo.
 
