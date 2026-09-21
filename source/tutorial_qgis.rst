@@ -280,7 +280,7 @@ Lo que obtienes es básicamente el proyecto inicial reconstruido completamente a
 .. figure:: _static/tutorial_qgis_18.webp
    :name: tut_downloaded_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Observa que en el panel de Capas, las capas vectoriales tienen marcas especiales a la derecha de sus nombres.
 
