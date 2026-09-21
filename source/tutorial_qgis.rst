@@ -167,8 +167,7 @@ En QGIS, abre la configuración de NextGIS Connect y haz clic en el botón **Nue
 .. figure:: _static/tutorial_qgis_08.webp
    :name: tut_ngcn_new_connection_pic
    :align: center
-   :width: 20cm
-
+   :width: 30cm
 Ingresa la dirección del SIG Web en el campo URL, y en *Iniciar sesión cómo* selecciona **Nuevo usuario**. Para crear una nueva configuración de autenticación, ingresa el correo electrónico y la contraseña que usaste para registrarte en *my.nextgis.com* en el paso 1.
 
 .. figure:: _static/tutorial_qgis_09.webp
