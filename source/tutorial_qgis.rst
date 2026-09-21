@@ -199,21 +199,21 @@ Paso 5/5: Publica el proyecto de QGIS en NextGIS Web
 
 En el panel de NextGIS Connect, selecciona la carpeta *Grupo de recursos principal*, luego en el menú clic en el botón *Añadir a Web GIS* y selecciona **Cargar todo**.
 
-.. figure:: _static/tutorial_qgis_12.webp
+.. figure:: _static/tutorial_qgis_15.webp
    :name: tut_upload_all_pic
    :align: center
    :width: 10cm
 
 Escribe un nombre para el proyecto. En este ejemplo, será ``Sursee``. Se creará una carpeta con este nombre en el SIG Web y se carganrán todos los datos del proyecto allí.
 
-.. figure:: _static/tutorial_qgis_13.webp
+.. figure:: _static/tutorial_qgis_14.webp
    :name: tut_upload_name_pic
    :align: center
    :width: 8cm
 
 Comenzada la carga, puedes seguir el progreso revisando el mensaje de estado.
 
-.. figure:: _static/tutorial_qgis_14.webp
+.. figure:: _static/tutorial_qgis_13.webp
    :name: tut_upload_status_pic
    :align: center
    :width: 10cm
@@ -222,7 +222,7 @@ Por defecto, una vez que el mapa web se publica con éxito, se abre automáticam
 
 Ten en cuenta que todas las capas del proyecto ahora son visibles en el panel de NextGIS Connect.
 
-.. figure:: _static/tutorial_qgis_15.webp
+.. figure:: _static/tutorial_qgis_12.webp
    :name: tut_open_in_browser_pic
    :align: center
    :width: 10cm
