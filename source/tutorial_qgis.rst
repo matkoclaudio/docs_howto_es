@@ -332,61 +332,54 @@ También puedes modificar los estilos ráster.
 Actualiza el estilo de una capa ráster en un mapa web
 -----------------------------------------
 
-En QGIS, activa la capa *Imágenes Sentinel 2*. Es un conjunto de datos satelitales de 4 bandas, configurado actualmente para mostrarse en colores naturales.
+En QGIS, activa la capa *Sentinel 2 imagery*. Es un conjunto de datos satelitales de 4 bandas, configurado actualmente para mostrarse en colores naturales.
 
-.. figure:: _static/tut_raster_initial_en.png
+.. figure:: _static/tutorial_qgis_24.webp
    :name: tut_raster_initial_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Abre su menú contextual y ve a “Propiedades”.
 
-.. figure:: _static/tut_raster_context_en.png
+.. figure:: _static/tutorial_qgis_25.webp
    :name: tut_raster_context_pic
    :align: center
-   :width: 14cm
+   :width: 30cm
 
 En Propiedades, ve a la pestaña Simbología y cambia ``Banda 3`` por ``Banda 4`` en el selector de *Banda roja*. Luego haz clic en **Aceptar**.
 
-.. figure:: _static/tut_raster_bands_en.png
+.. figure:: _static/tutorial_qgis_26.webp
    :name: tut_raster_bands_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Acabamos de reemplazar los datos de reflectancia del rojo por los datos de reflectancia del infrarrojo cercano, por lo que la visualización del ráster ha cambiado significativamente.
 
-.. figure:: _static/tut_raster_nir_en.png
+.. figure:: _static/tutorial_qgis_27.webp
    :name: tut_raster_nir_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 Abre el mapa web y activa la capa “Imágenes Sentinel 2”. Todavía tiene su apariencia original.
 
-.. figure:: _static/tut_raster_webmap_en.png
+.. figure:: _static/tutorial_qgis_28.webp
    :name: tut_raster_webmap_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
-Vuelve a QGIS, selecciona la capa *Imágenes Sentinel 2* en el panel de NextGIS Connect.
+Vuelve a QGIS, selecciona la capa *Sentinel 2 imagery* en el panel de NextGIS Connect. Luego, abre el menú contextual de la capa y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
 
-.. figure:: _static/tut_raster_select_en.png
-   :name: tut_raster_select_pic
-   :align: center
-   :width: 12cm
-
-Luego, abre el menú contextual de la capa y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
-
-.. figure:: _static/tut_update_r_style_en.png
+.. figure:: _static/tutorial_qgis_29.webp
    :name: tut_update_r_style_pic
    :align: center
-   :width: 14cm
+   :width: 30cm
 
 Abre el mapa web nuevamente: el estilo de la capa ha cambiado.
 
-.. figure:: _static/tut_raster_webmap_nir_en.png
+.. figure:: _static/tutorial_qgis_30.webp
    :name: tut_raster_webmap_nir_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 NextGIS Web puede manejar rásteres multibanda con estilos de QGIS de cualquier complejidad.
 
