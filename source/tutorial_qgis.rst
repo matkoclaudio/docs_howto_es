@@ -255,7 +255,7 @@ Abre la carpeta *Sursee*, para cada capa del proyecto original se creó un recur
 .. figure:: _static/tutorial_qgis_16.webp
    :name: tut_wg_sursee_pic
    :align: center
-   :width: 20cm
+   :width: 25cm
 
 ¿Y si quieres editar las capas cargadas en QGIS? Veamos cómo hacerlo.
 
