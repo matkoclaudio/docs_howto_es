@@ -295,32 +295,32 @@ Ahora están vinculadas al almacenamiento del servidor. Si los datos se actualiz
 Modifica los estilos de las capas en el mapa web desde QGIS
 ---------------------------------------------
 
-Hagamos que las vías de tren sean más brillantes y visibles en nuestro mapa web.
+Hagamos que las vías de tren sean más visibles en nuestro mapa web.
 
-En QGIS, busca la capa *Red de ferrocarriles* en el panel de Capas. Abre el menú contextual de la categoría de símbolos “rail” (ferrocarril). En la paleta, haz clic en el anillo de color para seleccionar el color rojo. Haz clic en la parte vacía del panel para cerrar el cuadro de diálogo.
+En QGIS, busca la capa *Railroad network* en el panel de Capas. Abre el menú contextual de la categoría de símbolos **rail** (ferrocarril). En la paleta, haz clic en el anillo de color para seleccionar el rojo. Haz clic en la parte vacía del panel para cerrar el cuadro de diálogo.
 
-.. figure:: _static/tut_pick_color_en.png
+.. figure:: _static/tutorial_qgis_20.webp
    :name: tut_pick_color_pic
    :align: center
    :width: 10cm
 
 Luego, busca y selecciona la capa *Red de ferrocarriles* en el panel de NextGIS Connect.
 
-.. figure:: _static/tut_railroad_select_en.png
+.. figure:: _static/tutorial_qgis_21.webp
    :name: tut_railroad_select_pic
    :align: center
    :width: 12cm
 
 Vuelve al panel de Capas, abre el menú contextual de la capa “Red de ferrocarriles” y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
 
-.. figure:: _static/tut_update_v_style_en.png
+.. figure:: _static/tutorial_qgis_22.webp
    :name: tut_update_v_style_pic
    :align: center
    :width: 16cm
 
 Vuelve al navegador web con el mapa web abierto (vuelve a abrirlo desde el panel de NextGIS Connect si está cerrado). Verás que los ferrocarriles han cambiado su color a rojo.
 
-.. figure:: _static/tut_webmap_red_rail_en.png
+.. figure:: _static/tutorial_qgis_23.webp
    :name: tut_webmap_red_rail_pic
    :align: center
    :width: 20cm
