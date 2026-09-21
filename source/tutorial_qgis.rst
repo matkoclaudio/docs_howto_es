@@ -311,7 +311,7 @@ Luego, busca y selecciona la capa *Red de ferrocarriles* en el panel de NextGIS 
    :align: center
    :width: 12cm
 
-Vuelve al panel de Capas, abre el menú contextual de la capa “Red de ferrocarriles” y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
+Vuelve al panel de Capas, abre el menú contextual de la capa *Railroad network* y haz clic en **NextGIS Connect → Actualizar estilo de capa**.
 
 .. figure:: _static/tutorial_qgis_22.webp
    :name: tut_update_v_style_pic
@@ -323,7 +323,7 @@ Vuelve al navegador web con el mapa web abierto (vuelve a abrirlo desde el panel
 .. figure:: _static/tutorial_qgis_23.webp
    :name: tut_webmap_red_rail_pic
    :align: center
-   :width: 20cm
+   :width: 30cm
 
 También puedes modificar los estilos ráster.
 
