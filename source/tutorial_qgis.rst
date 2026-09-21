@@ -264,34 +264,32 @@ Abre la carpeta *Sursee*, para cada capa del proyecto original se creó un recur
 Conéctate al mapa web desde QGIS
 -----------------------------------
 
-En QGIS, cierra el proyecto (Proyecto → Cerrar). Imagina que trabajas desde otro ordenador, desde otra instancia de QGIS. Mantén abierto el panel de NextGIS Connect (vuélvelo a abrir si está cerrado).
+En QGIS, cierra el proyecto (*Proyecto / Cerrar*). Imagina que trabajas desde otro ordenador, desde otra instancia de QGIS. Mantén abierto el panel de NextGIS Connect (vuélvelo a abrir si está cerrado).
 
-En el panel de NextGIS Connect, busca el recurso de mapa web *Sursee - webmap*, haz clic derecho para abrir el menú contextual y selecciona |button_to_qgis| **Agregar a QGIS**.
+En el panel de NextGIS Connect, busca el recurso de mapa web *Sursee - webmap*, haz clic derecho para abrir el menú contextual y selecciona **Añadir a QGIS**.
 
-.. figure:: _static/tut_add_to_qgis_en.png
+.. figure:: _static/tutorial_qgis_17.webp
    :name: tut_add_to_qgis_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
 QGIS reconstruye el contenido del mapa web localmente, descargando todas las capas y estilos relevantes y organizándolos para que coincidan con la estructura original.
 
 Lo que obtienes es básicamente el proyecto inicial reconstruido completamente a partir de NextGIS Web.
 
-.. figure:: _static/tut_downloaded_en.png
+.. figure:: _static/tutorial_qgis_18.webp
    :name: tut_downloaded_pic
    :align: center
    :width: 20cm
 
-Observa que en el panel de Capas, las capas vectoriales tienen marcas especiales a la derecha de sus nombres: |synchronized|.
+Observa que en el panel de Capas, las capas vectoriales tienen marcas especiales a la derecha de sus nombres.
 
-.. figure:: _static/tut_synched_layers_en.png
+.. figure:: _static/tutorial_qgis_19.webp
    :name: tut_synched_layers_pic
    :align: center
    :width: 14cm
 
-Ahora están vinculadas al almacenamiento del servidor. Si los datos se actualizan en el servidor, Connect sincroniza la capa local en QGIS. Si la capa sincronizada se actualiza en QGIS, Connect lo comunica al servidor y actualiza los datos en el servidor.
-
-Uno de los grandes usos de esto es actualizar los estilos en el mapa web.
+Ahora están vinculadas al almacenamiento del servidor. Si los datos se actualizan en el servidor, NextGIS Connect sincroniza la capa local en QGIS. Si la capa sincronizada se actualiza en QGIS, NextGIS Connect lo comunica al servidor y actualiza los datos en el servidor. Una de las más grandes ventajas de esto es la actualización de estilos en el mapa web.
 
 .. _vector_style:
 
