@@ -360,7 +360,7 @@ Acabamos de reemplazar los datos de reflectancia del rojo por los datos de refle
    :align: center
    :width: 30cm
 
-Abre el mapa web y activa la capa “Imágenes Sentinel 2”. Todavía tiene su apariencia original.
+Abre el mapa web y activa la capa *Sentinel 2 imagery*. Todavía tiene su apariencia original.
 
 .. figure:: _static/tutorial_qgis_28.webp
    :name: tut_raster_webmap_pic
