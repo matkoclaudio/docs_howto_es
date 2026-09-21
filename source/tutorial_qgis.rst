@@ -234,14 +234,14 @@ Ahora puedes explorar el mapa web. Continúa con el paso 6 para aprender cómo c
 Explora el mapa web y los recursos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se ha creado un mapa web a partir del proyecto. Se ve exactamente igual que el proyecto QGIS original, porque NextGIS Web usa los estilos de QGIS como la forma principal de definir los estilos de las capas.
+Se ha creado un mapa web a partir del proyecto. Se ve exactamente igual que el proyecto QGIS original, ya que NextGIS Web usa los estilos de QGIS como la forma principal de definir los estilos de las capas.
 
 .. figure:: _static/tut_sursee_webmap_en.png
    :name: tut_sursee_webmap_pic
    :align: center
    :width: 20cm
 
-Puedes activar y desactivar capas y categorías dentro de las capas. El mapa web tiene su propia URL, por lo que puedes compartirlo fácilmente. Juega con la interfaz del mapa web. Obtén más información al respecto: https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
+Puedes activar y desactivar capas y categorías dentro de las capas. El mapa web tiene su propia URL, por lo que puedes compartirlo fácilmente. Juega con la interfaz del mapa web. Obtén más información en `docs <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html>`_
 
 Haz clic en el icono |NextGISLogo| en la esquina superior izquierda para ver la interfaz principal con la lista de recursos.
 
@@ -250,11 +250,9 @@ Haz clic en el icono |NextGISLogo| en la esquina superior izquierda para ver la 
    :align: center
    :width: 10cm
 
-Abre la carpeta Sursee. Para cada capa del proyecto original se creó un recurso correspondiente en ella.
+Abre la carpeta *Sursee*, para cada capa del proyecto original se creó un recurso correspondiente en ella. Puedes trabajar con las capas vectoriales y ráster cargadas de manera independiente al mapa web, puedes modificar los datos, publicarlos usando diferentes protocolos, etc.
 
-Puedes trabajar con las capas vectoriales y ráster cargadas de forma independiente del mapa web: modificar los datos, publicarlos usando diferentes protocolos, etc.
-
-.. figure:: _static/tut_wg_sursee_en.png
+.. figure:: _static/tutorial_qgis_16.webp
    :name: tut_wg_sursee_pic
    :align: center
    :width: 20cm
