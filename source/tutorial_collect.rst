@@ -62,7 +62,7 @@ Verás la interfaz principal de tu Web GIS.
    :align: center
    :width: 20cm
 
-En NextGIS Web todo es un recurso: capas, Mapas Web, carpetas (grupos), conexiones a servicios y bases de datos. Los recursos se organizan como archivos en tu computadora: en un árbol. 
+En NextGIS Web todo es un recurso: capas, Mapas Web, carpetas (grupos), conexiones a servicios y bases de datos. Los recursos se organizan como archivos en tu computadora, con estructura de árbol. 
 
 Vamos a crear nuestro primer recurso, una carpeta o *resource group* llamada Data collecting. Para hacerlo, haz clic en el botón azul **Create resource** en la parte superior de la página. 
 
@@ -96,7 +96,7 @@ La URL de tu navegador es la ruta al recurso, y los números al final de la URL 
    :align: center
    :width: 14cm
 
-*Data collecting* es un hijo de la carpeta *Main resource group* donde lo creamos. El recurso padre se muestra encima del nombre del recurso.
+*Data collecting* es el recurso hijo se encuentra dentro de la carpeta *Main resource group* donde lo creamos. El recurso padre se muestra encima del nombre del recurso.
 
 Ahora puedes subir datos a esta carpeta.
 
@@ -380,7 +380,7 @@ Recolecta datos en el campo (desde la perspectiva del trabajador de campo)
 
 Instala la aplicación NextGIS Collector en tu dispositivo Android. Puedes encontrarla en Google Play.
 
-Ejecuta la aplicación. Inicia sesión con el correo electrónico que usaste para crear tu NextGIS ID y su contraseña.
+Ejecuta la aplicación. Inicia sesión con el correo electrónico que usaste para crear tu NextGIS ID y contraseña.
 
 .. figure:: _static/collect_sign_in_en.png
    :name: collect_sign_in_pic
