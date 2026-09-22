@@ -13,10 +13,10 @@ Se requiere un smartphone Android para trabajar con la aplicación móvil.
 
 Básico:
 
-* Paso 1 `Crear una cuenta gratuita y Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#account>`_
-* Paso 2 `Instalar y configurar NextGIS Tracker en tu dispositivo Android <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#install>`_
-* Paso 3 `Empezar a recolectar ubicaciones <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
-* Paso 4 `Ver la ubicación actual del tracker y el track grabado en un Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
+* Paso 1. `Crear una cuenta gratuita y Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#account>`_
+* Paso 2. `Instalar y configurar NextGIS Tracker en tu dispositivo Android <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#install>`_
+* Paso 3. `Empezar a recolectar ubicaciones <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
+* Paso 4. `Ver la ubicación actual del tracker y el track grabado en un Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
 
 Avanzado:
 

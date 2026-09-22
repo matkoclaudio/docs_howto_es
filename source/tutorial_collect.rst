@@ -11,17 +11,17 @@ En este ejemplo, crearemos un proyecto para recolectar datos sobre árboles en l
 
 Configuración
 
-* `Paso 1. Cuenta gratuita y Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#account>`_
-* `Paso 2. Grupo de recursos <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#webgis>`_
-* `Paso 3. Capa vectorial (base de datos) <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#create-layer>`_
-* `Paso 4. Formulario de recolección de datos <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#form>`_ 
-* `Paso 5. Lista de trabajadores de campo <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#collectors>`_
-* `Paso 6. Collector project <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#project>`_
+* Paso 1. `Cuenta gratuita y Web GIS <tutorial_collect.rst#paso-16-crea-una-cuenta-gratuita-y-web-gis>`_
+* Paso 2. `Grupo de recursos <tutorial_collect.rst#paso-26-accede-a-tu-web-gis-y-crea-un-grupo-de-recursos>`_
+* Paso 3. `Capa vectorial (base de datos) <tutorial_collect.rst#paso-36-crea-una-capa-vectorial-contenedor-para-la-recolección-de-datos>`_
+* Paso 4. `Formulario de recolección de datos <tutorial_collect.rst#paso-46-crea-un-formulario-de-recolección-de-datos>`_ 
+* Paso 5. `Lista de trabajadores de campo <tutorial_collect.rst#paso-56-crea-la-lista-de-trabajadores-de-campo>`_
+* Paso 6. `Collector project <tutorial_collect.rst#paso-66-crea-un-collector-project>`_
 
 Recolecta y revisa los datos
 
-* `Introducir datos <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#fieldwork>`_
-* `Revisar y visualizar en Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#check>`_
+* `Introducir datos <tutorial_collect.rst#recolecta-datos-en-el-campo-desde-la-perspectiva-del-trabajador-de-campo>`_
+* `Revisar y visualizar en Web GIS <tutorial_collect.rst#revisa-los-datos-recolectados-en-web-gis>`_
 
 
 
