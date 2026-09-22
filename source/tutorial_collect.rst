@@ -1,27 +1,27 @@
-Tutorial: Collect Spatial Data in the Field
-===========================================
+Tutorial: Recolectar datos espaciales en el campo
+=================================================
 
-.. admonition:: Availability
+.. admonition:: Disponibilidad
 
-    Cloud SaaS (all editions), On premise (Extended, Enterprise)
+    Cloud SaaS (todas las ediciones), On premise (Extended, Enterprise)
 
-NextGIS Web is a data-centric server GIS allowing you to store, manage and publish spatial data in a flexible and effective way. It has an integrated mobile data collection subsystem that you can use to organize collaborative field work. In this step-by-step tutorial you will learn how to create a data collection project and start gathering spatial information with a mobile application. Register a free cloud account and try it right away!
+NextGIS Web es un servidor GIS orientado a datos que te permite almacenar, gestionar y publicar datos espaciales de forma flexible y eficaz. Tiene un subsistema integrado de recolección de datos móviles que puedes usar para organizar trabajo de campo colaborativo. En este tutorial paso a paso aprenderás cómo crear un proyecto de recolección de datos y comenzar a reunir información espacial con una aplicación móvil. ¡Registra una cuenta gratuita en la nube y pruébalo ahora mismo!
 
-In this example, we will create a project to collect data about trees in the city. An Android smartphone is required to work with mobile application.
+En este ejemplo, crearemos un proyecto para recolectar datos sobre árboles en la ciudad. Se requiere un teléfono Android para trabajar con la aplicación móvil.
 
-Setting up
+Configuración
 
-* `Step 1. Free account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#account>`_
-* `Step 2. Resource group <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#webgis>`_
-* `Step 3. Vector layer (database) <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#create-layer>`_
-* `Step 4. Data collecting form <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#form>`_ 
-* `Step 5. List of field workers <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#collectors>`_
-* `Step 6. Collector project <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#project>`_
+* `Paso 1. Cuenta gratuita y Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#account>`_
+* `Paso 2. Grupo de recursos <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#webgis>`_
+* `Paso 3. Capa vectorial (base de datos) <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#create-layer>`_
+* `Paso 4. Formulario de recolección de datos <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#form>`_ 
+* `Paso 5. Lista de trabajadores de campo <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#collectors>`_
+* `Paso 6. Collector project <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#project>`_
 
-Collect and check the data
+Recolecta y revisa los datos
 
-* `Enter data <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#fieldwork>`_
-* `Check and visualize in Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#check>`_
+* `Introducir datos <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#fieldwork>`_
+* `Revisar y visualizar en Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#check>`_
 
 
 
@@ -29,19 +29,19 @@ Collect and check the data
 
 .. _account:
 
-Step 1/6 Create free account and Web GIS
-----------------------------------------
+Paso 1/6 Crea una cuenta gratuita y Web GIS
+-------------------------------------------
 
-Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
+Ve a `my.nextgis.com`, haz clic en el botón **Create Account** y regístrate con tu dirección de correo electrónico. 
 
-After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
+Después del registro aparecerá la página de tu cuenta. Selecciona el menú **Web GIS** a la izquierda, elige un nombre (ngw-quickstart.nextgis.com en este ejemplo) y selecciona la ubicación del centro de datos más cercana (DE Falkenstein en este ejemplo). Luego haz clic en **Create Web GIS**.
 
 .. figure:: _static/tutorial_create_wg_en.png
    :name: 
    :align: center
    :width: 20cm
 
-When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
+Cuando el proceso de creación termine, el contenido de la página cambiará. Aparecerá un enlace directo a tu nuevo Web GIS.
 
 .. figure:: _static/tutorial_my_wg_en.png
    :name: 
@@ -50,76 +50,76 @@ When the creation process is complete, the contents of the page will change. Dir
 
 .. _webgis:
 
-Step 2/6 Access your Web GIS and create resource group
--------------------------------------------------------
+Paso 2/6 Accede a tu Web GIS y crea un grupo de recursos
+--------------------------------------------------------
 
-Click on the Web GIS link or type it into your browser.
+Haz clic en el enlace del Web GIS o escríbelo en tu navegador.
 
-You'll see the main interface of your Web GIS.
+Verás la interfaz principal de tu Web GIS.
 
 .. figure:: _static/tutorial_wg_main_en.png
    :name: tutorial_wg_main_pic
    :align: center
    :width: 20cm
 
-In NextGIS Web everything is a resource — layers, Web Maps, folders (groups), connections to services and databases. Resources are organized as files at your computer — in a tree. 
+En NextGIS Web todo es un recurso: capas, Mapas Web, carpetas (grupos), conexiones a servicios y bases de datos. Los recursos se organizan como archivos en tu computadora: en un árbol. 
 
-Let’s create our first resource, a folder or *resource group* named Data collecting. To do that, click the blue **Create resource** button on the top of the page. 
+Vamos a crear nuestro primer recurso, una carpeta o *resource group* llamada Data collecting. Para hacerlo, haz clic en el botón azul **Create resource** en la parte superior de la página. 
 
-.. tip:: If you don’t see the **Create resource** button, you should log in first. Click the **Sign in** button in the top right corner and then select **Sign in with NextGIS ID**.
+.. tip:: Si no ves el botón **Create resource**, primero debes iniciar sesión. Haz clic en el botón **Sign in** en la esquina superior derecha y luego selecciona **Sign in with NextGIS ID**.
 
 .. figure:: _static/tutorial_log_in_en.png
    :name: tutorial_log_in_pic
    :align: center
    :width: 20cm
 
-When you click **Create resource**, a window appears showing all available options of what could you create in the current context. Select **Resource group**.
+Cuando hagas clic en **Create resource**, aparecerá una ventana que muestra todas las opciones disponibles de lo que puedes crear en el contexto actual. Selecciona **Resource group**.
 
 .. figure:: _static/tutorial_select_group_en.png
    :name: tutorial_select_group_pic
    :align: center
    :width: 20cm
 
-The resource creation window consists of several tabs, in this case we need to set only the name ``Data collecting`` on the “Resource” tab.
+La ventana de creación de recursos consta de varias pestañas; en este caso solo necesitamos establecer el nombre ``Data collecting`` en la pestaña “Resource”.
 
 .. figure:: _static/collect_create_group_en.png
    :name: collect_create_group_pic
    :align: center
    :width: 20cm
 
-Click **Create** and you'll be redirected to the page of the new resource.
+Haz clic en **Create** y serás redirigido a la página del nuevo recurso.
 
-The URL in your browser is the path to the resource, and the numbers at the end of the URL are the resource ID. 
+La URL de tu navegador es la ruta al recurso, y los números al final de la URL son el ID del recurso. 
 
 .. figure:: _static/collect_group_result_en.png
    :name: collect_group_result_pic
    :align: center
    :width: 14cm
 
-*Data collecting* is a child for the *Main resource group* folder where we created it. The parent resource is shown above the resource name.
+*Data collecting* es un hijo de la carpeta *Main resource group* donde lo creamos. El recurso padre se muestra encima del nombre del recurso.
 
-Now you can upload data to this folder.
+Ahora puedes subir datos a esta carpeta.
 
 .. _create_layer:
 
-Step 3/6 Create a vector layer (container for data collecting)
---------------------------------------------------------------
+Paso 3/6 Crea una capa vectorial (contenedor para la recolección de datos)
+--------------------------------------------------------------------------
 
-Next we need to create a vector layer, it will serve as a database where the collected information about geographical objects would be stored. Click the **Create resource** button, then select **Vector layer**.
+A continuación necesitamos crear una capa vectorial; servirá como base de datos donde se almacenará la información recolectada sobre objetos geográficos. Haz clic en el botón **Create resource** y luego selecciona **Vector layer**.
 
 .. figure:: _static/collect_select_layer_en.png
    :name: collect_select_layer_pic
    :align: center
    :width: 20cm
 
-It is possible to upload a vector layer from a file, or create it from skratch. Open the dropdown menu on the top of the “Vector layer” tab and select **Create empty layer**.
+Es posible subir una capa vectorial desde un archivo o crearla desde cero. Abre el menú desplegable en la parte superior de la pestaña “Vector layer” y selecciona **Create empty layer**.
 
 .. figure:: _static/collect_create_empty_layer_en.png
    :name: collect_create_empty_layer_pic
    :align: center
    :width: 20cm
 
-In the changed interface select the **Point** geometry type.
+En la interfaz cambiada, selecciona el tipo de geometría **Point**.
 
 .. figure:: _static/tutorial_empty_layer_geom_en.png
    :name: tutorial_empty_layer_geom_pic
@@ -127,9 +127,9 @@ In the changed interface select the **Point** geometry type.
    :width: 20cm
 
 
-On the **Resource** tab set the name for the new layer, ``Trees``, and click **Create**.
+En la pestaña **Resource**, establece el nombre de la nueva capa, ``Trees``, y haz clic en **Create**.
 
-The vector layer is created and you are redirected to its page. You can see primary metadata and layer structure (currently empty).
+La capa vectorial se crea y serás redirigido a su página. Puedes ver los metadatos principales y la estructura de la capa (actualmente vacía).
 
 .. figure:: _static/collect_vector_result_en.png
    :name: collect_vector_result_pic
@@ -138,15 +138,15 @@ The vector layer is created and you are redirected to its page. You can see prim
 
 .. _form:
 
-Step 4/6 Create data collecting form 
---------------------------------------
+Paso 4/6 Crea un formulario de recolección de datos 
+----------------------------------------------------
 
-By creating a form we'll accomplish two things at once:
+Al crear un formulario lograremos dos cosas a la vez:
 
-1. Determine what kind of data we want to collect to the vector layer,
-2. Create a comprehensible interface for the data collectors.
+1. Determinar qué tipo de datos queremos recolectar en la capa vectorial,
+2. Crear una interfaz comprensible para los recolectores de datos.
 
-On the vector layer resource page click **Create resource** and select **Form**.
+En la página del recurso de capa vectorial, haz clic en **Create resource** y selecciona **Form**.
 
 .. figure:: _static/collect_select_form_en.png
    :name: collect_select_form_pic
@@ -154,7 +154,7 @@ On the vector layer resource page click **Create resource** and select **Form**.
    :width: 20cm
 
 
-Switch the mode to **Design form**
+Cambia el modo a **Design form**
 
 .. figure:: _static/collect_design_from_en.png
    :name: collect_design_from_pic
@@ -162,36 +162,36 @@ Switch the mode to **Design form**
    :width: 20cm
 
 
-In this visual drag-n-drop interface you could construct a form that your field workers would see on their mobile devices. 
+En esta interfaz visual de arrastrar y soltar puedes construir un formulario que tus trabajadores de campo verán en sus dispositivos móviles. 
 
-This tab is split vertically into three sections:
+Esta pestaña se divide verticalmente en tres secciones:
 
-* On the left: a list of available elements, 
-* In the middle: layout for the smartphone screen, 
-* On the right: settings for the selected element.
+* A la izquierda: una lista de elementos disponibles, 
+* En el medio: el diseño para la pantalla del smartphone, 
+* A la derecha: la configuración del elemento seleccionado.
 
 .. figure:: _static/collect_designer_interface_en.png
    :name: collect_designer_interface_pic
    :align: center
    :width: 20cm
 
-Click on the **Label** element and drag it to the layout. It appears with the default text value. 
+Haz clic en el elemento **Label** y arrástralo al diseño. Aparece con el valor de texto predeterminado. 
 
 .. figure:: _static/collect_add_label_en.png
    :name: collect_add_label_pic
    :align: center
    :width: 20cm
 
-On the right panel find the **Properties** block and set the label value to ``Tree species``. This is the title for the first data field we're going to add.
+En el panel derecho, busca el bloque **Properties** y establece el valor de la etiqueta en ``Tree species``. Este es el título del primer campo de datos que vamos a agregar.
 
 .. figure:: _static/collect_label_text_en.png
    :name: collect_label_text_pic
    :align: center
    :width: 20cm
 
-Now we need to add the field where collectors enter the data. For this first field we'll provide the collectors with a predetermined list of tree species.Select the element **Dropdown** and drag it to the layout. 
+Ahora necesitamos agregar el campo donde los recolectores introducen los datos. Para este primer campo, proporcionaremos a los recolectores una lista predeterminada de especies de árboles. Selecciona el elemento **Dropdown** y arrástralo al diseño. 
 
-A dialog appears that prompts you to select the attribute of the layer to which the data entered in this field is to be written.
+Aparece un diálogo que te pide seleccionar el atributo de la capa en el que se escribirán los datos introducidos en este campo.
 
 .. figure:: _static/collect_dropdown_new_en_2.png
    :name: collect_dropdown_new_pic
@@ -200,66 +200,65 @@ A dialog appears that prompts you to select the attribute of the layer to which 
 
 
 
-Currently we don’t have any attributes yet, so click on the **Add** button.  For the new field set up the parameters:
+Actualmente todavía no tenemos atributos, así que haz clic en el botón **Add**. Para el nuevo campo, configura los parámetros:
 
 * Keyname = ``species``,
 * Display name = ``Species``,
 * Data type = STRING.
 
-Then click the blue **Add** button.
+Luego haz clic en el botón azul **Add**.
 
 .. figure:: _static/collect_add_dropdown_en.png
    :name: collect_add_dropdown_pic
    :align: center
    :width: 12cm
 
-And then **OK** in the Data binding dialog.
+Y luego **OK** en el diálogo Data binding.
 
-Now the layout looks like this:
+Ahora el diseño se ve así:
 
 .. figure:: _static/collect_dropdown_properties_en.png
    :name: collect_dropdown_properties_pic
    :align: center
    :width: 20cm
 
-Click on the Dropdown element and in the Properties block activate **Remember last value** and **Enable search** checkboxes. 
+Haz clic en el elemento Dropdown y, en el bloque Properties, activa las casillas **Remember last value** y **Enable search**. 
 
-Now we need to enter the list of options to choose from in the dropdown. Click **Edit** button next to the Options. 
+Ahora necesitamos introducir la lista de opciones para elegir en el dropdown. Haz clic en el botón **Edit** junto a Options. 
 
-An empty table appears. The first column, Value is what would be recorded to the database, Label is what field workers would see in the interface. 
+Aparece una tabla vacía. La primera columna, **Value**, es lo que se registrará en la base de datos; **Label** es lo que los trabajadores de campo verán en la interfaz. 
 
-We'll keep it simple and have the same things in both columns. 
-Enter six options: ``Beech, Oak, Spruce, Pine, Birch, Other``.
+Lo mantendremos simple y pondremos lo mismo en ambas columnas. Introduce seis opciones: ``Beech, Oak, Spruce, Pine, Birch, Other``.
 
 .. figure:: _static/collect_dropdown_options_en.png
    :name: collect_dropdown_options_pic
    :align: center
    :width: 14cm
 
-Next element we're going to add is a simple checkbox. Click on the **Check box** element and drag it to the layout. In the binding dialog add a new field with:
+El siguiente elemento que vamos a agregar es una casilla de verificación simple. Haz clic en el elemento **Check box** y arrástralo al diseño. En el diálogo de vinculación, agrega un nuevo campo con:
 
 * Keyname = ``damaged``, 
 * Display name = ``damaged``, 
 * Data type = INTEGER. 
 
-In the element properties set:
+En las propiedades del elemento establece:
 
 * Label = ``The tree is damaged``. 
 
-Here's the result you should get:
+Este es el resultado que deberías obtener:
 
 .. figure:: _static/collect_ckeckbox_en.png
    :name: collect_ckeckbox_pic
    :align: center
    :width: 8cm
 
-For the next element, click on the **Date & time** and drag it to the layout. In the binding dialog add a new field with:
+Para el siguiente elemento, haz clic en **Date & time** y arrástralo al diseño. En el diálogo de vinculación, agrega un nuevo campo con:
 
 * Keyname = ``datetime``, 
 * Display name = ``Date and time``, 
 * Data type = DATETIME. 
 
-In the element properties set *Type* to Date & time.
+En las propiedades del elemento, establece *Type* en Date & time.
 
 .. figure:: _static/collect_datetime_properties_en.png
    :name: collect_datetime_properties_pic
@@ -267,9 +266,9 @@ In the element properties set *Type* to Date & time.
    :width: 10cm
 
 
-Then click on the **Photo** element and drag it to the layout. In the element properties set *Max* number to 5.
+Luego haz clic en el elemento **Photo** y arrástralo al diseño. En las propiedades del elemento, establece el número *Max* en 5.
 
-Now that we added all the elements we need to add the corresponding fields to the layer. Activate the checkbox **Add absent fields to layer**. This is the final look of the form:
+Ahora que agregamos todos los elementos, necesitamos agregar los campos correspondientes a la capa. Activa la casilla **Add absent fields to layer**. Este es el aspecto final del formulario:
 
 .. figure:: _static/collect_add_absent_en.png
    :name: collect_add_absent_pic
@@ -277,16 +276,16 @@ Now that we added all the elements we need to add the corresponding fields to th
    :width: 20cm
 
 
-Click the **Create** button. After creation you are immediately redirected to the new resource page. 
+Haz clic en **Create**. Después de la creación, serás redirigido inmediatamente a la página del nuevo recurso. 
 
-To allow people to use this form for data collection you need to add them to the list of collectors.
+Para permitir que las personas usen este formulario para la recolección de datos, necesitas agregarlas a la lista de recolectores.
 
 .. _collectors:
 
-Step 5/6 Create list of field workers
---------------------------------------
+Paso 5/6 Crea la lista de trabajadores de campo
+-----------------------------------------------
 
-Open the menu in the top right corner of the NextGIS Web interface and go to the **Control panel**.
+Abre el menú en la esquina superior derecha de la interfaz de NextGIS Web y ve al **Control panel**.
 
 .. figure:: _static/collect_open_control_panel_en.png
    :name: collect_open_control_panel_pic
@@ -294,16 +293,16 @@ Open the menu in the top right corner of the NextGIS Web interface and go to the
    :width: 10cm
 
 
-Then select **Collector projects**.
+Luego selecciona **Collector projects**.
 
 .. figure:: _static/collect_control_panel_collector_en.png
    :name: collect_control_panel_collector_pic
    :align: center
    :width: 10cm
 
-Here you can manage the list of users connected to your Web GIS as field data collectors. Any user with NextGIS ID account can be added as a field data collector, even if they are not a part of your `team <https://docs.nextgis.com/docs_ngcom/source/teams.html>`_.
+Aquí puedes gestionar la lista de usuarios conectados a tu Web GIS como recolectores de datos de campo. Cualquier usuario con una cuenta de NextGIS ID puede agregarse como recolector de datos de campo, incluso si no forma parte de tu `team <https://docs.nextgis.com/docs_ngcom/source/teams.html>`_.
 
-Initially the list is empty.
+Inicialmente la lista está vacía.
 
 .. figure:: _static/collect_list_empty_en.png
    :name: collect_list_empty_pic
@@ -311,84 +310,84 @@ Initially the list is empty.
    :width: 20cm
 
 
-Click the **Create** button to add a user to the list of collectors. First, add yourself. In the NextGIS ID field enter your email used for the registration on my.nextgis.com.
+Haz clic en **Create** para agregar un usuario a la lista de recolectores. Primero, agrégate a ti mismo. En el campo NextGIS ID, introduce el correo electrónico que usaste para registrarte en my.nextgis.com.
 
 .. figure:: _static/collect_add_collector_en.png
    :name: collect_add_collector_pic
    :align: center
    :width: 20cm
 
-A new entry is added to the list of collectors.
+Se agrega una nueva entrada a la lista de recolectores.
 
 .. _project:
 
-Step 6/6 Create Collector project
-----------------------------------
+Paso 6/6 Crea un Collector project
+-----------------------------------
 
-Return to the “Data collecting” resource group and create a new resource - **Collector project**.
+Regresa al grupo de recursos “Data collecting” y crea un nuevo recurso: **Collector project**.
 
 .. figure:: _static/collector_select_project_en.png
    :name: collector_select_project_pic
    :align: center
    :width: 20cm
 
-On the Resource tab set the name of the project that the data collectors would see in the app. Enter ``Trees in the city``.
+En la pestaña Resource, establece el nombre del proyecto que los recolectores verán en la app. Introduce ``Trees in the city``.
 
 .. figure:: _static/collect_project_name_en.png
    :name: collect_project_name_pic
    :align: center
    :width: 20cm
 
-On the Project tab, leave all settings at their default values.
+En la pestaña Project, deja todas las configuraciones con sus valores predeterminados.
 
 .. figure:: _static/collect_project_settings_en.png
    :name: collect_project_settings_pic
    :align: center
    :width: 20cm
 
-On the Items tab determine the contents of your project. Which data should the field workers gather? Which layer should they see as a reference on the map? Click **+ Layer** button and select ``Trees`` layer.
+En la pestaña Items, determina el contenido de tu proyecto. ¿Qué datos deben reunir los trabajadores de campo? ¿Qué capa deben ver como referencia en el mapa? Haz clic en el botón **+ Layer** y selecciona la capa ``Trees``.
 
 .. figure:: _static/collect_project_items_en.png
    :name: collect_project_items_pic
    :align: center
    :width: 20cm
 
-Click on the added item to see its properties in the panel on the right. 
-Make sure that *Editable* and *Syncable* check boxes are active.
+Haz clic en el elemento agregado para ver sus propiedades en el panel de la derecha. 
+Asegúrate de que las casillas *Editable* y *Syncable* estén activas.
 
 .. figure:: _static/collect_item_properties_en.png
    :name: collect_item_properties_pic
    :align: center
    :width: 20cm
 
-On the Collectors tab activate the check box near your email - it adds you as a field data collector to this project.
+En la pestaña Collectors, activa la casilla junto a tu correo electrónico; esto te agrega como recolector de datos de campo a este proyecto.
 
 .. figure:: _static/collect_tick_collectors_en.png
    :name: collect_tick_collectors_pic
    :align: center
    :width: 20cm
 
-Click **Create** to finish.
+Haz clic en **Create** para finalizar.
 
-That’s it. A project has been created and field workers could start their work.
+Eso es todo. Se ha creado un proyecto y los trabajadores de campo podrían comenzar su trabajo.
 
-For this project you'll act as the data collector yourself.
+Para este proyecto, actuarás como el recolector de datos tú mismo.
 
 .. _fieldwork:
 
-Collect data in the field (from the field worker’s perspective)
-------------------------------------------------------------------
+Recolecta datos en el campo (desde la perspectiva del trabajador de campo)
+--------------------------------------------------------------------------
 
-Install NextGIS Collector application on your Android device. It could be found in Google Play.
+Instala la aplicación NextGIS Collector en tu dispositivo Android. Puedes encontrarla en Google Play.
 
-Run the application. Sign in with the email you used to create NextGIS ID and its password.
+Ejecuta la aplicación. Inicia sesión con el correo electrónico que usaste para crear tu NextGIS ID y su contraseña.
 
 .. figure:: _static/collect_sign_in_en.png
    :name: collect_sign_in_pic
    :align: center
    :width: 8cm
 
-After authorization you can see a list of projects assigned to you. Select **Trees in the city** and confirm joining it.
+Después de la autorización, puedes ver una lista de proyectos asignados a ti. Selecciona **Trees in the city** y confirma que te unes a él.
 
 .. figure:: _static/collect_project_list_en.png
    :name: collect_project_list_pic
@@ -400,16 +399,16 @@ After authorization you can see a list of projects assigned to you. Select **Tre
    :align: center
    :width: 8cm
 
-Inside the project you see a list of layers. This project contains only one - *Trees*. 
+Dentro del proyecto, ves una lista de capas. Este proyecto contiene solo una: *Trees*. 
 
-Go to the nearest tree and click **USING GPS** - it records the current GPS coordinates of your mobile phone and opens the form to enter the other information. 
+Acércate al árbol más cercano y haz clic en **USING GPS**; esto registra las coordenadas GPS actuales de tu teléfono móvil y abre el formulario para introducir la demás información. 
 
 .. figure:: _static/collect_using_gps_en.png
    :name: collect_using_gps_pic
    :align: center
    :width: 8cm
 
-Pick the tree species from the dropdown, check if it's damaged, add one or several photos, and then click |button_tick| button to save.
+Elige la especie del árbol en el dropdown, marca si está dañado, agrega una o varias fotos y luego haz clic en el botón |button_tick| para guardar.
 
 .. |button_tick| image:: _static/button_tick.png
    :width: 6mm
@@ -424,14 +423,14 @@ Pick the tree species from the dropdown, check if it's damaged, add one or sever
    :align: center
    :width: 8cm
 
-Data is collected. As a field worker you could go to the next tree and repeat the procedure.
+Los datos están recolectados. Como trabajador de campo, puedes ir al siguiente árbol y repetir el procedimiento.
 
 .. _check:
 
-Check collected data in Web GIS
-----------------------------------
+Revisa los datos recolectados en Web GIS
+----------------------------------------
 
-Return to Web GIS and open the *Trees* vector layer resource. In its metadata you can see that the feature count has changed. It's synchronized as the collected data's been uploaded to the cloud.
+Regresa a Web GIS y abre el recurso de capa vectorial *Trees*. En sus metadatos puedes ver que el recuento de entidades ha cambiado. Se sincroniza a medida que los datos recolectados se suben a la nube.
 
 .. figure:: _static/collect_feature_count_en.png
    :name: collect_feature_count_pic
@@ -440,25 +439,25 @@ Return to Web GIS and open the *Trees* vector layer resource. In its metadata yo
 
 
 
-To display the added feature click on the preview button:
+Para mostrar la entidad agregada, haz clic en el botón de vista previa:
 
 .. figure:: _static/collect_preview_layer_en.png
    :name: collect_preview_layer_pic
    :align: center
    :width: 20cm
 
-Or check the attribute values in the feature table:
+O revisa los valores de los atributos en la tabla de entidades:
 
 .. figure:: _static/collect_feature_table_en.png
    :name: collect_feature_table_pic
    :align: center
    :width: 16cm
 
-Open the feature preview to see the attached photo.
+Abre la vista previa de la entidad para ver la foto adjunta.
 
 .. figure:: _static/collect_feature_preview_en.png
    :name: collect_feature_preview_pic
    :align: center
    :width: 20cm
 
-This allows you to track the data collection process in real time. The layer that stores the data can be used like any other - added to Web Maps, published as tiles or via OGC protocols, downloaded, connected to QGIS and so on.
+Esto te permite hacer seguimiento del proceso de recolección de datos en tiempo real. La capa que almacena los datos se puede usar como cualquier otra: agregarse a Mapas Web, publicarse como teselas o mediante protocolos OGC, descargarse, conectarse a QGIS, etc.

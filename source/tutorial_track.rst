@@ -1,44 +1,44 @@
-Track Asset and Team Locations in Real Time
-============================================
+Tutorial: Rastreo de recursos y ubicaciones de equipos en tiempo real
+=========================================================
 
-.. admonition:: Availability
+.. admonition:: Disponibilidad
 
-   Cloud SaaS (all editions), On premise (Extended, Enterprise)
+   Cloud SaaS (todas las ediciones), On premise (Extended, Enterprise)
 
-NextGIS Web is a data-centric server GIS that allows you to store, manage and publish spatial data in a flexible and effective way. It has an integrated mobile data collection subsystem, that you can use to organize collaborative field work and track assets and teams in real time as well as simply record your own movements.
+NextGIS Web es un servidor GIS centrado en datos que te permite almacenar, gestionar y publicar datos espaciales de forma flexible y eficaz. Tiene un subsistema integrado de recolección de datos móviles que puedes usar para organizar trabajo de campo colaborativo y rastrear activos y equipos en tiempo real, así como simplemente registrar tus propios movimientos.
 
-In this step-by-step tutorial you will learn how to start collecting GPS tracks and monitor them on a real-time map!
+En este tutorial paso a paso aprenderás cómo comenzar a recolectar tracks GPS y monitorearlos en un mapa en tiempo real.
 
-An Android smartphone is required to work with mobile application.
+Se requiere un smartphone Android para trabajar con la aplicación móvil.
 
-Basic:
+Básico:
 
-* Step 1 `Create free account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#account>`_
-* Step 2 `Install and set up NextGIS Tracker on your Android device <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#install>`_
-* Step 3 `Start collecting locations <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
-* Step 4 `View the current tracker location and recorded track on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
+* Paso 1 `Crear una cuenta gratuita y Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#account>`_
+* Paso 2 `Instalar y configurar NextGIS Tracker en tu dispositivo Android <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#install>`_
+* Paso 3 `Empezar a recolectar ubicaciones <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
+* Paso 4 `Ver la ubicación actual del tracker y el track grabado en un Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
 
-Advanced:
+Avanzado:
 
-* `Create reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_
-* `Export GPX file <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_
-* `Manage trackers <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#manage>`_
+* `Crear reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_
+* `Exportar archivo GPX <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_
+* `Gestionar trackers <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#manage>`_
 
 .. _account:
 
-Step 1/4 Create free account and Web GIS
-----------------------------------------
+Paso 1/4 Crear una cuenta gratuita y Web GIS
+--------------------------------------------
 
-Go to `my.nextgis.com <https://my.nextgis.com/>`_, click the **Create Account** button and sign up using your email address. 
+Ve a `my.nextgis.com <https://my.nextgis.com/>`_, haz clic en el botón **Create Account** y regístrate con tu dirección de correo electrónico.
 
-After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
+Después del registro, aparecerá la página de tu cuenta. Selecciona el menú **Web GIS** a la izquierda, elige un nombre (ngw-quickstart.nextgis.com en este ejemplo) y selecciona la ubicación del Data center más cercana (DE Falkenstein en este ejemplo). Luego haz clic en **Create Web GIS**.
 
 .. figure:: _static/tutorial_create_wg_en.png
    :name: tutorial_create_wg_pic
    :align: center
    :width: 20cm
 
-When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
+Cuando finalice el proceso de creación, el contenido de la página cambiará. Aparecerá un enlace directo a tu nuevo Web GIS.
 
 .. figure:: _static/tutorial_my_wg_en.png
    :name: tutorial_my_wg_pic
@@ -47,202 +47,197 @@ When the creation process is complete, the contents of the page will change. Dir
 
 .. _install:
 
-Step 2/4 Install and set up NextGIS Tracker on your Android device
-------------------------------------------------------------------
+Paso 2/4 Instalar y configurar NextGIS Tracker en tu dispositivo Android
+------------------------------------------------------------------------
 
-Install NextGIS Tracker application on your Android device. It could be found in Google Play.
+Instala la aplicación NextGIS Tracker en tu dispositivo Android. La puedes encontrar en Google Play.
 
-Run the application. Allow access to your device’s location. 
+Ejecuta la aplicación. Permite el acceso a la ubicación de tu dispositivo.
 
-You can start recording local tracks immediately and then share them as GPX files. But we want to sync the tracks with Web GIS.
+Puedes empezar a grabar tracks locales de inmediato y luego compartirlos como archivos GPX. Pero queremos sincronizar los tracks con Web GIS.
 
-Tap the synchronization switch in the top right corner of the interface:
+Toca el interruptor de sincronización en la esquina superior derecha de la interfaz:
 
 .. figure:: _static/sync_turn_on_en.png
    :name: sync_turn_on_pic
    :align: center
    :width: 8cm
 
-
-On the next screen enter your Web GIS name (created at step 1, in this example ngw-quickstart.nextgis.com), then the email and password you used to create NextGIS ID.
+En la siguiente pantalla, ingresa el nombre de tu Web GIS (creado en el paso 1; en este ejemplo, ngw-quickstart.nextgis.com), luego el correo electrónico y la contraseña que usaste para crear tu NextGIS ID.
 
 .. figure:: _static/webgis_creds_en.png
    :name: webgis_creds_pic
    :align: center
    :width: 8cm
 
-Tap on the green icon in the bottom corner to save the changes.
+Toca el ícono verde en la esquina inferior para guardar los cambios.
 
-Active synchronization is indicated by the blue color of the switch as well as the |icon_layer_sync| symbol next to it. Now the App sends all collected GPS tracks to the Web GIS.
+La sincronización activa se indica con el color azul del interruptor, así como con el símbolo |icon_layer_sync| junto a él. Ahora la App envía todos los tracks GPS recolectados al Web GIS.
 
 .. |icon_layer_sync| image:: _static/icon_layer_sync.png
    :width: 6mm
-   :alt: circular arrows
+   :alt: flechas circulares
 
 .. figure:: _static/sync_active_en.png
    :name: sync_active_pic
    :align: center
    :width: 8cm
 
-
 .. _record:
 
-Step 3/4 Start collecting locations as you go for a short walk
----------------------------------------------------------------
+Paso 3/4 Empieza a recolectar ubicaciones mientras haces un paseo corto
+-----------------------------------------------------------------------
 
-To start recording your first track, tap on the green “Start” button in the bottom right corner. 
+Para empezar a grabar tu primer track, toca el botón verde “Start” en la esquina inferior derecha.
 
-Tha application would ask you to allow allow the app to access location continuously even when the app is not in use. It is important for so that App is able to record tracks. 
+La aplicación te pedirá que permitas que la app acceda a la ubicación de forma continua incluso cuando no esté en uso. Esto es importante para que la App pueda grabar tracks.
 
 .. figure:: _static/start_track_en.png
    :name: start_track_pic
    :align: center
    :width: 8cm
 
-Go to your device Settings and select “Allow all the time” for the Tracker app. The dialog may vary depending on Android version.
+Ve a los Settings de tu dispositivo y selecciona “Allow all the time” para la app Tracker. El cuadro de diálogo puede variar según la versión de Android.
 
 .. figure:: _static/allow_all_the_time_en.png
    :name: allow_all_the_time_pic
    :align: center
    :width: 8cm
 
-Now when you return to the app there's a new status, “Collecting tracking data and syncing…”.
+Ahora, cuando regreses a la app, verás un nuevo estado: “Collecting tracking data and syncing…”.
 
 .. figure:: _static/status_synching_en.png
    :name: status_synching_pic
    :align: center
    :width: 10cm
 
-Take a short walk to collect some locations!
+¡Da un paseo corto para recolectar algunas ubicaciones!
 
-You monitor your movements in real time using Web Map.
+Puedes monitorear tus movimientos en tiempo real usando Web Map.
 
 .. _position:
 
-Step 4/4 View the current tracker location and recorded track on a Web Map
---------------------------------------------------------------------------
+Paso 4/4 Ver la ubicación actual del tracker y el track grabado en un Web Map
+-----------------------------------------------------------------------------
 
-Open your Web GIS in a browser by clicking on the highlighted link in `your account <https://my.nextgis.com/webgis/>`_ or by typing it directly in the address bar. You'll see the main interface of your Web GIS.
+Abre tu Web GIS en un navegador haciendo clic en el enlace resaltado en `tu cuenta <https://my.nextgis.com/webgis/>`_ o escribiéndolo directamente en la barra de direcciones. Verás la interfaz principal de tu Web GIS.
 
 .. figure:: _static/webgis_main_interface_en.png
    :name: webgis_main_interface_pic
    :align: center
    :width: 22cm
 
-In NextGIS Web everything is a resource — directories, layers, Web Maps, connections to services and databases. Resources are organized as files at your computer — in a tree. 
+En NextGIS Web todo es un recurso: directorios, capas, Web Maps, conexiones a servicios y bases de datos. Los recursos se organizan como archivos en tu computadora, en un árbol.
 
-You already have a couple of resources:
+Ya tienes un par de recursos:
 
-* Main Web Map - a default resource created with the new Web GIS;
-* “TrackersGroup” - a resource created by the NextGIS Tracker application when you set up the synchronization. You also can manage trackers manually.
+* Main Web Map: un recurso predeterminado creado con el nuevo Web GIS;
+* “TrackersGroup”: un recurso creado por la aplicación NextGIS Tracker cuando configuras la sincronización. También puedes gestionar trackers manualmente.
 
-Click on the |button_open_web_map| icon to open the “Main Web Map” resource in the display mode:
+Haz clic en el ícono |button_open_web_map| para abrir el recurso “Main Web Map” en modo de visualización:
 
 .. |button_open_web_map| image:: _static/button_open_web_map.png
    :width: 6mm
-   :alt: map with a magnifying glass
+   :alt: mapa con una lupa
 
 .. figure:: _static/open_main_webmap_en.png
    :name: open_main_webmap_en
    :align: center
    :width: 20cm
 
-This Web Map is empty - no layers, just a default basemap. But in the left panel a Trackers menu is available, activate it.
+Este Web Map está vacío: no tiene capas, solo un mapa base predeterminado. Pero en el panel izquierdo hay un menú Trackers disponible; actívalo.
 
 .. figure:: _static/activate_tracker_panel_en.png
    :name: activate_tracker_panel_pic
    :align: center
    :width: 20cm
 
-By default, you can explore data collected by your Tracker app on every Web Map created in your Web GIS. It could be disabled in Web Map settings. 
+De forma predeterminada, puedes explorar los datos recolectados por tu app Tracker en cada Web Map creado en tu Web GIS. Esto se puede desactivar en Web Map settings.
 
-The Trackers panel lists all connected tracker devices. You have only one tracker connected to Web GIS right now, click the |button_tracker_lastpoint| “Last known point” button.
+El panel Trackers lista todos los dispositivos tracker conectados. Tienes solo un tracker conectado a Web GIS en este momento; haz clic en el botón |button_tracker_lastpoint| “Last known point”.
 
 .. |button_tracker_lastpoint| image:: _static/button_tracker_lastpoint.png
    :width: 6mm
-   :alt: pointed shape with a dot
+   :alt: forma puntiaguda con un punto
 
 .. figure:: _static/tracker_last_point_en.png
    :name: tracker_last_point_pic
    :align: center
    :width: 10cm
 
-Last recorded location would be shown on the Web Map. If the device with the tracker moves, you see it in real-time.
+La última ubicación grabada se mostrará en el Web Map. Si el dispositivo con el tracker se mueve, lo verás en tiempo real.
 
 .. figure:: _static/tracker_current_location_en.png
    :name: tracker_current_location_pic
    :align: center
    :width: 20cm
 
-By clicking other buttons you could view track line and track points recorded within the selected time range.
+Al hacer clic en otros botones, podrás ver la línea del track y los puntos del track grabados dentro del rango de tiempo seleccionado.
 
 .. figure:: _static/track_line_points_en.png
    :name: track_line_points_pic
    :align: center
    :width: 20cm
 
-Hover over track points to see detailed information on the date, time, speed, direction and other parameters.
+Pasa el cursor sobre los puntos del track para ver información detallada sobre la fecha, la hora, la velocidad, la dirección y otros parámetros.
 
 .. figure:: _static/track_hover_details_en.png
    :name: track_hover_details_pic
    :align: center
    :width: 10cm
 
-After you've collected some tracks, you can analyze them by `creating reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_ or `export the tracks <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_ in GPX format to share and create backup.
+Después de recolectar algunos tracks, puedes analizarlos creando reports o exportar los tracks en formato GPX para compartir y crear una copia de seguridad.
 
-If you have Premium subscription, you can have `multiple devices connected <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#manage>`_ to your Web GIS as trackers.
-
+Si tienes una suscripción Premium, puedes tener varios dispositivos conectados a tu Web GIS como trackers.
 
 .. _report:
 
-Create reports 
-----------------
+Crear reports
+-------------
 
-On the Trackers panel click on the “Reports” icon:
+En el panel Trackers, haz clic en el ícono “Reports”:
 
 .. figure:: _static/trackers_reports_en.png
    :name: trackers_reports_pic
    :align: center
    :width: 10cm
 
-Here you can create different types of reports. 
+Aquí puedes crear diferentes tipos de reports.
 
-In the "Report type" dropdown menu select **Average speed**. Then set the time range covering your today’s walk. In the "Group by" field select grouping by hours.
+En el menú desplegable "Report type", selecciona **Average speed**. Luego establece el rango de tiempo que cubra tu paseo de hoy. En el campo "Group by", selecciona agrupación por horas.
 
-Tick the only available tracker, then click **Create report** button.
+Marca el único tracker disponible y luego haz clic en el botón **Create report**.
 
 .. figure:: _static/report_average_speed_en.png
    :name: report_average_speed_pic
    :align: center
    :width: 20cm
 
-You've got a fast calculation of average speed. 
+Obtendrás un cálculo rápido de la velocidad promedio.
 
 .. _export:
 
-Export GPX file
-----------------
+Exportar archivo GPX
+--------------------
 
-To export your track as file, go to the Reports page (see :numref:`trackers_reports_pic`).
+Para exportar tu track como archivo, ve a la página Reports (ver :numref:`trackers_reports_pic`).
 
-Then in the "Report type" field select **GPX file**. 
+Luego, en el campo "Report type", selecciona **GPX file**.
 
-After clicking the **Create report** button you get the “Download GPX file” link. This GPX file could be used in QGIS or other applications.
+Después de hacer clic en el botón **Create report**, obtienes el enlace “Download GPX file”. Este archivo GPX se puede usar en QGIS u otras aplicaciones.
 
 .. _manage:
 
-Manage trackers
----------------
+Gestionar trackers
+------------------
 
-When you enable Web GIS syncing in NextGIS Tracker app, it sets up everything on the Web GIS side automatically, as shown in this tutorial.
+Cuando habilitas la sincronización con Web GIS en la app NextGIS Tracker, esta configura todo del lado de Web GIS automáticamente, como se muestra en este tutorial.
 
-But also you can create and manage trackers manually, creating a `Trackers group resource and Tracker resources <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_ within it. It allows to have hundreds of trackers connected to Web GIS in a production environment.
-
-
+Pero también puedes crear y gestionar trackers manualmente, creando un `recurso Trackers group y recursos Tracker <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_ dentro de él. Esto permite tener cientos de trackers conectados a Web GIS en un entorno de producción.
 
 .. seealso::
 
-   Other NextGIS mobile apps also support tracking and Web GIS synchronization. More details:
+   Otras apps móviles de NextGIS también admiten tracking y sincronización con Web GIS. Más detalles:
 
    * `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/index.html>`_
    * `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/index.html>`_
