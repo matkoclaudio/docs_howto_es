@@ -13,16 +13,16 @@ Se requiere un smartphone Android para trabajar con la aplicación móvil.
 
 Básico:
 
-* Paso 1. `Crear una cuenta gratuita y Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#account>`_
-* Paso 2. `Instalar y configurar NextGIS Tracker en tu dispositivo Android <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#install>`_
-* Paso 3. `Empezar a recolectar ubicaciones <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
-* Paso 4. `Ver la ubicación actual del tracker y el track grabado en un Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
+* Paso 1. `Crear una cuenta gratuita y Web GIS <tutorial_track.rst#paso-14-crear-una-cuenta-gratuita-y-web-gis>`_
+* Paso 2. `Instalar y configurar NextGIS Tracker en tu dispositivo Android <tutorial_track.rst#paso-24-instalar-y-configurar-nextgis-tracker-en-tu-dispositivo-android>`_
+* Paso 3. `Empezar a recolectar ubicaciones <tutorial_track.rst#paso-34-empieza-a-recolectar-ubicaciones-mientras-haces-un-paseo-corto>`_
+* Paso 4. `Ver la ubicación actual del tracker y el track grabado en un Web Map <tutorial_track.rst#paso-44-ver-la-ubicación-actual-del-tracker-y-el-track-grabado-en-un-web-map>`_
 
 Avanzado:
 
-* `Crear reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_
-* `Exportar archivo GPX <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_
-* `Gestionar trackers <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#manage>`_
+* `Crear reports <tutorial_track.rst#crear-reports>`_
+* `Exportar archivo GPX <tutorial_track.rst#exportar-archivo-gpx>`_
+* `Gestionar trackers <tutorial_track.rst#gestionar-trackers>`_
 
 .. _account:
 
