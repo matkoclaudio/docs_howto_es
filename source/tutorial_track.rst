@@ -54,9 +54,7 @@ Instala la aplicación NextGIS Tracker en tu dispositivo Android. La puedes enco
 
 Ejecuta la aplicación. Permite el acceso a la ubicación de tu dispositivo.
 
-Puedes empezar a grabar tracks locales de inmediato y luego compartirlos como archivos GPX. Pero queremos sincronizar los tracks con Web GIS.
-
-Toca el interruptor de sincronización en la esquina superior derecha de la interfaz:
+Puedes empezar a grabar tracks locales de inmediato y luego compartirlos como archivos GPX, queremos sincronizar los tracks con Web GIS. Toca el interruptor de sincronización en la esquina superior derecha de la interfaz:
 
 .. figure:: _static/sync_turn_on_en.png
    :name: sync_turn_on_pic
@@ -220,7 +218,7 @@ Obtendrás un cálculo rápido de la velocidad promedio.
 Exportar archivo GPX
 --------------------
 
-Para exportar tu track como archivo, ve a la página Reports (ver :numref:`trackers_reports_pic`).
+Para exportar tu track como archivo, ve a la página Reports.
 
 Luego, en el campo "Report type", selecciona **GPX file**.
 
@@ -234,8 +232,6 @@ Gestionar trackers
 Cuando habilitas la sincronización con Web GIS en la app NextGIS Tracker, esta configura todo del lado de Web GIS automáticamente, como se muestra en este tutorial.
 
 Pero también puedes crear y gestionar trackers manualmente, creando un `recurso Trackers group y recursos Tracker <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_ dentro de él. Esto permite tener cientos de trackers conectados a Web GIS en un entorno de producción.
-
-.. seealso::
 
    Otras apps móviles de NextGIS también admiten tracking y sincronización con Web GIS. Más detalles:
 
